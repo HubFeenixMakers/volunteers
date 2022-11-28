@@ -1,0 +1,3 @@
+[submodule "merged"]
+	path = merged
+	url = git@github.com:HubFeenixMakers/merged.git
