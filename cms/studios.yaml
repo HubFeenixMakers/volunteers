@@ -14,9 +14,9 @@
     text: This is the standard 2 patient room. They are mostly towards the south,
       so may have great, or too much light, depending on how you see it. The size
       is about 3x5, cost 120e.
-    image: standard.webp
+    image: standard
   - header: Large
     text: The old 4 patient rooms are basically twice the size as the small. They
       are large enough to be shared. The size is about 30m2 and the cost 240e. Like
       the small rooms these are south facing, very light.
-    image: large.webp
+    image: large

@@ -1,9 +1,9 @@
 ---
 - template: section_full_left2
-  header: HUB  FEENIX
+  header: HUB FEENIX
   text: Only an hour west of Helsinki, the Feenix rises from an old sanatorium. The
     Hub is a place to create, learn and regenerate.
-  image: house.jpg
+  image: house
   id: e134b2680319aa90c968
 - template: section_spacer
   id: 79001495919c68bfba31
@@ -15,7 +15,7 @@
   button:
     text: Retreats
     link: retreats
-  image: retreats.jpg
+  image: retreats
   id: 6bec75e2fddc9bfa4436
 - template: section_half_left
   header: Studios
@@ -25,7 +25,7 @@
   button:
     text: Studios
     link: studios
-  image: studios.jpg
+  image: studios
   id: c23a6a50094d6a398a0b
 - template: section_half_right
   header: Makerspace
@@ -35,5 +35,5 @@
   button:
     text: Makerspace
     link: makerspace
-  image: makerspace.webp
+  image: makerspace
   id: bf71971f4efc58a613d2
