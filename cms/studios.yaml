@@ -11,13 +11,13 @@
   card_template: card_full_image
   cards:
   - header: Standard
-    text: This is the standard 2 patient room. They are mostly towards the south,
+    text: This is the standard two patient room. They are mostly towards the south,
       so may have great, or too much light, depending on how you see it. The size
       is about 3x5, cost 120e.
     image: standard
     id: b7d13d4da518bafd3d39
   - header: Large
-    text: The old 4 patient rooms are basically twice the size as the small. They
+    text: The old four  patient rooms are basically twice the size as the small. They
       are large enough to be shared. The size is about 30m2 and the cost 240e. Like
       the small rooms these are south facing, very light.
     image: large
