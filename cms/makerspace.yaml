@@ -6,3 +6,10 @@
     and electronics lab.
   image: makerspace
   id: ae53864c801515ba3dde
+- template: section_2_col
+  id: f24c797c34eeefd9c435
+  card_template: card_full_image
+  cards:
+  - id: 5a0aee0547a07afd7bbd
+    header: HEADER
+    text: TEXT
