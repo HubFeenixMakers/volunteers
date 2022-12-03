@@ -4,6 +4,7 @@ PATH
     merged (0.1.0)
       haml-rails
       rails (>= 7.0.4)
+      rugged
 
 GEM
   remote: https://rubygems.org/
@@ -180,6 +181,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
+    rugged (1.5.0.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
