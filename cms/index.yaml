@@ -1,13 +1,15 @@
 ---
-- template: section_full_left2
+- template: section_full_left
   header: HUB FEENIX
   text: Only an hour west of Helsinki, the Feenix rises from an old sanatorium. The
     Hub is a place to create, learn and regenerate.
   image: house
   id: e134b2680319aa90c968
+  options:
+    "-fixed": true
 - template: section_spacer
   id: 79001495919c68bfba31
-- template: section_half_right
+- template: section_half_image
   header: Retreats
   text: Hub Feenix is a beautiful place, ideally situated in the country, but close
     to Helsinki. We have different sized studios and spaces, to organise retreats
@@ -17,17 +19,16 @@
     button_link: retreats
   image: retreats
   id: 6bec75e2fddc9bfa4436
-- template: section_half_left
+- template: section_half_image
   header: Studios
   text: We offer different size and different type of studios for artists. There are
     large and small rooms, with more or less light, also rooms with tiles for wetwork,
     small dance studios etc.
   options:
-    button_text: Studios
-    button_link: studios
+    order: left
   image: studios
   id: c23a6a50094d6a398a0b
-- template: section_half_right
+- template: section_half_image
   header: Makerspace
   text: The hub encourages all people to be creative in any way they choose. We provide
     facilities from more traditional sowing and woodworking, to modern 3d printers

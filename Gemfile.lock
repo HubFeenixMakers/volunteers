@@ -2,9 +2,9 @@ PATH
   remote: merged
   specs:
     merged (0.1.0)
+      git
       haml-rails
       rails (>= 7.0.4)
-      rugged
 
 GEM
   remote: https://rubygems.org/
@@ -97,6 +97,9 @@ GEM
       reline (>= 0.3.1)
     erubi (1.11.0)
     ffi (1.15.5)
+    git (1.12.0)
+      addressable (~> 2.8)
+      rchardet (~> 1.8)
     globalid (1.0.0)
       activesupport (>= 5.0)
     haml (6.0.12)
@@ -176,12 +179,12 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    rchardet (1.8.0)
     regexp_parser (2.6.1)
     reline (0.3.1)
       io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
-    rugged (1.5.0.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
