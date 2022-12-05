@@ -17,6 +17,8 @@
   options:
     button_text: Retreats
     button_link: retreats
+    order: left
+    background: blue
   image: retreats
   id: 6bec75e2fddc9bfa4436
 - template: section_half_image
@@ -25,7 +27,10 @@
     large and small rooms, with more or less light, also rooms with tiles for wetwork,
     small dance studios etc.
   options:
-    order: left
+    order: right
+    button_link: ''
+    button_text: ''
+    background: blue
   image: studios
   id: c23a6a50094d6a398a0b
 - template: section_half_image
@@ -36,5 +41,7 @@
   options:
     button_text: Makerspace
     button_link: makerspace
+    order: left
+    background: blue
   image: makerspace
   id: bf71971f4efc58a613d2

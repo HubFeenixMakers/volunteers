@@ -1,6 +1,6 @@
 ---
 - template: section_2_col
-  header: Sizes and kinds2
+  header: Sizes and kinds
   text: We offer different sizes and different types of studios for artists. There
     large and small rooms, with more or less light, also rooms with tiles for wet-work.
     The rooms are in the old hospital wings, so most are old patient rooms, but there
@@ -22,3 +22,21 @@
       the small rooms these are south facing, very light.
     image: large
     id: b7d16d4da514bafd3d39
+  options:
+    button_link: ''
+    button_text: ''
+    background: blue
+    columns: '2'
+- template: section_half_image
+  id: 3724a01f590143ccc67e
+  header: Studios
+  text: Hub Feenix is a place to create together. A community of artists and makers.
+    Several floors of the building are reserved for artist studios. Some creative
+    activities that require large equipment (presses, ovens) overlap strongly with
+    the Makers idea. Have a look at the rooms available and tell us what you need.
+  image: studios
+  options:
+    button_link: ''
+    button_text: ''
+    order: left
+    background: white
