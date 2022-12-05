@@ -6,7 +6,7 @@
     and electronics lab.
   image: makerspace
   id: ae53864c801515ba3dde
-- template: section_2_col
+- template: section_cards
   id: f24c797c34eeefd9c435
   card_template: card_full_image
   cards:

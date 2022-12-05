@@ -1,5 +1,18 @@
 ---
-- template: section_2_col
+- template: section_half_image
+  id: 3724a01f590143ccc67e
+  header: Studios
+  text: Hub Feenix is a place to create together. A community of artists and makers.
+    Several floors of the building are reserved for artist studios. Some creative
+    activities that require large equipment (presses, ovens) overlap strongly with
+    the Makers idea. Have a look at the rooms available and tell us what you need.
+  image: studios
+  options:
+    button_link: ''
+    button_text: ''
+    order: left
+    background: white
+- template: section_cards
   header: Sizes and kinds
   text: We offer different sizes and different types of studios for artists. There
     large and small rooms, with more or less light, also rooms with tiles for wet-work.
@@ -25,18 +38,42 @@
   options:
     button_link: ''
     button_text: ''
-    background: blue
+    background: light_blue
     columns: '2'
-- template: section_half_image
-  id: 3724a01f590143ccc67e
-  header: Studios
-  text: Hub Feenix is a place to create together. A community of artists and makers.
-    Several floors of the building are reserved for artist studios. Some creative
-    activities that require large equipment (presses, ovens) overlap strongly with
-    the Makers idea. Have a look at the rooms available and tell us what you need.
-  image: studios
+- template: section_cards
+  id: d828651c7aee703b8b26
+  card_template: card_normal_square
+  cards:
+  - id: ba47acba07ee93d9d214
+    header: Common spaces
+    text: Each floor has it's own large common space. Also, Hub Feenix offers great
+      public spaces, terraces, a cafe, co-working and maker spaces.
+    image: common_spaces
+    options:
+      background: solid_red
+      align: center
+  - id: f6447b84c5fb60ccdc30
+    header: En suite and fold out
+    text: "Some rooms have attached (or shared) bathrooms. Also, you have the option
+      of a fold-out bed to stay overnight.\r\nIt's like a home away from home."
+    image: en_suite_studio
+    options:
+      background: solid_blue
+      align: center
+  - id: 66cb07db7ab0af60162a
+    header: Shared kitchen, own sink
+    text: Each floor has it's own common kitchen. This is especially useful if you
+      take the option of a fold out bed to stay overnight. And almost all spaces have
+      a sink in the room, so you can clean things or make a tea in peace.
+    options:
+      background: solid_indigo
+      align: center
+    image: studio_kitchen
+  header: Included
+  text: The studios offer a unique environment both in terms of fellow beings, and
+    the spaces around.
   options:
+    background: white
+    columns: '3'
     button_link: ''
     button_text: ''
-    order: left
-    background: white
