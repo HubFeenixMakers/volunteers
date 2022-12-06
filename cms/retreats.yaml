@@ -135,3 +135,46 @@
     color: white
     align: center
     shade_color: black_25
+- template: section_full_up
+  id: 4cbbd0a53ae1f28b7d50
+  header: Common services for retreats
+  text: Relax outside the course program
+  options:
+    background: light_orange
+    color: solid_blue
+    button_link: ''
+    button_text: ''
+    margin: '0'
+- template: section_large_image
+  id: d8236942970d33e412d9
+  image: common_spaces_wide
+  options:
+    fixed: 'on'
+    color: solid_blue
+    align: left
+    background: light_orange
+  header: Common spaces
+  text: Enjoy the free time in between learning. Several common spaces, like in the
+    picture, terraces and the cafe make a relaxed atmosphere.
+- template: section_large_image
+  id: de9ce298aa06c19125a2
+  image: food_area
+  header: Great Food
+  text: Healthy plant-based food keeps you going between session. The dining hall
+    is conveniently situated next to the hall, so smaller breaks don't stop your flow.
+  options:
+    fixed: 'on'
+    color: solid_blue
+    align: left
+    background: light_orange
+    order: right
+- template: section_large_image
+  id: ece93fd4d500be0d4be2
+  image: nature_around
+  header: Nature around
+  text: Enjoy your spare time by walking around in the surrounding forest. Or (in
+    the summer) go swimming in the nearby lake.
+  options:
+    order: left
+    color: solid_blue
+    background: light_orange
