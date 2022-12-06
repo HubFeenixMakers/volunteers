@@ -1,5 +1,5 @@
 ---
-- template: section_full_left
+- template: section_full_image
   header: HUB FEENIX
   text: Only an hour west of Helsinki, the Feenix rises from an old sanatorium. The
     Hub is a place to create, learn and regenerate.
@@ -7,6 +7,10 @@
   id: e134b2680319aa90c968
   options:
     "-fixed": true
+    fixed: 'on'
+    shade_color: solid_blue_25
+    color: white
+    align: left
 - template: section_spacer
   id: 79001495919c68bfba31
 - template: section_half_image
