@@ -1,0 +1,101 @@
+---
+- template: section_half_image
+  id: b32e005c4a357e8b8cd7
+  header: Retreats
+  text: "Hub Feenix is a beautiful place, ideally situated in the country, but close
+    to Helsinki. We have different sized studios and spaces, to organise retreats
+    for groups from 10, up to 100 people.\r\n\r\n​\r\nDifferent levels of accommodation
+    and our cafe and great vegan food make your stay enjoyable also outside the course
+    program."
+  options:
+    button_link: ''
+    button_text: ''
+    order: right
+    background: white
+    subheader: Come to learn, enjoy your stay
+    text: " Different levels of accommodation and our cafe and great vegan food make
+      your stay enjoyable also outside the course program."
+    align: center
+    color: solid_blue
+  image: retreats
+- template: section_cards
+  id: c42f4e780a13e812b083
+  card_template: card_normal_square
+  cards:
+  - id: 8e35a0c131c9e11b2ab0
+    header: The Hall
+    text: Our beautiful hall, one of the largest in the area, is 8 x 20m and can accommodate
+      50 yogi, 80 dancers, or 120 listeners. We have a professional audio system for
+      dancing and of course chairs for meetings.
+    options:
+      background: none
+      align: center
+      subheader: 40 - 120
+      color: none
+    image: the_hall
+  - id: 0a98b0431f84217212c4
+    header: Mandala room
+    text: The Mandala room, in the fifth floor, is a slightly asymmetrical 100m2.
+      With it's great views and light atmosphere it is especially suited for yoga
+      (30) and mediation (60). It also has a private eating area and staircase.
+    options:
+      background: none
+      align: center
+      subheader: 30 - 60
+      color: none
+    image: mandala_room
+  - id: ec52e1a8178481b51423
+    header: Sky Conference
+    text: "Also in the fifth floor with great views is the sky conference room. It
+      sits 35 people as shown and up to 80 in a theatre arrangement.\r\n\r\nThere
+      is a smaller semi attached break room and two more break-out rooms next to it.\r\n\r\nGreat
+      for meetings of any sort."
+    image: sky_conference
+    options:
+      background: light_orange
+      align: center
+      color: none
+      subheader: 35 - 80
+  - id: fe03923c9556a5390b50
+    header: Lootus room
+    text: "Downstairs, next to the café, the spacious lotus room is especially good
+      for day events. 20 Yogi or dancers fit easily into the 70m2 and for group work
+      30 is still good.\r\n\r\nCan be rented on hourly basis."
+    image: lotus_room
+    options:
+      background: light_orange
+      align: center
+      color: none
+      subheader: 15 - 30
+  - id: 6d20e92ac7dccac2e69a
+    header: Earth room
+    text: "On the ground floor (with a clay plastered wall)\r\n\r\nthe earth room
+      is great for groups wanting privacy. It's 50m2, with accommodation on the same
+      floor, sits up to 25 people either with or without tables."
+    image: earth_room
+    options:
+      background: none
+      align: center
+      color: none
+      subheader: 10 - 25
+  - id: 4d1a4f9c354f01fb0018
+    header: The Loft
+    text: "For smaller groups, we have many 40 m2 rooms, depending on the needs. Dancing,
+      yoga, theatre practise, group work.\r\nThe room shown is especially cosy (a
+      roof extension), and accommodates about 12 yogi or 15 sitting. Also available
+      per hour."
+    image: loft_room
+    options:
+      background: light_grey
+      align: center
+      color: none
+      subheader: 8-15
+  header: Spaces
+  text: For different size groups and needs
+  options:
+    background: light_orange
+    columns: '3'
+    button_link: ''
+    button_text: ''
+    color: solid_blue
+    align: center
