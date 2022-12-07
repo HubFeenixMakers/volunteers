@@ -1,15 +1,130 @@
 ---
-- template: section_full_up
+- template: section_half_image
   header: Makerspace
-  text: The hub encourages all people to be creative in any way they choose. We provide
-    facilities from more traditional sowing and woodworking, to modern 3d printers
-    and electronics lab.
+  text: "Makerspace\r\n\r\nThe makers movement is transforming consumers into creaters.
+    By sharing otherwise expensive tools, it allows everyone to start exploring and
+    producing through otherwise inaccessible means.\r\nIn Finland this builds on the
+    traditional adult education and expands it into new technologies like electronics
+    and 3d printing.\r\nWe start with traditional tools that we know and have, like
+    woodworking, sowing, and metalworking. And we will expand into electronics and
+    3d technologies as funding starts coming. (See wish-list below if you want to
+    help)"
   image: makerspace
   id: ae53864c801515ba3dde
-- template: section_cards
-  id: f24c797c34eeefd9c435
-  card_template: card_full_image
-  cards:
-  - id: 5a0aee0547a07afd7bbd
-    header: HEADER
-    text: TEXT
+- template: section_full_up
+  id: 6dad40f92017812876d2
+  header: Different workshops
+  text: "Some of the machines, but all of the spaces described here exists. Also courses
+    for all the activities will be part of a shared future, and if you have something
+    to contribute (or teach) contact us.\r\nIf you want to use any of the facilities,
+    see below."
+  options:
+    background: light_gray
+    color: black
+    margin: '0'
+    subheader: Sharing machines and experiences
+    button_link: ''
+    button_text: ''
+- template: section_large_image
+  id: 65fc89abe15ab5c422dd
+  header: 3D
+  text: "We have 2 3d printers, one small, on large, to allow everyone to try to bring
+    their imagination to the physical world.\r\nAdditionally to hard and soft plastics,
+    3d printers can be used to print aluminium and carbon fibre to produce usable
+    machine parts.\r\nComputers and software for designing are available."
+  options:
+    subheader: Printing, scanning and planning
+    order: left
+    color: black
+    background: light_gray
+    margin: '0'
+  image: 3dprinter_wide
+- template: section_large_image
+  id: 63b45904fd922b674ed3
+  header: Clothes
+  text: "The thrid floor makerspace already has some sowing machines and will get
+    more. We are sourcing industrial sawing and embroidering machines so no project
+    is too big (or small). The large rooms is set up for a shared working environment,
+    enabling knowledge to be shared easily.\r\nPrivate lockers make it easy to interrupt
+    and return to your project in your own time."
+  image: sowing_wide
+  options:
+    subheader: Express your style
+    order: right
+    color: none
+    background: light_gray
+    margin: '0'
+- template: section_large_image
+  id: e358aae5de214138c72b
+  header: Metal workshop and garage
+  text: "The building has a garage workshop and we will move our metal workshop there.
+    There is a saw, drills, different welders (gas, stick, mig) and wrenches to allow
+    members to build the robot of their dreams, or fix their car.\r\nSmaller side
+    rooms allow for private and more detailed work, and we are looking to get a  lathe,
+    possibly also a cnc machine."
+  image: metal_wide
+  options:
+    subheader: Useful and practical
+    margin: '0'
+    order: left
+    color: none
+    background: light_gray
+- template: section_large_image
+  id: f3d42be749ed67e066fb
+  header: Electronics
+  text: "This is in the third floor, set up as a basic electronics workshop.\r\nCurrently
+    we only have a soldering iron and a lab power source, but we are hoping to buy
+    oscilloscopes and other measuring equipment that will allow members to do everything
+    from a small LED project to arduino or raspberry pi based robots."
+  image: electronics_wide
+  options:
+    subheader: Wizz wizz wizz
+    margin: '0'
+    order: right
+    color: none
+    background: light_gray
+- template: section_large_image
+  id: 39f0eb4abb2521dd9cbe
+  header: Clay
+  text: Hub Feenix is looking to buy a clay oven, and set aside one or two wet spaces
+    for clay work. Both free form sculpturing and table turning facilities will be
+    available for hobbyists to try their hand at clay.
+  image: clay_wide
+  options:
+    subheader: Sculptured or turned
+    margin: '0'
+    order: left
+    color: none
+    background: light_gray
+- template: section_large_image
+  id: 8d3322094b250a5e276b
+  header: Woodworking
+  text: "We have a full woodworking workshop, we just need to move the machines to
+    Hub Feenix.\r\n\r\nWe will make this available to trained members on an hourly
+    basis much like nikkariverstas in Espoo.\r\n\r\nThe workshop will have all large
+    machines (as in the picture) and a separate hand tool for smaller projects."
+  image: woodworking_wide
+  options:
+    subheader: ''
+    margin: '0'
+    order: right
+    color: none
+    background: light_gray
+- template: section_full_up
+  id: dc5a9bda5efd77615be1
+  header: Participate
+  text: "If you want to use any of the facilities or machines listed above, you need
+    to be a member of the coop. This requires a small fee and a certain amount of
+    participation in general tasks.\r\n<br/><br/>\r\nAdditionally some machines will
+    require skill to operate, and you need to prove that you are able, possibly participate
+    in training.\r\n<br/><br/>\r\nConsumables, like wood, thread, clay, electronic
+    parts, cost but many basic ones are made available at cost price by the coop.\r\n<br/><br/>\r\nCurrently
+    many of the facilities are still being built up, but if you want to participate
+    already, or be notified when a certain facility is ready, fill the form below.\r\n\r\n​"
+  options:
+    background: light_gray
+    color: none
+    margin: '0'
+    subheader: ''
+    button_link: ''
+    button_text: ''
