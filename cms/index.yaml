@@ -6,7 +6,6 @@
   image: house
   id: e134b2680319aa90c968
   options:
-    "-fixed": true
     fixed: 'on'
     shade_color: solid_blue_25
     color: white
@@ -22,7 +21,7 @@
     button_text: Retreats
     button_link: retreats
     order: left
-    background: blue
+    background: solid_blue
   image: retreats
   id: 6bec75e2fddc9bfa4436
 - template: section_half_image
@@ -34,7 +33,7 @@
     order: right
     button_link: ''
     button_text: ''
-    background: blue
+    background: solid_blue
   image: studios
   id: c23a6a50094d6a398a0b
 - template: section_half_image
@@ -46,7 +45,7 @@
     button_text: Makerspace
     button_link: makerspace
     order: left
-    background: blue
+    background: solid_blue
   image: makerspace
   id: bf71971f4efc58a613d2
 - template: section_half_image
@@ -57,8 +56,8 @@
     even wing, from 15 to 500 m2.
   image: coworking_office
   options:
-    order: left
-    background: white
+    order: right
+    background: solid_blue
     color: none
     subheader: ''
     text: ''
@@ -72,6 +71,15 @@
     discussions. High-speed internet, video projectors, break-out rooms, all you need
     to organise your event. The cafe and surrounding nature make for ideal breaks.
   image: conferences
+  options:
+    order: left
+    background: solid_blue
+    color: none
+    subheader: ''
+    text: ''
+    align: left
+    button_link: ''
+    button_text: ''
 - template: section_half_image
   id: 6c972709a47f0cc43cf8
   header: Residency and Accommodation
@@ -80,6 +88,15 @@
     This can suit artists who either rent a studio or use co-working facilities. But
     we also accept applications from people who are just between things.
   image: residency_accomodation
+  options:
+    order: right
+    background: solid_blue
+    color: none
+    subheader: ''
+    text: ''
+    align: left
+    button_link: ''
+    button_text: ''
 - template: section_cards
   id: b361422343c8af8e75ed
   card_template: card_normal_square

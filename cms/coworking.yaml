@@ -1,0 +1,63 @@
+---
+- template: section_half_image
+  id: d7be1b941aa8eb72ee19
+  header: Coworking and offices
+  text: "We have various spaces for co-working and offices. You  can just come for
+    the odd afternoon and work in a shared environment. Or rent your own office, single
+    or double.\r\n"
+  image: coworking_office
+  options:
+    order: left
+    background: white
+    color: solid_blue
+    subheader: ''
+    text: ''
+    align: center
+    button_link: ''
+    button_text: ''
+- template: section_cards
+  id: 5271a68ffa738aa9f1e4
+  card_template: card_gap_square
+  cards:
+  - id: eb201d9e6a1731dfe3a1
+    header: Floating desk
+    text: "Come anytime and work on any of the available desk. We have 30 places in
+      two rooms, with mixed normal desks, high desks, standing places and bean bags.\r\nAlso
+      possible per day, 10e."
+    options:
+      background: solid_blue
+      color: white
+      order: left
+      align: center
+      subheader: 120 / month
+    image: floating_office_small
+  - id: 1fda0add48f1a0af5a5a
+    header: Single office
+    text: If you need the quiet, or require safe shelf space, rent your own private
+      office. We provide desk, chair, shelves and wifi
+    options:
+      background: solid_blue
+      color: white
+      order: right
+      align: center
+      subheader: 200 / month
+    image: single_office_small
+  - id: cfc7661d16152aa19aab
+    header: Double office
+    text: "Double offices are slightly larger than the singles, but also come furnished
+      to your needs.\r\n"
+    options:
+      background: solid_blue
+      color: white
+      order: left
+      align: center
+      subheader: 350 / month
+    image: double_office_small
+  header: Relax, connect and work
+  text: "Relaxed work environments have been shown to be more productive. Working
+    in different places and positions, even a bit of background noise, helps creativity
+    and thus work.\r\nAnd then enjoy a good coffee in our nice cafe."
+  options:
+    background: light_orange
+    columns: '3'
+    color: solid_blue
