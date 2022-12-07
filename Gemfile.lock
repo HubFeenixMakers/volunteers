@@ -1,5 +1,6 @@
-PATH
-  remote: merged
+GIT
+  remote: https://github.com/HubFeenixMakers/merged
+  revision: dbcb6549907109c973cb6828b46d81e4db8b865e
   specs:
     merged (0.1.0)
       git
