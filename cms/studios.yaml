@@ -29,12 +29,40 @@
       is about 3x5, cost 120e.
     image: standard
     id: b7d13d4da518bafd3d39
+    options:
+      background: solid_blue
+      color: white
+      align: left
   - header: Large
     text: The old four  patient rooms are basically twice the size as the small. They
       are large enough to be shared. The size is about 30m2 and the cost 240e. Like
       the small rooms these are south facing, very light.
     image: large
     id: b7d16d4da514bafd3d39
+    options:
+      background: solid_blue
+      color: white
+      align: left
+  - id: 1bee7761df97486db860
+    header: Non standard
+    text: There are smaller, rooms, and some connected rooms. If your needs are small,
+      of you rather have 2 small rooms than one, talk to us. These are mostly old
+      admin rooms facing north, starting at 100e.
+    image: non_standard_room
+    options:
+      background: solid_blue
+      color: white
+      align: left
+  - id: dc899232eb9b6aa49073
+    header: Wet spaces
+    text: If your work requires you to get dirty, we have different size wet rooms.
+      Here we are talking about spaces with floor drains that are tiled all around.
+      There are about 2-3 per floor, in different sizes, from 12 to 25m2.
+    options:
+      background: solid_blue
+      color: white
+      align: left
+    image: wet_space_room
   options:
     button_link: ''
     button_text: ''
