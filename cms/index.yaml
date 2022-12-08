@@ -136,3 +136,24 @@
     background: solid_blue
     columns: '3'
     color: none
+- template: form_section
+  id: 63b79d0330c870f98184
+  card_template: form_field
+  cards:
+  - id: fa2d781cf5cb644cbef4
+    header: Name
+    text: ''
+  - id: af5208d13d06f0581f4e
+    header: Email
+    text: ''
+  - id: 8295ec1642215c275eb2
+    header: Message
+    text: ''
+    options:
+      compulsory: 'on'
+      form_type: message
+  header: Contact
+  text: "Högbenintie 30, 10350 Meltola, Raasepori\r\n\r\ninfo@hubfeenix.fi\r\n\r\n0505337881\r\n"
+  options:
+    background: white
+    color: solid_blue
