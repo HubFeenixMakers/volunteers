@@ -1,12 +1,16 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
+const execSync = require('child_process').execSync;
+const output = execSync('bundle   show merged', { encoding: 'utf-8' });
+const fullname = output.trim() + '/app/**/*.{haml,html,rb}'
+
 module.exports = {
   content: [
     './public/*.html',
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
     './app/views/**/*.{erb,haml,html,slim}' ,
-    '../app/views/**/*.{erb,haml,html,slim}' ,
+    fullname
   ],
   theme: {
     extend: {
