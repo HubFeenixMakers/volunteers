@@ -1,36 +1,50 @@
-%header.bg-white{"aria-label" => "Site Header"}
-  .mx-auto.max-w-screen-xl.px-8.mb-6.mt-6.sm:px-6.lg:px-10
-    .flex.h-16.items-center.justify-between
-      .flex-1.md:flex.md:items-center.md:gap-6
-        %a.block.text-teal-600{:href => "/"}
-          %span.sr-only Home
+%header.px-4.py-5.mx-auto.sm:max-w-xl.md:max-w-full.lg:max-w-screen-xl.md:px-24.lg:px-8
+  .relative.flex.items-center.justify-between
+    %a.inline-flex.items-center{"aria-label" => "Hub Feenix", :href => "/", :title => "Company"}
+      = image_tag("feenix_lintu" , class: "h-20")
+      %span.ml-2.text-xl.font-bold.tracking-wide.text-gray-800.uppercase Hub Feenix
+    %ul.flex.items-center.hidden.space-x-8.lg:flex
+      - [:retreats , :studios , :makerspace , :coworking, :about].each do |link|
+        %li
+          %a.font-medium.tracking-wide.text-gray-700.transition-colors.duration-400.hover:text-cyan-800{"aria-label" => "Our product", :href => "/#{link}", :title => link.capitalize}= link.capitalize
+      %li
+        = link_to "facebook.com" do
+          = image_tag("fb" , class: "h-10 rounded-md")
+      %li
+        %a.inline-flex.items-center.justify-center.h-12.px-6.font-medium.tracking-wide.text-white.transition.duration-200.rounded-lg.shadow-md.bg-green-800.hover:bg-blue-800.focus:shadow-outline.focus:outline-none{"aria-label" => "Sign up", :href => "/", :title => "Log in or Sign up"}
+          Login
+    .lg:hidden.flex.items-center.justify-between
+      .mr-20
+        = link_to "facebook.com" do
+          = image_tag("fb" , class: "h-10 rounded-md")
+      %button.p-2.-mr-1.transition.duration-200.rounded.focus:outline-none.focus:shadow-outline.hover:bg-deep-purple-50.focus:bg-deep-purple-50{"aria-label" => "Open Menu", :title => "Open Menu" , onclick: "menu_on();"}
+        %svg.w-5.text-gray-600{:viewbox => "0 0 24 24"}
+          %path{:d => "M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z", :fill => "currentColor"}
+          %path{:d => "M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z", :fill => "currentColor"}
+          %path{:d => "M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z", :fill => "currentColor"}
+
+#mobile-menu.absolute.top-0.left-0.w-full.hidden
+  .p-5.bg-white.border.rounded.shadow-sm
+    .flex.items-center.justify-between.mb-4
+      %div
+        %a.inline-flex.items-center{"aria-label" => "Company", :href => "/", :title => "Company"}
           = image_tag("feenix_lintu" , class: "h-20")
-      .md:flex.md:items-center.md:gap-12
-        %nav.hidden.md:block{"aria-label" => "Site Nav"}
-          %ul.flex.items-center.gap-6
-            %li
-              %a.text-gray-500.transition{:class => "hover:text-gray-500/75", :href => "/retreats"}
-                Retreats
-            %li
-              %a.text-gray-500.transition{:class => "hover:text-gray-500/75", :href => "/studios"}
-                Studios
-            %li
-              %a.text-gray-500.transition{:class => "hover:text-gray-500/75", :href => "/makerspace"}
-                Makerspace
-            %li
-              %a.text-gray-500.transition{:class => "hover:text-gray-500/75", :href => "/coworking"}
-                Coworking
-            %li
-              %a.text-gray-500.transition{:class => "hover:text-gray-500/75", :href => "/"}
-                About
-        .flex.items-center.gap-4
-          .sm:flex.sm:gap-4
-            = link_to "facebook.com" do
-              = image_tag("fb" , class: "h-10 rounded-md")
-          .sm:flex.sm:gap-4
-            %a.rounded-md.bg-teal-600.px-5.text-sm.font-medium.text-white.shadow{:class => "py-2.5", :href => "/"}
-              Login
-          .block.md:hidden
-            %button.rounded.bg-gray-100.p-2.text-gray-600.transition{:class => "hover:text-gray-600/75"}
-              %svg.h-5.w-5{:fill => "none", :stroke => "currentColor", "stroke-width" => "2", :viewbox => "0 0 24 24", :xmlns => "http://www.w3.org/2000/svg"}
-                %path{:d => "M4 6h16M4 12h16M4 18h16", "stroke-linecap" => "round", "stroke-linejoin" => "round"}
+          %span.ml-2.text-xl.font-bold.tracking-wide.text-gray-800.uppercase Hub Feenix
+      %div
+        %button.p-2.-mt-2.-mr-2.transition.duration-200.rounded.hover:bg-gray-200.focus:bg-gray-200.focus:outline-none.focus:shadow-outline{"aria-label" => "Close Menu", :title => "Close Menu" , onclick: "menu_off();"}
+          %svg.w-5.text-gray-600{:viewbox => "0 0 24 24"}
+            %path{:d => "M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z", :fill => "currentColor"}
+    %nav
+      %ul.space-y-6.px-20
+        - [:retreats , :studios , :makerspace , :coworking, :about].each do |link|
+          %li
+            %a.font-medium.tracking-wide.text-xl{ :href => "/#{link}" , :title => link.capitalize}= link.capitalize
+:javascript
+  function menu_on() {
+    var x = document.getElementById("mobile-menu");
+    x.style.display = "block";
+    }
+  function menu_off() {
+    var x = document.getElementById("mobile-menu");
+    x.style.display = "none";
+    }

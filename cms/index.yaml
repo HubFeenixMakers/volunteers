@@ -6,7 +6,7 @@
   image: house
   id: e134b2680319aa90c968
   options:
-    fixed: 'off'
+    fixed: 'on'
     shade_color: black_25
     color: solid_blue
     align: left
