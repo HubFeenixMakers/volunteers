@@ -110,21 +110,50 @@
     order: right
     color: none
     background: light_gray
-- template: section_full_up
-  id: dc5a9bda5efd77615be1
+- template: form_section
+  id: 407892e7d48cc9381eb6
+  card_template: form_field
+  cards:
+  - id: c9ff36ac6c708761821a
+    header: Name
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: text
+  - id: 616dcd38f5ddf1e2bcf5
+    header: Email
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: email
+  - id: a5f372029d42bfee312a
+    header: Phone
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: phone
+  - id: 1915e15b58660f1301a5
+    header: Interest
+    text: ''
+  - id: f1f3c57b48cb37d07ee1
+    header: Message
+    text: ''
+    options:
+      compulsory: 'no'
+      form_type: message
   header: Participate
   text: "If you want to use any of the facilities or machines listed above, you need
     to be a member of the coop. This requires a small fee and a certain amount of
-    participation in general tasks.\r\n<br/><br/>\r\nAdditionally some machines will
-    require skill to operate, and you need to prove that you are able, possibly participate
-    in training.\r\n<br/><br/>\r\nConsumables, like wood, thread, clay, electronic
-    parts, cost but many basic ones are made available at cost price by the coop.\r\n<br/><br/>\r\nCurrently
+    participation in general tasks.\r\n\r\nAdditionally some machines will require
+    skill to operate, and you need to prove that you are able, possibly participate
+    in training.\r\n\r\n​Consumables, like wood, thread, clay, electronic parts, cost
+    but many basic ones are made available at cost price by the coop.\r\n\r\n​Currently
     many of the facilities are still being built up, but if you want to participate
-    already, or be notified when a certain facility is ready, fill the form below.\r\n\r\n​"
+    already, or be notified when a certain facility is ready, fill the form below.\r\n\r\nIf
+    you want to stay informed about planned meetings, courses and happening, join
+    the Makers forum here.\r\n"
   options:
-    background: light_gray
-    color: none
-    margin: '0'
-    subheader: ''
-    button_link: ''
-    button_text: ''
+    ok_message: ''
+    handler: FormHandler
+    background: light_orange
+    color: solid_black

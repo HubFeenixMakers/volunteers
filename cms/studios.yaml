@@ -105,3 +105,43 @@
     columns: '3'
     button_link: ''
     button_text: ''
+- template: form_section
+  id: 79acf6666f541a489f2a
+  card_template: form_field
+  cards:
+  - id: 30f5305fbd1728a88399
+    header: Name
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: text
+  - id: e6587882a8887a03c419
+    header: Email
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: email
+  - id: 1f425441b62c0485ac1f
+    header: Phone
+    text: ''
+    options:
+      compulsory: 'no'
+      form_type: phone
+  - id: b5cfa3db8543f1b3a184
+    header: Space requirements
+    text: ''
+  - id: 9f9d7b851d3e8cc7b6ae
+    header: Message
+    text: ''
+    options:
+      compulsory: 'no'
+      form_type: message
+  options:
+    ok_message: Ok
+    handler: FormHandler
+    background: light_orange
+    color: none
+  header: The deal
+  text: "Hub Feenix is not just renting space, we are looking to build a community
+    of active, participating creatives.\r\n\r\nCheck out the MakerSpace facilities
+    as well"

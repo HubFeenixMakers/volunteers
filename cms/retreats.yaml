@@ -178,3 +178,45 @@
     order: left
     color: solid_blue
     background: light_orange
+- template: form_section
+  id: fed1ead833b3e654864c
+  card_template: form_field
+  cards:
+  - id: 2323d408b7ed3fd23b3c
+    header: Name
+    text: ''
+  - id: 9bb40470fcde761f3860
+    header: Email
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: email
+  - id: ca4d71bdd6652baaa236
+    header: Phone
+    text: ''
+  - id: ad14df1a2bfadbefaac2
+    header: Event Type
+    text: ''
+  - id: bb11cd376c92eeb80483
+    header: Number of participants
+    text: ''
+  - id: 19528802282f6d8f3380
+    header: Date
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: date
+  - id: 03b80ab7438bb1663a5f
+    header: Message
+    text: ''
+    options:
+      compulsory: 'no'
+      form_type: message
+  header: Start planning now
+  text: We create custom packages for your specific needs. Just tell us what you are
+    planning, for how many people and we will create a solution for you.
+  options:
+    ok_message: ''
+    handler: FormHandler
+    background: light_gray
+    color: solid_blue

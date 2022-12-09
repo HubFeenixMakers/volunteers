@@ -61,3 +61,44 @@
     background: light_orange
     columns: '3'
     color: solid_blue
+- template: form_section
+  id: 8e1e8aca1d26eb50223e
+  card_template: form_field
+  cards:
+  - id: 2326eb954cf517e36ce6
+    header: Name
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: text
+  - id: 0a25fd3bc3c03955bc62
+    header: Email
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: email
+  - id: 137e3ccbd1e109e7df34
+    header: Phone
+    text: ''
+    options:
+      compulsory: 'no'
+      form_type: phone
+  - id: df88a60ca4f6a240cd86
+    header: Space
+    text: ''
+    options:
+      compulsory: 'yes'
+      form_type: text
+  - id: b517de62ff5bce82e6a8
+    header: Message
+    text: ''
+    options:
+      compulsory: 'no'
+      form_type: message
+  header: Join the working tribe
+  text: ''
+  options:
+    ok_message: ''
+    handler: FormHandler
+    background: light_orange
+    color: solid_blue
