@@ -220,6 +220,49 @@
   :updated_at: *2
   :page_id: 2
   :index: 4
+- :template: section_half_image
+  :id: 14
+  :header: Retreats
+  :text: "Hub Feenix is a beautiful place, ideally situated in the country, but close
+    to Helsinki. We have different sized studios and spaces, to organise retreats
+    for groups from 10, up to 100 people.\r\n"
+  :options:
+    button_link: ''
+    button_text: ''
+    order: left
+    background: white
+    subheader: Come to learn, enjoy your stay
+    text: " Different levels of accommodation and our cafe and great vegan food make
+      your stay enjoyable also outside the course program."
+    align: center
+    color: solid_blue
+  :image: retreats
+  :updated_at: &3 2022-12-09 17:32:41.538163009 +02:00
+  :page_id: 3
+  :index: 1
+- :template: section_cards
+  :id: 15
+  :card_template: card_normal_square
+  :header: Spaces
+  :text: For different size groups and needs
+  :options:
+    background: light_orange
+    columns: '3'
+    button_link: ''
+    button_text: ''
+    color: solid_blue
+    align: center
+  :updated_at: *3
+  :page_id: 3
+  :index: 2
+- :template: section_full_up
+  :id: 16
+  :header: Accommodation
+  :text: We have three wings set aside to accommodate retreat participants. Each wing
+    can accommodate up to 32 people, and spare beds (and rooms) are available.
+  :updated_at: *3
+  :page_id: 3
+  :index: 3
 - :template: section_full_image
   :id: 17
   :image: suites_wide
@@ -230,9 +273,9 @@
     shade_color: solid_blue_25
     color: white
     align: right
-  :updated_at: &3 2022-12-09 17:32:41.538163009 +02:00
+  :updated_at: *3
   :page_id: 3
-  :index: 1
+  :index: 4
 - :template: section_full_image
   :id: 18
   :header: Shared room
@@ -246,7 +289,7 @@
     shade_color: solid_red_25
   :updated_at: *3
   :page_id: 3
-  :index: 2
+  :index: 5
 - :template: section_full_image
   :id: 19
   :header: Common room
@@ -261,7 +304,7 @@
     shade_color: black_25
   :updated_at: *3
   :page_id: 3
-  :index: 3
+  :index: 6
 - :template: section_full_up
   :id: 20
   :header: Common services for retreats
@@ -274,7 +317,7 @@
     margin: '0'
   :updated_at: *3
   :page_id: 3
-  :index: 4
+  :index: 7
 - :template: section_large_image
   :id: 21
   :image: common_spaces_wide
@@ -288,7 +331,7 @@
     picture, terraces and the cafe make a relaxed atmosphere.
   :updated_at: *3
   :page_id: 3
-  :index: 5
+  :index: 8
 - :template: section_large_image
   :id: 22
   :image: food_area
@@ -303,7 +346,7 @@
     order: right
   :updated_at: *3
   :page_id: 3
-  :index: 6
+  :index: 9
 - :template: section_large_image
   :id: 23
   :image: nature_around
@@ -316,7 +359,7 @@
     background: light_orange
   :updated_at: *3
   :page_id: 3
-  :index: 7
+  :index: 10
 - :template: form_section
   :id: 24
   :card_template: form_field
@@ -330,7 +373,7 @@
     color: solid_blue
   :updated_at: *3
   :page_id: 3
-  :index: 8
+  :index: 11
 - :template: section_half_image
   :id: 25
   :header: Coworking and offices
