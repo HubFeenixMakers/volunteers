@@ -16,8 +16,8 @@ gem 'haml-rails'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
-#gem "merged" , path: "../merged"
+#gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
+gem "merged" , path: "../merged"
 
 group :production do
   gem "passenger"
