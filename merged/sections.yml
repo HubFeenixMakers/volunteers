@@ -182,12 +182,13 @@
     the use of common spaces, see below.
   :image:
   :id: 11
-  :card_template: card_full_image
+  :card_template: card_normal_round
   :options:
     button_link: ''
     button_text: ''
-    background: light_blue
-    columns: '2'
+    background: white
+    columns: '3'
+    color: none
   :updated_at: *2
   :page_id: 2
   :index: 2

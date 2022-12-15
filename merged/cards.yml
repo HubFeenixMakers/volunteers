@@ -50,7 +50,7 @@
   :options:
     background: solid_blue
     color: white
-    align: left
+    align: center
   :updated_at: &2 2022-12-09 17:50:02.733622073 +02:00
   :section_id: 11
   :index: 1
@@ -63,7 +63,7 @@
   :options:
     background: solid_blue
     color: white
-    align: left
+    align: right
   :updated_at: *2
   :section_id: 11
   :index: 2
