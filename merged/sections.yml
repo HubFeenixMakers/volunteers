@@ -187,8 +187,10 @@
     button_link: ''
     button_text: ''
     background: white
-    columns: '3'
+    columns: '2'
     color: none
+    text_align: center
+    item_align: center
   :updated_at: *2
   :page_id: 2
   :index: 2
@@ -455,6 +457,8 @@
     subheader: ''
     button_link: ''
     button_text: ''
+    text_align: center
+    item_align: center
   :updated_at: *5
   :page_id: 5
   :index: 2
@@ -480,16 +484,18 @@
   :options:
     fixed: 'on'
     shade_color: black_25
-    color: solid_blue
-    text_align: left
+    color: white
+    text_align: center
+    item_align: left
   :updated_at: &6 2022-12-10 20:28:17.967357225 +02:00
   :page_id: 6
-  :index: 2
+  :index: 1
 - :template: section_spacer
   :id: 32
   :updated_at: *6
   :page_id: 6
-  :index: 1
+  :index: 2
+  :options: {}
 - :template: section_half_image
   :header: Retreats
   :text: Hub Feenix is a beautiful place, ideally situated in the country, but close
