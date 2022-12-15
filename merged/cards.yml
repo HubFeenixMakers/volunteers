@@ -50,7 +50,7 @@
   :options:
     background: solid_blue
     color: white
-    align: center
+    text_align: center
   :updated_at: &2 2022-12-09 17:50:02.733622073 +02:00
   :section_id: 11
   :index: 1
@@ -63,7 +63,7 @@
   :options:
     background: solid_blue
     color: white
-    align: right
+    text_align: right
   :updated_at: *2
   :section_id: 11
   :index: 2
@@ -76,7 +76,7 @@
   :options:
     background: solid_blue
     color: white
-    align: left
+    text_align: left
   :updated_at: *2
   :section_id: 11
   :index: 3
@@ -88,7 +88,7 @@
   :options:
     background: solid_blue
     color: white
-    align: left
+    text_align: left
   :image: wet_space_room
   :updated_at: *2
   :section_id: 11
@@ -100,7 +100,7 @@
   :image: common_spaces
   :options:
     background: solid_red
-    align: center
+    text_align: center
   :updated_at: *2
   :section_id: 12
   :index: 1
@@ -111,7 +111,7 @@
   :image: en_suite_studio
   :options:
     background: solid_blue
-    align: center
+    text_align: center
   :updated_at: *2
   :section_id: 12
   :index: 2
@@ -122,7 +122,7 @@
     a sink in the room, so you can clean things or make a tea in peace.
   :options:
     background: solid_indigo
-    align: center
+    text_align: center
   :image: studio_kitchen
   :updated_at: *2
   :section_id: 12
@@ -176,7 +176,7 @@
     dancing and of course chairs for meetings.
   :options:
     background: none
-    align: center
+    text_align: center
     subheader: 40 - 120
     color: none
   :image: the_hall
@@ -190,7 +190,7 @@
     mediation (60). It also has a private eating area and staircase.
   :options:
     background: none
-    align: center
+    text_align: center
     subheader: 30 - 60
     color: none
   :image: mandala_room
@@ -206,7 +206,7 @@
   :image: sky_conference
   :options:
     background: light_orange
-    align: center
+    text_align: center
     color: none
     subheader: 35 - 80
   :updated_at: *3
@@ -220,7 +220,7 @@
   :image: lotus_room
   :options:
     background: light_orange
-    align: center
+    text_align: center
     color: none
     subheader: 15 - 30
   :updated_at: *3
@@ -234,7 +234,7 @@
   :image: earth_room
   :options:
     background: none
-    align: center
+    text_align: center
     color: none
     subheader: 10 - 25
   :updated_at: *3
@@ -248,7 +248,7 @@
   :image: loft_room
   :options:
     background: light_grey
-    align: center
+    text_align: center
     color: none
     subheader: 8-15
   :updated_at: *3
@@ -314,7 +314,7 @@
     background: solid_blue
     color: white
     order: left
-    align: center
+    text_align: center
     subheader: 120 / month
   :image: floating_office_small
   :updated_at: &4 2022-12-09 18:00:01.444815664 +02:00
@@ -328,7 +328,7 @@
     background: solid_blue
     color: white
     order: right
-    align: center
+    text_align: center
     subheader: 200 / month
   :image: single_office_small
   :updated_at: *4
@@ -342,7 +342,7 @@
     background: solid_blue
     color: white
     order: left
-    align: center
+    text_align: center
     subheader: 350 / month
   :image: double_office_small
   :updated_at: *4
@@ -400,7 +400,7 @@
   :options:
     background: light_gray
     color: solid_blue
-    align: center
+    text_align: center
     subheader: ''
   :updated_at: &5 2022-12-10 20:28:17.967357225 +02:00
   :section_id: 39
@@ -413,7 +413,7 @@
   :options:
     background: light_gray
     color: solid_blue
-    align: center
+    text_align: center
     subheader: ''
   :updated_at: *5
   :section_id: 39
@@ -426,7 +426,7 @@
   :options:
     background: light_gray
     color: solid_blue
-    align: center
+    text_align: center
     subheader: ''
   :updated_at: *5
   :section_id: 39

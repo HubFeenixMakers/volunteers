@@ -182,7 +182,7 @@
     the use of common spaces, see below.
   :image:
   :id: 11
-  :card_template: card_normal_round
+  :card_template: card_normal_square
   :options:
     button_link: ''
     button_text: ''
@@ -235,7 +235,7 @@
     subheader: Come to learn, enjoy your stay
     text: " Different levels of accommodation and our cafe and great vegan food make
       your stay enjoyable also outside the course program."
-    align: center
+    text_align: center
     color: solid_blue
   :image: retreats
   :updated_at: &3 2022-12-09 17:32:41.538163009 +02:00
@@ -252,7 +252,7 @@
     button_link: ''
     button_text: ''
     color: solid_blue
-    align: center
+    text_align: center
   :updated_at: *3
   :page_id: 3
   :index: 2
@@ -273,7 +273,7 @@
     fixed: 'off'
     shade_color: solid_blue_25
     color: white
-    align: right
+    text_align: right
   :updated_at: *3
   :page_id: 3
   :index: 4
@@ -286,7 +286,7 @@
   :options:
     fixed: 'off'
     color: white
-    align: left
+    text_align: left
     shade_color: solid_red_25
   :updated_at: *3
   :page_id: 3
@@ -301,7 +301,7 @@
   :options:
     fixed: 'off'
     color: white
-    align: center
+    text_align: center
     shade_color: black_25
   :updated_at: *3
   :page_id: 3
@@ -325,7 +325,7 @@
   :options:
     fixed: 'on'
     color: solid_blue
-    align: left
+    text_align: left
     background: light_orange
   :header: Common spaces
   :text: Enjoy the free time in between learning. Several common spaces, like in the
@@ -342,7 +342,7 @@
   :options:
     fixed: 'on'
     color: solid_blue
-    align: left
+    text_align: left
     background: light_orange
     order: right
   :updated_at: *3
@@ -388,7 +388,7 @@
     color: solid_blue
     subheader: ''
     text: ''
-    align: center
+    text_align: center
     button_link: ''
     button_text: ''
   :updated_at: &4 2022-12-09 18:00:01.444815664 +02:00
@@ -431,7 +431,7 @@
   :options:
     fixed: 'off'
     color: white
-    align: left
+    text_align: left
     shade_color: solid_blue_25
   :image: cafe_about
   :updated_at: &5 2022-12-08 19:11:48.243621696 +02:00
@@ -466,7 +466,7 @@
   :options:
     fixed: 'on'
     color: black
-    align: center
+    text_align: center
     shade_color: none
   :updated_at: *5
   :page_id: 5
@@ -481,7 +481,7 @@
     fixed: 'on'
     shade_color: black_25
     color: solid_blue
-    align: left
+    text_align: left
   :updated_at: &6 2022-12-10 20:28:17.967357225 +02:00
   :page_id: 6
   :index: 2
@@ -548,7 +548,7 @@
     color: none
     subheader: ''
     text: ''
-    align: left
+    text_align: left
     button_link: coworking
     button_text: Coworking
   :updated_at: *6
@@ -567,7 +567,7 @@
     color: none
     subheader: ''
     text: ''
-    align: left
+    text_align: left
     button_link: ''
     button_text: ''
   :updated_at: *6
@@ -587,7 +587,7 @@
     color: none
     subheader: ''
     text: ''
-    align: left
+    text_align: left
     button_link: ''
     button_text: ''
   :updated_at: *6
