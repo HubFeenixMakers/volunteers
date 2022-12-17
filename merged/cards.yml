@@ -8,6 +8,7 @@
   :updated_at: &1 2022-12-09 17:56:51.141334688 +02:00
   :section_id: 9
   :index: 1
+  :image_id:
 - :id: 2
   :header: Email
   :text: ''
@@ -17,6 +18,7 @@
   :updated_at: *1
   :section_id: 9
   :index: 2
+  :image_id:
 - :id: 3
   :header: Phone
   :text: ''
@@ -26,12 +28,14 @@
   :updated_at: *1
   :section_id: 9
   :index: 3
+  :image_id:
 - :id: 4
   :header: Interest
   :text: ''
   :updated_at: *1
   :section_id: 9
   :index: 4
+  :image_id:
 - :id: 5
   :header: Message
   :text: ''
@@ -41,6 +45,7 @@
   :updated_at: *1
   :section_id: 9
   :index: 5
+  :image_id:
 - :header: Standard
   :text: This is the standard two patient room. They are mostly towards the south,
     so may have great, or too much light, depending on how you see it. The size is
@@ -54,6 +59,7 @@
   :updated_at: &2 2022-12-09 17:50:02.733622073 +02:00
   :section_id: 11
   :index: 1
+  :image_id: 36
 - :header: Large
   :text: The old four  patient rooms are basically twice the size as the small. They
     are large enough to be shared. The size is about 30m2 and the cost 240e. Like
@@ -67,6 +73,7 @@
   :updated_at: *2
   :section_id: 11
   :index: 2
+  :image_id: 18
 - :id: 8
   :header: Non standard
   :text: There are smaller, rooms, and some connected rooms. If your needs are small,
@@ -80,6 +87,7 @@
   :updated_at: *2
   :section_id: 11
   :index: 3
+  :image_id: 26
 - :id: 9
   :header: Wet spaces
   :text: If your work requires you to get dirty, we have different size wet rooms.
@@ -93,6 +101,7 @@
   :updated_at: *2
   :section_id: 11
   :index: 4
+  :image_id: 41
 - :id: 10
   :header: Common spaces
   :text: Each floor has it's own large common space. Also, Hub Feenix offers great
@@ -104,6 +113,7 @@
   :updated_at: *2
   :section_id: 12
   :index: 1
+  :image_id: 5
 - :id: 11
   :header: En suite and fold out
   :text: "Some rooms have attached (or shared) bathrooms. Also, you have the option
@@ -115,6 +125,7 @@
   :updated_at: *2
   :section_id: 12
   :index: 2
+  :image_id: 13
 - :id: 12
   :header: Shared kitchen, own sink
   :text: Each floor has it's own common kitchen. This is especially useful if you
@@ -127,6 +138,7 @@
   :updated_at: *2
   :section_id: 12
   :index: 3
+  :image_id: 37
 - :id: 13
   :header: Name
   :text: ''
@@ -136,6 +148,7 @@
   :updated_at: *2
   :section_id: 13
   :index: 1
+  :image_id:
 - :id: 14
   :header: Email
   :text: ''
@@ -145,6 +158,7 @@
   :updated_at: *2
   :section_id: 13
   :index: 2
+  :image_id:
 - :id: 15
   :header: Phone
   :text: ''
@@ -154,12 +168,14 @@
   :updated_at: *2
   :section_id: 13
   :index: 3
+  :image_id:
 - :id: 16
   :header: Space requirements
   :text: ''
   :updated_at: *2
   :section_id: 13
   :index: 4
+  :image_id:
 - :id: 17
   :header: Message
   :text: ''
@@ -169,6 +185,7 @@
   :updated_at: *2
   :section_id: 13
   :index: 5
+  :image_id:
 - :id: 18
   :header: The Hall
   :text: Our beautiful hall, one of the largest in the area, is 8 x 20m and can accommodate
@@ -183,6 +200,7 @@
   :updated_at: &3 2022-12-09 17:32:41.538163009 +02:00
   :section_id: 15
   :index: 1
+  :image_id: 40
 - :id: 19
   :header: Mandala room
   :text: The Mandala room, in the fifth floor, is a slightly asymmetrical 100m2. With
@@ -197,6 +215,7 @@
   :updated_at: *3
   :section_id: 15
   :index: 2
+  :image_id: 22
 - :id: 20
   :header: Sky Conference
   :text: "Also in the fifth floor with great views is the sky conference room. It
@@ -212,6 +231,7 @@
   :updated_at: *3
   :section_id: 15
   :index: 3
+  :image_id: 34
 - :id: 21
   :header: Lootus room
   :text: "Downstairs, next to the café, the spacious lotus room is especially good
@@ -226,6 +246,7 @@
   :updated_at: *3
   :section_id: 15
   :index: 4
+  :image_id: 20
 - :id: 22
   :header: Earth room
   :text: "On the ground floor (with a clay plastered wall)\r\n\r\nthe earth room is
@@ -240,6 +261,7 @@
   :updated_at: *3
   :section_id: 15
   :index: 5
+  :image_id: 11
 - :id: 23
   :header: The Loft
   :text: "For smaller groups, we have many 40 m2 rooms, depending on the needs. Dancing,
@@ -254,12 +276,14 @@
   :updated_at: *3
   :section_id: 15
   :index: 6
+  :image_id: 19
 - :id: 24
   :header: Name
   :text: ''
   :updated_at: *3
   :section_id: 24
   :index: 1
+  :image_id:
 - :id: 25
   :header: Email
   :text: ''
@@ -269,24 +293,28 @@
   :updated_at: *3
   :section_id: 24
   :index: 2
+  :image_id:
 - :id: 26
   :header: Phone
   :text: ''
   :updated_at: *3
   :section_id: 24
   :index: 3
+  :image_id:
 - :id: 27
   :header: Event Type
   :text: ''
   :updated_at: *3
   :section_id: 24
   :index: 4
+  :image_id:
 - :id: 28
   :header: Number of participants
   :text: ''
   :updated_at: *3
   :section_id: 24
   :index: 5
+  :image_id:
 - :id: 29
   :header: Date
   :text: ''
@@ -296,6 +324,7 @@
   :updated_at: *3
   :section_id: 24
   :index: 6
+  :image_id:
 - :id: 30
   :header: Message
   :text: ''
@@ -305,6 +334,7 @@
   :updated_at: *3
   :section_id: 24
   :index: 7
+  :image_id:
 - :id: 31
   :header: Floating desk
   :text: "Come anytime and work on any of the available desk. We have 30 places in
@@ -320,6 +350,7 @@
   :updated_at: &4 2022-12-09 18:00:01.444815664 +02:00
   :section_id: 26
   :index: 1
+  :image_id: 15
 - :id: 32
   :header: Single office
   :text: If you need the quiet, or require safe shelf space, rent your own private
@@ -334,6 +365,7 @@
   :updated_at: *4
   :section_id: 26
   :index: 2
+  :image_id: 33
 - :id: 33
   :header: Double office
   :text: "Double offices are slightly larger than the singles, but also come furnished
@@ -348,6 +380,7 @@
   :updated_at: *4
   :section_id: 26
   :index: 3
+  :image_id: 10
 - :id: 34
   :header: Name
   :text: ''
@@ -357,6 +390,7 @@
   :updated_at: *4
   :section_id: 27
   :index: 1
+  :image_id:
 - :id: 35
   :header: Email
   :text: ''
@@ -366,6 +400,7 @@
   :updated_at: *4
   :section_id: 27
   :index: 2
+  :image_id:
 - :id: 36
   :header: Phone
   :text: ''
@@ -375,6 +410,7 @@
   :updated_at: *4
   :section_id: 27
   :index: 3
+  :image_id:
 - :id: 37
   :header: Space
   :text: ''
@@ -384,6 +420,7 @@
   :updated_at: *4
   :section_id: 27
   :index: 4
+  :image_id:
 - :id: 38
   :header: Message
   :text: ''
@@ -393,6 +430,7 @@
   :updated_at: *4
   :section_id: 27
   :index: 5
+  :image_id:
 - :id: 39
   :header: Cafe
   :text: Our cafe serves vegan and vegetarian light food and great tea and coffee.
@@ -405,6 +443,7 @@
   :updated_at: &5 2022-12-10 20:28:17.967357225 +02:00
   :section_id: 39
   :index: 1
+  :image_id: 30
 - :id: 40
   :header: Treatments
   :text: In our healery you can get professional help from osteopathy, shiatsu, acupuncture
@@ -418,6 +457,7 @@
   :updated_at: *5
   :section_id: 39
   :index: 2
+  :image_id: 31
 - :id: 41
   :header: Boutique and Gallery
   :text: In our Boutique, you can find organic cosmetics, buy our great hub feenix
@@ -431,6 +471,7 @@
   :updated_at: *5
   :section_id: 39
   :index: 3
+  :image_id: 29
 - :id: 42
   :header: Name
   :text: ''
@@ -440,6 +481,7 @@
   :updated_at: *5
   :section_id: 40
   :index: 1
+  :image_id:
 - :id: 43
   :header: Email
   :text: ''
@@ -449,6 +491,7 @@
   :updated_at: *5
   :section_id: 40
   :index: 2
+  :image_id:
 - :id: 44
   :header: Phone
   :text: ''
@@ -458,6 +501,7 @@
   :updated_at: *5
   :section_id: 40
   :index: 3
+  :image_id:
 - :id: 45
   :header: Subject
   :text: TEXT
@@ -467,6 +511,7 @@
   :updated_at: *5
   :section_id: 40
   :index: 4
+  :image_id:
 - :id: 46
   :header: Message
   :text: ''
@@ -476,3 +521,4 @@
   :updated_at: *5
   :section_id: 40
   :index: 5
+  :image_id:
