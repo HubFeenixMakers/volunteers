@@ -12,7 +12,8 @@ gem "tailwindcss-rails"
 gem "sassc-rails"
 
 gem 'haml-rails'
-
+gem 'html2haml'
+gem 'devise'
 gem "ruby2js" , path: "../ruby2js"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
