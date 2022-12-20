@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+
+  resources  :members
+
   devise_for :members
-  resources :members
 
   mount Merged::Engine => "/merged"
 

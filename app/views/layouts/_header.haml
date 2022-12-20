@@ -11,8 +11,12 @@
         = link_to "https://www.facebook.com/hubfeenix" , :target => "_blank" do
           = image_tag("fb" , class: "h-10 rounded-md")
       %li
-        %a.inline-flex.items-center.justify-center.h-12.px-6.font-medium.tracking-wide.text-white.transition.duration-200.rounded-lg.shadow-md.bg-green-800.hover:bg-blue-800.focus:shadow-outline.focus:outline-none{"aria-label" => "Sign up", :href => "/", :title => "Log in or Sign up"}
-          Login
+        - if member_signed_in?
+          .inline-flex.items-center.justify-center.h-12.px-6.font-medium.tracking-wide.text-white.transition.duration-200.rounded-lg.shadow-md.bg-green-800.hover:bg-blue-800.focus:shadow-outline.focus:outline-none
+            =link_to current_member.email ,  main_app.member_path(current_member)
+        - else
+          %a.inline-flex.items-center.justify-center.h-12.px-6.font-medium.tracking-wide.text-white.transition.duration-200.rounded-lg.shadow-md.bg-green-800.hover:bg-blue-800.focus:shadow-outline.focus:outline-none{"aria-label" => "Sign up", :href => member_session_url, :title => "Log in or Sign up"}
+            Login
     .lg:hidden.flex.items-center.justify-between
       .mr-20
         = link_to "https://www.facebook.com/hubfeenix" , :target => "_blank" do
