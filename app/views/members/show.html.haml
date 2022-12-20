@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @member.name
+%p
+  %b Public:
+  = @member.public
+
+= link_to 'Edit', edit_member_path(@member)
+\|
+= link_to 'Back', members_path

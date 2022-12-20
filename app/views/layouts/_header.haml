@@ -1,6 +1,6 @@
 %header.px-4.py-5.mx-auto.sm:max-w-xl.md:max-w-full.lg:max-w-screen-xl.md:px-24.lg:px-8
   .relative.flex.items-center.justify-between
-    %a.inline-flex.items-center{"aria-label" => "Hub Feenix", :href => "/", :title => "Company"}
+    %a.inline-flex.items-center{"aria-label" => "Hub Feenix", :href => "/", :title => "Hub Feenix"}
       = image_tag("feenix_lintu" , class: "h-20")
       %span.ml-2.text-xl.font-bold.tracking-wide.text-gray-800.uppercase Hub Feenix
     %ul.flex.items-center.hidden.space-x-8.lg:flex
@@ -8,14 +8,14 @@
         %li
           %a.font-medium.tracking-wide.text-gray-700.transition-colors.duration-400.hover:text-cyan-800{"aria-label" => "Our product", :href => "/#{link}", :title => link.capitalize}= link.capitalize
       %li
-        = link_to "facebook.com" do
+        = link_to "https://www.facebook.com/hubfeenix" , :target => "_blank" do
           = image_tag("fb" , class: "h-10 rounded-md")
       %li
         %a.inline-flex.items-center.justify-center.h-12.px-6.font-medium.tracking-wide.text-white.transition.duration-200.rounded-lg.shadow-md.bg-green-800.hover:bg-blue-800.focus:shadow-outline.focus:outline-none{"aria-label" => "Sign up", :href => "/", :title => "Log in or Sign up"}
           Login
     .lg:hidden.flex.items-center.justify-between
       .mr-20
-        = link_to "facebook.com" do
+        = link_to "https://www.facebook.com/hubfeenix" , :target => "_blank" do
           = image_tag("fb" , class: "h-10 rounded-md")
       %button.p-2.-mr-1.transition.duration-200.rounded.focus:outline-none.focus:shadow-outline.hover:bg-deep-purple-50.focus:bg-deep-purple-50{"aria-label" => "Open Menu", :title => "Open Menu" , onclick: "menu_on();"}
         %svg.w-5.text-gray-600{:viewbox => "0 0 24 24"}
@@ -27,7 +27,7 @@
   .p-5.bg-white.border.rounded.shadow-sm
     .flex.items-center.justify-between.mb-4
       %div
-        %a.inline-flex.items-center{"aria-label" => "Company", :href => "/", :title => "Company"}
+        %a.inline-flex.items-center{"aria-label" => "Hub Feenix", :href => "/", :title => "Hub Feenix"}
           = image_tag("feenix_lintu" , class: "h-20")
           %span.ml-2.text-xl.font-bold.tracking-wide.text-gray-800.uppercase Hub Feenix
       %div

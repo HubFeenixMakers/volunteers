@@ -8,6 +8,14 @@ PATH
       mini_magick
       rails (>= 7.0.4)
       redcarpet
+      ruby2js (~> 5.0, >= 5.0.1)
+
+PATH
+  remote: ../ruby2js
+  specs:
+    ruby2js (5.0.1)
+      parser
+      regexp_parser (~> 2.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -81,8 +89,9 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    ast (2.4.2)
     bindex (0.8.1)
-    bootsnap (1.14.0)
+    bootsnap (1.15.0)
       msgpack (~> 1.2)
     builder (3.2.4)
     capybara (3.38.0)
@@ -94,18 +103,18 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    childprocess (4.1.0)
     coderay (1.1.3)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
-    debug (1.6.3)
-      irb (>= 1.3.6)
+    date (3.3.2)
+    debug (1.7.0)
+      irb (>= 1.5.0)
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
     erubi (1.11.0)
     ffi (1.15.5)
     formatador (1.1.0)
-    git (1.12.0)
+    git (1.13.0)
       addressable (~> 2.8)
       rchardet (~> 1.8)
     globalid (1.0.0)
@@ -124,7 +133,7 @@ GEM
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
-    haml (6.0.12)
+    haml (6.1.1)
       temple (>= 0.8.2)
       thor
       tilt
@@ -138,13 +147,13 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
-    io-console (0.5.11)
-    irb (1.5.0)
+    io-console (0.6.0)
+    irb (1.6.1)
       reline (>= 0.3.0)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.19.0)
+    loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.2.8)
@@ -164,21 +173,24 @@ GEM
     minitest (5.16.3)
     msgpack (1.6.0)
     nenv (0.3.0)
-    net-imap (0.3.1)
+    net-imap (0.3.2)
+      date
       net-protocol
     net-pop (0.1.2)
       net-protocol
-    net-protocol (0.2.0)
+    net-protocol (0.2.1)
       timeout
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.9-x86_64-linux)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     notiffany (0.1.3)
       nenv (~> 0.1)
       shellany (~> 0.0)
     open4 (1.3.4)
+    parser (3.1.3.0)
+      ast (~> 2.4.1)
     passenger (6.0.15)
       rack
       rake (>= 0.8.1)
@@ -210,8 +222,8 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.3)
-      loofah (~> 2.3)
+    rails-html-sanitizer (1.4.4)
+      loofah (~> 2.19, >= 2.19.1)
     railties (7.0.4)
       actionpack (= 7.0.4)
       activesupport (= 7.0.4)
@@ -225,8 +237,8 @@ GEM
       ffi (~> 1.0)
     rchardet (1.8.0)
     redcarpet (3.5.1)
-    regexp_parser (2.6.1)
-    reline (0.3.1)
+    regexp_parser (2.1.1)
+    reline (0.3.2)
       io-console (~> 0.5)
     rexml (3.2.5)
     rspec (3.12.0)
@@ -235,10 +247,10 @@ GEM
       rspec-mocks (~> 3.12.0)
     rspec-core (3.12.0)
       rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.0)
+    rspec-expectations (3.12.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
-    rspec-mocks (3.12.0)
+    rspec-mocks (3.12.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
@@ -251,8 +263,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.6.1)
-      childprocess (>= 0.5, < 5.0)
+    selenium-webdriver (4.7.1)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -305,6 +316,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4)
+  ruby2js!
   sassc-rails
   selenium-webdriver
   sprockets-rails
