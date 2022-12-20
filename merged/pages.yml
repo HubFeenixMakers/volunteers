@@ -19,6 +19,8 @@
   :updated_at: 2022-12-08 19:11:48.243621696 +02:00
   :id: 5
   :type: page
+  :redirects: about3 about2
+  :options: {}
 - :name: index
   :updated_at: 2022-12-10 20:28:17.967357225 +02:00
   :id: 6

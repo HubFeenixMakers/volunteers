@@ -182,7 +182,7 @@
   :updated_at: &2 2022-12-09 17:50:02.733622073 +02:00
   :page_id: 2
   :index: 1
-  :image_id: 38
+  :image_id: '44'
 - :template: section_cards
   :header: Sizes and kinds
   :text: We offer different sizes and different types of studios for artists. There
@@ -282,6 +282,7 @@
   :page_id: 3
   :index: 3
   :image_id:
+  :options: {}
 - :template: section_full_image
   :id: 17
   :image_name: suites_wide
@@ -291,7 +292,8 @@
     fixed: 'off'
     shade_color: solid_blue_25
     color: white
-    text_align: right
+    text_align: left
+    item_align: left
   :updated_at: *3
   :page_id: 3
   :index: 4
@@ -305,8 +307,9 @@
   :options:
     fixed: 'off'
     color: white
-    text_align: left
+    text_align: right
     shade_color: solid_red_25
+    item_align: right
   :updated_at: *3
   :page_id: 3
   :index: 5
@@ -323,6 +326,7 @@
     color: white
     text_align: center
     shade_color: black_25
+    item_align: center
   :updated_at: *3
   :page_id: 3
   :index: 6
