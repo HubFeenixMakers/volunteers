@@ -3,7 +3,7 @@
     %h1.font-hairline.mb-6.text-center Forgot your password?
     = form_for(resource,                                              |
       as: resource_name,                                              |
-      url: password_path(resource_name),                              |
+      url: main_app.password_path(resource_name),                              |
       html: {                                                         |
               method: :post,                                          |
               class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md" |
