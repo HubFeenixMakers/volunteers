@@ -1,14 +1,10 @@
 .flex.justify-center
   .w-full.max-w-xs
     %h1.font-hairline.mb-6.text-center Resend Unlock Info
-    = form_for(resource,                                                       |
-               as: resource_name,                                              |
-               url: main_app.unlock_path(resource_name),                                |
-               html: {                                                         |
-                       method: :post,                                          |
-                       class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md" |
-               }                                                               |
-      ) do |f|                                                                 |
+    = form_for(resource, as: resource_name,
+               html: { class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md" ,
+                      method: :post }
+              url: unlock_path(resource_name) ) do |f| 
       = render "devise/shared/error_messages", resource: resource
       .mb-4
         = f.label :email, class: "block font-bold mb-2 text-gray-700 text-sm"

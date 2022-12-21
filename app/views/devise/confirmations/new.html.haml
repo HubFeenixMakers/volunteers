@@ -1,13 +1,10 @@
 .flex.justify-center
   .w-full.max-w-xs
     %h1.font-hairline.mb-6.text-center Resend Confirmation Instructions
-    = form_for(resource,                                              |
-      as: resource_name,                                              |
-      url: main_app.confirmation_path(resource_name),                          |
-      html: {                                                         |
-              method: :post,                                          |
-              class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md" |
-      }) do |f|                                                       |
+    = form_for(resource, as: resource_name,
+        url: confirmation_path(resource_name),
+        html: { class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md"  ,
+             method: :post }) do |f|
       = render "devise/shared/error_messages", resource: resource
       .mb-4
         = f.label :email, class: "block font-bold mb-2 text-gray-700 text-sm"
