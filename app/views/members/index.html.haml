@@ -1,23 +1,25 @@
-%h1 Listing members
+.flex.justify-center
 
-%table
-  %thead
-    %tr
-      %th Name
-      %th Public
-      %th
-      %th
-      %th
+  %h1 Listing members
 
-  %tbody
-    - @members.each do |member|
+  %table
+    %thead
       %tr
-        %td= member.name
-        %td= member.public
-        %td= link_to 'Show', member
-        %td= link_to 'Edit', edit_member_path(member)
-        %td= link_to 'Destroy', member, method: :delete, data: { confirm: 'Are you sure?' }
+        %th Name
+        %th Public
+        %th
+        %th
+        %th
 
-%br
+    %tbody
+      - @members.each do |member|
+        %tr
+          %td= member.name
+          %td= member.public
+          %td= link_to 'Show', member
+          %td= link_to 'Edit', edit_member_path(member)
+          %td= link_to 'Destroy', member, method: :delete, data: { confirm: 'Are you sure?' }
 
-= link_to 'New Member', new_member_path
+  %br
+
+  = link_to 'New Member', new_member_path
