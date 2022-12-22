@@ -1,0 +1,27 @@
+#menu-dropdown.hidden.absolute.right-0.z-10.mt-4.w-36.origin-top-right.rounded-md.border.border-gray-100.bg-white.shadow-lg{:role => "menu"}
+  .p-2
+    %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => "#", :role => "menuitem"}
+      Forum
+    %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => main_app.member_path(current_member), :role => "menuitem"}
+      Profile
+    - if current_member.admin?
+      %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => merged.pages_path(), :role => "menuitem"}
+        CMS
+    %form{:action => "#", :method => "POST"}
+      %button.flex.w-full.items-center.gap-2.rounded-lg.px-4.py-2.text-sm.text-blue-700.hover:bg-red-50{:role => "menuitem", :type => "submit"}
+        %svg.h-4.w-4{:fill => "none", :stroke => "currentColor", "stroke-width" => "2", :viewbox => "0 0 24 24", :xmlns => "http://www.w3.org/2000/svg"}
+          %path{:d => "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16", "stroke-linecap" => "round", "stroke-linejoin" => "round"}
+        Sign out
+
+:javascript
+  var drop_hidden = true;
+  function dropdown(){
+    var x = document.getElementById("menu-dropdown");
+    if( drop_hidden == true){
+      x.style.display = "block";
+      drop_hidden = false ;
+    } else {
+      x.style.display = "none";
+      drop_hidden = true ;
+    }
+  }

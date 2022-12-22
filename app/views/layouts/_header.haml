@@ -23,17 +23,7 @@
                 %span.sr-only Menu
                 %svg.h-4.w-4{:fill => "currentColor", :viewbox => "0 0 20 20", :xmlns => "http://www.w3.org/2000/svg"}
                   %path{"clip-rule" => "evenodd", :d => "M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z", "fill-rule" => "evenodd"}
-              #menu-dropdown.hidden.absolute.right-0.z-10.mt-4.w-36.origin-top-right.rounded-md.border.border-gray-100.bg-white.shadow-lg{:role => "menu"}
-                .p-2
-                  %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => "#", :role => "menuitem"}
-                    Forum
-                  %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => "#", :role => "menuitem"}
-                    Profile
-                  %form{:action => "#", :method => "POST"}
-                    %button.flex.w-full.items-center.gap-2.rounded-lg.px-4.py-2.text-sm.text-blue-700.hover:bg-red-50{:role => "menuitem", :type => "submit"}
-                      %svg.h-4.w-4{:fill => "none", :stroke => "currentColor", "stroke-width" => "2", :viewbox => "0 0 24 24", :xmlns => "http://www.w3.org/2000/svg"}
-                        %path{:d => "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16", "stroke-linecap" => "round", "stroke-linejoin" => "round"}
-                      Sign out
+              =render "layouts/member_menu"
 
     .lg:hidden.flex.items-center.justify-between
       .mr-20
@@ -45,40 +35,4 @@
           %path{:d => "M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z", :fill => "currentColor"}
           %path{:d => "M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z", :fill => "currentColor"}
 
-#mobile-menu.absolute.top-0.left-0.w-full.hidden
-  .p-5.bg-white.border.rounded.shadow-sm
-    .flex.items-center.justify-between.mb-4
-      %div
-        %a.inline-flex.items-center{"aria-label" => "Hub Feenix", :href => "/", :title => "Hub Feenix"}
-          = image_tag("feenix_lintu" , class: "h-20")
-          %span.ml-2.text-xl.font-bold.tracking-wide.text-gray-800.uppercase Hub Feenix
-      %div
-        %button.p-2.-mt-2.-mr-2.transition.duration-200.rounded.hover:bg-gray-200.focus:bg-gray-200.focus:outline-none.focus:shadow-outline{"aria-label" => "Close Menu", :title => "Close Menu" , onclick: "menu_off();"}
-          %svg.w-5.text-gray-600{:viewbox => "0 0 24 24"}
-            %path{:d => "M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z", :fill => "currentColor"}
-    %nav
-      %ul.space-y-6.px-20
-        - [:retreats , :studios , :makerspace , :coworking, :about].each do |link|
-          %li
-            %a.font-medium.tracking-wide.text-xl{ :href => "/#{link}" , :title => link.capitalize}= link.capitalize
-:javascript
-  var drop_hidden = true;
-  function menu_on() {
-    var x = document.getElementById("mobile-menu");
-    x.style.display = "block";
-    }
-  function menu_off() {
-    var x = document.getElementById("mobile-menu");
-    x.style.display = "none";
-    }
-  function dropdown(){
-    var x = document.getElementById("menu-dropdown");
-    if( drop_hidden == true){
-      x.style.display = "block";
-      drop_hidden = false ;
-    } else {
-      x.style.display = "none";
-      drop_hidden = true ;
-    }
-
-  }
+= render "layouts/mobile_menu"
