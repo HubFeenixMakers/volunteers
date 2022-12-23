@@ -11,11 +11,20 @@
     help)"
   :image_name: makerspace
   :id: 1
-  :updated_at: &1 2022-12-09 17:56:51.141334688 +02:00
+  :updated_at: 2022-12-23 21:41:12.945710728 +02:00
   :page_id: 1
   :index: 1
-  :options: {}
+  :options:
+    order: left
+    background: white
+    color: none
+    subheader: ''
+    text: ''
+    text_align: center
+    button_link: ''
+    button_text: ''
   :image_id: 21
+  :updated_by: torsten@villataika.fi
 - :template: section_full_up
   :id: 2
   :header: Different workshops
@@ -30,10 +39,13 @@
     subheader: Sharing machines and experiences
     button_link: ''
     button_text: ''
-  :updated_at: *1
+    text_align: center
+    item_align: center
+  :updated_at: 2022-12-23 21:41:38.729342222 +02:00
   :page_id: 1
   :index: 2
   :image_id:
+  :updated_by: torsten@villataika.fi
 - :template: section_large_image
   :id: 3
   :header: 3D
@@ -48,7 +60,7 @@
     background: light_gray
     margin: '0'
   :image_name: 3dprinter_wide
-  :updated_at: *1
+  :updated_at: &1 2022-12-09 17:56:51.141334688 +02:00
   :page_id: 1
   :index: 3
   :image_id: 2
@@ -179,7 +191,7 @@
     button_text: ''
     order: left
     background: white
-  :updated_at: &2 2022-12-09 17:50:02.733622073 +02:00
+  :updated_at: 2022-12-09 17:50:02.733622073 +02:00
   :page_id: 2
   :index: 1
   :image_id: 38
@@ -196,15 +208,16 @@
   :options:
     button_link: ''
     button_text: ''
-    background: white
+    background: light_blue
     columns: '2'
     color: none
     text_align: center
     item_align: center
-  :updated_at: *2
+  :updated_at: 2022-12-23 21:30:12.780539188 +02:00
   :page_id: 2
   :index: 2
   :image_id:
+  :updated_by: torsten@villataika.fi
 - :template: section_cards
   :id: 12
   :card_template: card_normal_square
@@ -216,10 +229,14 @@
     columns: '3'
     button_link: ''
     button_text: ''
-  :updated_at: *2
+    color: none
+    text_align: center
+    item_align: center
+  :updated_at: 2022-12-23 21:31:07.736507521 +02:00
   :page_id: 2
   :index: 3
   :image_id:
+  :updated_by: torsten@villataika.fi
 - :template: form_section
   :id: 13
   :card_template: form_field
@@ -232,10 +249,11 @@
   :text: "Hub Feenix is not just renting space, we are looking to build a community
     of active, participating creatives.\r\n\r\nCheck out the MakerSpace facilities
     as well"
-  :updated_at: *2
+  :updated_at: 2022-12-23 21:32:02.689315627 +02:00
   :page_id: 2
   :index: 4
   :image_id:
+  :updated_by: torsten@villataika.fi
 - :template: section_half_image
   :id: 14
   :header: Retreats
@@ -253,7 +271,7 @@
     text_align: center
     color: solid_blue
   :image_name: retreats
-  :updated_at: &3 2022-12-09 17:32:41.538163009 +02:00
+  :updated_at: &2 2022-12-09 17:32:41.538163009 +02:00
   :page_id: 3
   :index: 1
   :image_id: 28
@@ -269,16 +287,18 @@
     button_text: ''
     color: solid_blue
     text_align: center
-  :updated_at: *3
+    item_align: center
+  :updated_at: 2022-12-23 21:27:03.197415146 +02:00
   :page_id: 3
   :index: 2
   :image_id:
+  :updated_by: torsten@villataika.fi
 - :template: section_full_up
   :id: 16
   :header: Accommodation
   :text: We have three wings set aside to accommodate retreat participants. Each wing
     can accommodate up to 32 people, and spare beds (and rooms) are available.
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 3
   :image_id:
@@ -294,7 +314,7 @@
     color: white
     text_align: left
     item_align: left
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 4
   :image_id: 39
@@ -310,7 +330,7 @@
     text_align: right
     shade_color: solid_red_25
     item_align: right
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 5
   :image_id: 32
@@ -327,7 +347,7 @@
     text_align: center
     shade_color: black_25
     item_align: center
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 6
   :image_id: 7
@@ -341,7 +361,7 @@
     button_link: ''
     button_text: ''
     margin: '0'
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 7
   :image_id:
@@ -356,7 +376,7 @@
   :header: Common spaces
   :text: Enjoy the free time in between learning. Several common spaces, like in the
     picture, terraces and the cafe make a relaxed atmosphere.
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 8
   :image_id: 6
@@ -372,7 +392,7 @@
     text_align: left
     background: light_orange
     order: right
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 9
   :image_id: 16
@@ -386,7 +406,7 @@
     order: left
     color: solid_blue
     background: light_orange
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 10
   :image_id: 25
@@ -401,7 +421,7 @@
     handler: FormHandler
     background: light_gray
     color: solid_blue
-  :updated_at: *3
+  :updated_at: *2
   :page_id: 3
   :index: 11
   :image_id:
@@ -421,7 +441,7 @@
     text_align: center
     button_link: ''
     button_text: ''
-  :updated_at: &4 2022-12-09 18:00:01.444815664 +02:00
+  :updated_at: &3 2022-12-09 18:00:01.444815664 +02:00
   :page_id: 4
   :index: 1
   :image_id: 9
@@ -436,10 +456,13 @@
     background: light_orange
     columns: '3'
     color: solid_blue
-  :updated_at: *4
+    text_align: center
+    item_align: center
+  :updated_at: 2022-12-23 21:42:47.526207356 +02:00
   :page_id: 4
   :index: 2
   :image_id:
+  :updated_by: torsten@villataika.fi
 - :template: form_section
   :id: 27
   :card_template: form_field
@@ -450,7 +473,7 @@
     handler: FormHandler
     background: light_orange
     color: solid_blue
-  :updated_at: *4
+  :updated_at: *3
   :page_id: 4
   :index: 3
   :image_id:
@@ -467,7 +490,7 @@
     text_align: left
     shade_color: solid_blue_25
   :image_name: cafe_about
-  :updated_at: &5 2022-12-08 19:11:48.243621696 +02:00
+  :updated_at: &4 2022-12-08 19:11:48.243621696 +02:00
   :page_id: 5
   :index: 1
   :image_id: 3
@@ -491,7 +514,7 @@
     button_text: ''
     text_align: center
     item_align: center
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 5
   :index: 2
   :image_id:
@@ -505,7 +528,7 @@
     color: black
     text_align: center
     shade_color: none
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 5
   :index: 3
   :image_id: 23
@@ -521,13 +544,13 @@
     color: white
     text_align: center
     item_align: left
-  :updated_at: &6 2022-12-10 20:28:17.967357225 +02:00
+  :updated_at: &5 2022-12-10 20:28:17.967357225 +02:00
   :page_id: 6
   :index: 1
   :image_id: 17
 - :template: section_spacer
   :id: 32
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 2
   :options: {}
@@ -544,7 +567,7 @@
     background: solid_blue
   :image_name: retreats
   :id: 33
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 3
   :image_id: 28
@@ -560,7 +583,7 @@
     background: solid_blue
   :image_name: studios
   :id: 34
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 4
   :image_id: 38
@@ -576,7 +599,7 @@
     background: solid_blue
   :image_name: makerspace
   :id: 35
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 5
   :image_id: 21
@@ -596,7 +619,7 @@
     text_align: left
     button_link: coworking
     button_text: Coworking
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 6
   :image_id: 9
@@ -616,7 +639,7 @@
     text_align: left
     button_link: ''
     button_text: ''
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 7
   :image_id: 8
@@ -637,7 +660,7 @@
     text_align: left
     button_link: ''
     button_text: ''
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 8
   :image_id: 27
@@ -650,10 +673,13 @@
     background: solid_blue
     columns: '3'
     color: none
-  :updated_at: *6
+    text_align: center
+    item_align: center
+  :updated_at: 2022-12-23 21:47:55.654872333 +02:00
   :page_id: 6
   :index: 9
   :image_id:
+  :updated_by: torsten@villataika.fi
 - :template: form_section
   :id: 40
   :card_template: form_field
@@ -663,7 +689,7 @@
     background: white
     color: solid_blue
     ok_message: We'll get back to you
-  :updated_at: *6
+  :updated_at: *5
   :page_id: 6
   :index: 10
   :image_id:
