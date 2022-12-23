@@ -32,13 +32,14 @@ group :development, :test do
   gem "bootsnap", require: false
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "mina"
+  gem 'guard-minitest'
+  gem 'guard' # NOTE: this is necessary in newer versions
+  gem "puma", "~> 5.0"
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem "puma", "~> 5.0"
-  gem 'guard-rspec', require: false
 end
 
 group :test do
