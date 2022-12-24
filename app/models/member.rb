@@ -4,7 +4,8 @@ class Member < ApplicationRecord
   devise :database_authenticatable, :registerable,:confirmable,
          :recoverable, :rememberable, :validatable
 
-
+  has_rich_text :bio
+  
   def admin?
     true
   end
