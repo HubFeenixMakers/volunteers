@@ -5,41 +5,41 @@
   .flex.flex-col
     %h1 Editing member
 
-    = form_for @member do |f|
-      .flex.flex-col
-        - if @member.errors.any?
-          #error_explanation
-            %h2= "#{pluralize(@member.errors.count, "error")} prohibited this member from being saved:"
-            %ul
-              - @member.errors.full_messages.each do |message|
-                %li= message
+= form_for @member do |f|
+  - if @member.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@member.errors.count, "error")} prohibited this member from being saved:"
+      %ul
+        - @member.errors.full_messages.each do |message|
+          %li= message
 
-      .grid.grid-cols-3.gap-10
-        .field
-          = f.label :name
-          = f.text_field :name
-        .field
-          = f.label :public
-          = f.check_box :public
-        .field
-          = f.label :picture
-          = f.file_field :picture
-        %div
-          -if @member.picture
-            %div.overflow-hidden
-              .my-5 Currently
-              = image_tag @member.picture, class: "object-contain h-40"
-          -else
-            No Picture
-        .field
-          = f.label :bio
-          = f.text_area :bio , "v-model" => "markdown"
-        .preview.prose
-          %div{"v-html" => "compiledMarkdown"}
+  .grid.grid-cols-3.gap-10.mx-20
+    .field
+      = f.label :name
+      = f.text_field :name
+    .field
+      = f.label :public
+      = f.check_box :public
+    .field
+      = f.label :picture
+      = f.file_field :picture
+    .preview.prose
+      %b.text-2xl Preview
+      %div{"v-html" => "compiledMarkdown"}
+    .field.flex.flex-col
+      = f.label :bio
+      = f.text_area :bio ,rows: 15 , "v-model" => "markdown"
 
-      .flex.justify-center.actions.m-10
-        = f.submit 'Save'
-        .ml-20= link_to 'Back', member_path(@member)
+    %div
+      -if @member.picture_url
+        %div.overflow-hidden
+          .my-5 Currently
+          = image_tag @member.picture_url, class: "object-contain h-40"
+      -else
+        No Picture
+  .flex.justify-center.actions.m-10
+    = f.submit 'Save'
+    .ml-20= link_to 'Back', member_path(@member)
 
 :ruby2js
   class Mark < Vue

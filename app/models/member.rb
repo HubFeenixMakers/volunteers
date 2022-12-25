@@ -4,6 +4,8 @@ class Member < ApplicationRecord
   devise :database_authenticatable, :registerable,:confirmable,
          :recoverable, :rememberable, :validatable
 
+  mount_uploader :picture, PictureUploader
+
   def admin?
     true
   end

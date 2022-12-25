@@ -14,6 +14,7 @@ gem "sassc-rails"
 gem 'haml-rails'
 gem 'html2haml'
 gem 'devise'
+gem 'carrierwave', '>= 3.0.0.beta', '< 4.0'
 
 gem "ruby2js" , path: "../ruby2js"
 

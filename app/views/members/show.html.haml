@@ -5,9 +5,9 @@
   %div
     %b Public:
     = @member.public
-  -if @member.picture
+  -if @member.picture_url
     %div.overflow-hidden.items-align-right
-      = image_tag @member.picture, class: "object-contain h-80"
+      = image_tag @member.picture_url, class: "object-contain h-80"
   %div.prose= markdown(@member.bio)
 
   = link_to 'Edit', edit_member_path(@member)
