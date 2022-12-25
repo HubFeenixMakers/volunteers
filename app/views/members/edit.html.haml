@@ -1,3 +1,6 @@
+= javascript_include_tag "merged/vue.min.js"
+= javascript_include_tag "marked.min.js"
+
 .flex.justify-center.m-20
   .flex.flex-col
     %h1 Editing member
@@ -11,7 +14,7 @@
               - @member.errors.full_messages.each do |message|
                 %li= message
 
-      .grid.grid-cols-2.gap-10
+      .grid.grid-cols-3.gap-10
         .field
           = f.label :name
           = f.text_field :name
@@ -21,14 +24,30 @@
         .field
           = f.label :picture
           = f.file_field :picture
+        %div
           -if @member.picture
             %div.overflow-hidden
               .my-5 Currently
               = image_tag @member.picture, class: "object-contain h-40"
-
+          -else
+            No Picture
         .field
-          = f.label :Bio
-          = f.rich_text_area :bio
+          = f.label :bio
+          = f.text_area :bio , "v-model" => "markdown"
+        .preview.prose
+          %div{"v-html" => "compiledMarkdown"}
+
       .flex.justify-center.actions.m-10
         = f.submit 'Save'
         .ml-20= link_to 'Back', member_path(@member)
+
+:ruby2js
+  class Mark < Vue
+    options el: '.grid'
+    def initialize
+      @markdown = "#{@member.bio.to_s.html_safe}"
+    end
+    def compiledMarkdown
+      marked.parse(@markdown)
+    end
+  end

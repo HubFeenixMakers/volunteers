@@ -17,9 +17,6 @@ gem 'devise'
 
 gem "ruby2js" , path: "../ruby2js"
 
-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-gem "image_processing", "~> 1.2"
-
 #gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
 gem "merged" , path: "../merged"
 

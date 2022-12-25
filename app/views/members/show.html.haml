@@ -5,10 +5,10 @@
   %div
     %b Public:
     = @member.public
-  %div.overflow-hidden.items-align-right
-    = image_tag @member.picture, class: "object-contain h-80"
-  %div
-    %div= @member.bio
+  -if @member.picture
+    %div.overflow-hidden.items-align-right
+      = image_tag @member.picture, class: "object-contain h-80"
+  %div.prose= markdown(@member.bio)
 
   = link_to 'Edit', edit_member_path(@member)
   = form_tag( destroy_member_session_path , {method: :delete  } ) do
