@@ -5,31 +5,18 @@
   .flex.flex-col
     %h1 Editing member
 
-= form_for @member do |f|
-  - if @member.errors.any?
-    #error_explanation
-      %h2= "#{pluralize(@member.errors.count, "error")} prohibited this member from being saved:"
-      %ul
-        - @member.errors.full_messages.each do |message|
-          %li= message
+= simple_form_for @member , builder: SimpleForm::Tailwind::FormBuilder do |f|
+  = f.error_notification
 
   .grid.grid-cols-3.gap-10.mx-20
-    .field
-      = f.label :name
-      = f.text_field :name
-    .field
-      = f.label :public
-      = f.check_box :public
-    .field
-      = f.label :picture
-      = f.file_field :picture
+    = f.input :name
+    = f.input :public
+    = f.input :picture , as: :file
     .preview.prose
       %b.text-2xl Preview
       %div{"v-html" => "compiledMarkdown"}
     .field.flex.flex-col
-      = f.label :bio
-      = f.text_area :bio ,rows: 15 , "v-model" => "markdown"
-
+      = f.text_area :bio ,rows: 15 , "v-model" => "markdown" , class: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
     %div
       -if @member.picture_url
         %div.overflow-hidden
@@ -38,7 +25,7 @@
       -else
         No Picture
   .flex.justify-center.actions.m-10
-    = f.submit 'Save'
+    = f.button :button, "Get started", class: "w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
     .ml-20= link_to 'Back', member_path(@member)
 
 :ruby2js

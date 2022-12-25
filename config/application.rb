@@ -35,3 +35,5 @@ module HubfeenixFi
 
   end
 end
+
+ActionView::Base.default_form_builder = SimpleForm::Tailwind::FormBuilder
