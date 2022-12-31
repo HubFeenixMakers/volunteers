@@ -12,3 +12,6 @@
  *
  *= require_self
  */
+#thredded--container{
+  max-width: 60rem;
+}

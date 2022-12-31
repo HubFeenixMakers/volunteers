@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   resources  :members
 
+  mount Thredded::Engine => '/forum'
 
   mount Merged::Engine => "/merged"
 

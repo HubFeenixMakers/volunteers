@@ -6,6 +6,9 @@ class Member < ApplicationRecord
 
   mount_uploader :picture, PictureUploader
 
+  def admin
+    true
+  end
   def admin?
     true
   end

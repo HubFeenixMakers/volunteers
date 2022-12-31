@@ -17,6 +17,7 @@ gem 'devise'
 gem 'carrierwave', '>= 3.0.0.beta', '< 4.0'
 
 gem "ruby2js" , git: "https://github.com/ruby2js/ruby2js/" , branch: "haml_fix"
+gem 'thredded', '~> 1.0'
 
 gem "simple_form" , "5.1.0"
 gem "simple_form_tailwind_css"
