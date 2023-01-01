@@ -314,10 +314,12 @@
     color: white
     text_align: left
     item_align: left
-  :updated_at: *2
+    image_align: center
+  :updated_at: 2023-01-01 15:14:37.100014704 +02:00
   :page_id: 3
   :index: 4
   :image_id: 39
+  :updated_by: torsten@villataika.fi
 - :template: section_full_image
   :id: 18
   :header: Shared room
@@ -330,10 +332,12 @@
     text_align: right
     shade_color: solid_red_25
     item_align: right
-  :updated_at: *2
+    image_align: center
+  :updated_at: 2023-01-01 15:14:50.259757003 +02:00
   :page_id: 3
   :index: 5
   :image_id: 32
+  :updated_by: torsten@villataika.fi
 - :template: section_full_image
   :id: 19
   :header: Common room
@@ -347,10 +351,12 @@
     text_align: center
     shade_color: black_25
     item_align: center
-  :updated_at: *2
+    image_align: center
+  :updated_at: 2023-01-01 15:15:03.353671959 +02:00
   :page_id: 3
   :index: 6
   :image_id: 7
+  :updated_by: torsten@villataika.fi
 - :template: section_full_up
   :id: 20
   :header: Common services for retreats
