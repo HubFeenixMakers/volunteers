@@ -213,7 +213,7 @@
     color: none
     text_align: center
     item_align: center
-  :updated_at: 2022-12-23 21:30:12.780539188 +02:00
+  :updated_at: 2023-01-01 11:56:46.422704011 +02:00
   :page_id: 2
   :index: 2
   :image_id:
@@ -489,11 +489,14 @@
     color: white
     text_align: left
     shade_color: solid_blue_25
+    item_align: left
+    image_align: right
   :image_name: cafe_about
-  :updated_at: &4 2022-12-08 19:11:48.243621696 +02:00
+  :updated_at: 2023-01-01 14:31:48.337456703 +02:00
   :page_id: 5
   :index: 1
   :image_id: 3
+  :updated_by: torsten@villataika.fi
 - :template: section_full_up
   :id: 29
   :header: About Us
@@ -514,24 +517,27 @@
     button_text: ''
     text_align: center
     item_align: center
-  :updated_at: *4
+  :updated_at: 2022-12-08 19:11:48.243621696 +02:00
   :page_id: 5
   :index: 2
   :image_id:
 - :template: section_full_image
   :id: 30
-  :header: ''
+  :header: The road to Feenix
   :text: "[Click here to open](https://duckduckgo.com/?t=ffab&q=H%C3%B6gbenintie+30%2C+10350+Meltola%2C+Raasepori&atb=v283-1&ia=web&iaxm=directions&end=what%3AH%25C3%25B6gbensv%25C3%25A4gen%252030%252C%252010350%2520Meltola%252C%2520Finland&transport=drive)"
   :image_name: map_wide
   :options:
     fixed: 'on'
     color: black
-    text_align: center
+    text_align: left
     shade_color: none
-  :updated_at: *4
+    item_align: left
+    image_align: left
+  :updated_at: 2023-01-01 14:19:06.708801219 +02:00
   :page_id: 5
   :index: 3
   :image_id: 23
+  :updated_by: torsten@villataika.fi
 - :template: section_full_image
   :header: HUB FEENIX
   :text: Only an hour west of Helsinki, the Feenix rises from an old sanatorium. The
@@ -544,13 +550,15 @@
     color: white
     text_align: center
     item_align: left
-  :updated_at: &5 2022-12-10 20:28:17.967357225 +02:00
+    image_align: center
+  :updated_at: 2023-01-01 14:25:22.424062699 +02:00
   :page_id: 6
   :index: 1
   :image_id: 17
+  :updated_by: torsten@villataika.fi
 - :template: section_spacer
   :id: 32
-  :updated_at: *5
+  :updated_at: &4 2022-12-10 20:28:17.967357225 +02:00
   :page_id: 6
   :index: 2
   :options: {}
@@ -567,7 +575,7 @@
     background: solid_blue
   :image_name: retreats
   :id: 33
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 6
   :index: 3
   :image_id: 28
@@ -583,7 +591,7 @@
     background: solid_blue
   :image_name: studios
   :id: 34
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 6
   :index: 4
   :image_id: 38
@@ -599,7 +607,7 @@
     background: solid_blue
   :image_name: makerspace
   :id: 35
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 6
   :index: 5
   :image_id: 21
@@ -619,7 +627,7 @@
     text_align: left
     button_link: coworking
     button_text: Coworking
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 6
   :index: 6
   :image_id: 9
@@ -639,7 +647,7 @@
     text_align: left
     button_link: ''
     button_text: ''
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 6
   :index: 7
   :image_id: 8
@@ -660,7 +668,7 @@
     text_align: left
     button_link: ''
     button_text: ''
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 6
   :index: 8
   :image_id: 27
@@ -689,7 +697,7 @@
     background: white
     color: solid_blue
     ok_message: We'll get back to you
-  :updated_at: *5
+  :updated_at: *4
   :page_id: 6
   :index: 10
   :image_id:
