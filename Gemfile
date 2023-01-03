@@ -36,7 +36,7 @@ group :development, :test do
   gem "mina"
   gem 'guard-minitest'
   gem 'guard' # NOTE: this is necessary in newer versions
-  gem "puma", "~> 5.0"
+  gem "puma" ,  "~> 4.0"
 end
 
 group :development do
