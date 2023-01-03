@@ -1,7 +1,8 @@
 .px-4.py-16.mx-auto.sm:max-w-xl.md:max-w-full.lg:max-w-screen-xl.md:px-24.lg:px-8.lg:py-20
   .flex.flex-col.max-w-screen-lg.overflow-hidden.bg-white.border.rounded.shadow-sm.lg:flex-row.sm:mx-auto
     .relative{:class => "lg:w-1/2"}
-      = image_tag @member.picture_url, class: "object-cover w-full lg:absolute h-80 lg:h-full"
+      -if @member.picture_url
+        = image_tag @member.picture_url, class: "object-cover w-full lg:absolute h-80 lg:h-full"
     .flex.flex-col.justify-center.p-8.lg:p-16.lg:pl-10{:class => "lg:w-1/2"}
       %div
         %p.inline-block.px-3.py-px.mb-4.text-xs.font-semibold.tracking-wider.text-teal-900.uppercase.rounded-full.bg-teal-accent-400

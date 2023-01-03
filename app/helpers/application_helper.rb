@@ -11,6 +11,7 @@ module ApplicationHelper
   end
 
   def markdown(text)
+    return "" if text.blank?
     text = text.text unless text.is_a?(String)
     return "" if text.blank?
     self.renderer.render(text).html_safe
@@ -19,5 +20,5 @@ module ApplicationHelper
   def main_app
     Rails.application.routes.url_helpers
   end
-  
+
 end
