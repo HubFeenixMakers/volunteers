@@ -1,14 +1,6 @@
 GIT
-  remote: https://github.com/ruby2js/ruby2js/
-  revision: f204f4e8f14cde6e4d4c6aafc55251a8d488a78d
-  branch: haml_fix
-  specs:
-    ruby2js (5.0.1)
-      parser
-      regexp_parser (~> 2.1.1)
-
-PATH
-  remote: ../merged
+  remote: https://github.com/HubFeenixMakers/merged
+  revision: 693d121c0fc4f223ae49c841ef957eab4bda9230
   specs:
     merged (0.1.0)
       active_hash
@@ -18,6 +10,15 @@ PATH
       rails (>= 7.0.4)
       redcarpet
       ruby2js (~> 5.0, >= 5.0.1)
+
+GIT
+  remote: https://github.com/ruby2js/ruby2js/
+  revision: f204f4e8f14cde6e4d4c6aafc55251a8d488a78d
+  branch: haml_fix
+  specs:
+    ruby2js (5.0.1)
+      parser
+      regexp_parser (~> 2.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -136,7 +137,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    erubi (1.11.0)
+    erubi (1.12.0)
     erubis (2.7.0)
     execjs (2.8.1)
     ffi (1.15.5)
@@ -231,12 +232,12 @@ GEM
       rake
     mini_magick (4.12.0)
     mini_mime (1.1.2)
-    minitest (5.16.3)
+    minitest (5.17.0)
     msgpack (1.6.0)
     multi_json (1.15.0)
     mustache (1.1.1)
     nenv (0.3.0)
-    net-imap (0.3.2)
+    net-imap (0.3.4)
       date
       net-protocol
     net-pop (0.1.2)
@@ -274,8 +275,8 @@ GEM
       nio4r (~> 2.0)
     pundit (2.3.0)
       activesupport (>= 3.0.0)
-    racc (1.6.1)
-    rack (2.2.4)
+    racc (1.6.2)
+    rack (2.2.5)
     rack-test (2.0.2)
       rack (>= 1.3)
     rails (7.0.4)
@@ -428,7 +429,7 @@ DEPENDENCIES
   passenger
   pg (~> 1.1)
   puma (~> 5.0)
-  rails (~> 7.0.4)
+  rails (~> 7.0)
   ruby2js!
   sassc-rails
   selenium-webdriver

@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby "3.0.4"
 
-gem "rails", "~> 7.0.4"
+gem "rails", "~> 7.0"
 
 gem "sprockets-rails"
 gem "pg", "~> 1.1"
@@ -22,8 +22,8 @@ gem 'thredded', '~> 1.0'
 gem "simple_form" , "5.1.0"
 gem "simple_form_tailwind_css"
 
-#gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
-gem "merged" , path: "../merged"
+gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
+#gem "merged" , path: "../merged"
 
 group :production do
   gem "passenger"
