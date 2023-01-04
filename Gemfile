@@ -25,9 +25,7 @@ gem "simple_form_tailwind_css"
 gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
 #gem "merged" , path: "../merged"
 
-group :production do
-  gem "passenger"
-end
+gem "passenger" ,  require: "phusion_passenger/rack_handler"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -36,7 +34,6 @@ group :development, :test do
   gem "mina"
   gem 'guard-minitest'
   gem 'guard' # NOTE: this is necessary in newer versions
-  gem "puma" ,  "~> 4.0"
 end
 
 group :development do
