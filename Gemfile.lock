@@ -271,7 +271,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.0.1)
-    puma (4.3.12)
+    puma (6.0.2)
       nio4r (~> 2.0)
     pundit (2.3.0)
       activesupport (>= 3.0.0)
@@ -428,7 +428,7 @@ DEPENDENCIES
   mina
   passenger
   pg (~> 1.1)
-  puma (~> 4.0)
+  puma
   rails (~> 7.0)
   ruby2js!
   sassc-rails
