@@ -15,3 +15,7 @@
 #thredded--container{
   max-width: 60rem;
 }
+
+.prose{
+  color: inherit;
+}
