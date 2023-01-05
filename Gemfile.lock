@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/HubFeenixMakers/merged
-  revision: 7a31f53835fcee4adefa42ddc44a1fad0e1a1772
+  revision: e68188b1a8660468259eaaa36e0237160671d9bc
   specs:
     merged (0.1.0)
       active_hash
@@ -261,7 +261,7 @@ GEM
       sanitize
     open4 (1.3.4)
     orm_adapter (0.5.0)
-    parser (3.1.3.0)
+    parser (3.2.0.0)
       ast (~> 2.4.1)
     passenger (6.0.15)
       rack
