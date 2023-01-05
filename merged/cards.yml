@@ -36,6 +36,7 @@
   :section_id: 9
   :index: 4
   :image_id:
+  :options: {}
 - :id: 5
   :header: Message
   :text: ''
@@ -176,6 +177,7 @@
   :section_id: 13
   :index: 4
   :image_id:
+  :options: {}
 - :id: 17
   :header: Message
   :text: ''
@@ -284,6 +286,7 @@
   :section_id: 24
   :index: 1
   :image_id:
+  :options: {}
 - :id: 25
   :header: Email
   :text: ''
@@ -301,6 +304,7 @@
   :section_id: 24
   :index: 3
   :image_id:
+  :options: {}
 - :id: 27
   :header: Event Type
   :text: ''
@@ -308,6 +312,7 @@
   :section_id: 24
   :index: 4
   :image_id:
+  :options: {}
 - :id: 28
   :header: Number of participants
   :text: ''
@@ -315,6 +320,7 @@
   :section_id: 24
   :index: 5
   :image_id:
+  :options: {}
 - :id: 29
   :header: Date
   :text: ''
@@ -522,3 +528,30 @@
   :section_id: 40
   :index: 5
   :image_id:
+- :section_id: 46
+  :index: 1
+  :header: Cozy coffee area
+  :text: We can serve you snacks with coffee right there. For food we also have a
+    dining area.
+  :options:
+    background: none
+    color: none
+    text_align: center
+  :updated_at: 2023-01-04 20:04:12.550687408 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 47
+  :image_id: 44
+- :section_id: 46
+  :index: 2
+  :header: Breakout rooms
+  :text: Two smaller breakout rooms make group work easy. We also have more rooms
+    available.
+  :options:
+    background: none
+    color: none
+    text_align: center
+    order: left
+  :updated_at: 2023-01-04 20:03:12.804727029 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 48
+  :image_id: 45

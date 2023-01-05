@@ -298,11 +298,20 @@
   :header: Accommodation
   :text: We have three wings set aside to accommodate retreat participants. Each wing
     can accommodate up to 32 people, and spare beds (and rooms) are available.
-  :updated_at: *2
+  :updated_at: 2023-01-04 19:43:54.302020159 +02:00
   :page_id: 3
   :index: 3
   :image_id:
-  :options: {}
+  :options:
+    background: white
+    color: solid_blue
+    margin: '0'
+    subheader: ''
+    text_align: center
+    item_align: center
+    button_link: ''
+    button_text: ''
+  :updated_by: maijanposteja@gmail.com
 - :template: section_full_image
   :id: 17
   :image_name: suites_wide
@@ -315,11 +324,11 @@
     text_align: left
     item_align: left
     image_align: center
-  :updated_at: 2023-01-01 15:14:37.100014704 +02:00
+  :updated_at: 2023-01-04 19:52:33.506057908 +02:00
   :page_id: 3
   :index: 4
   :image_id: 39
-  :updated_by: torsten@villataika.fi
+  :updated_by: maijanposteja@gmail.com
 - :template: section_full_image
   :id: 18
   :header: Shared room
@@ -367,10 +376,14 @@
     button_link: ''
     button_text: ''
     margin: '0'
-  :updated_at: *2
+    subheader: ''
+    text_align: center
+    item_align: center
+  :updated_at: 2023-01-04 19:47:16.145420982 +02:00
   :page_id: 3
   :index: 7
   :image_id:
+  :updated_by: maijanposteja@gmail.com
 - :template: section_large_image
   :id: 21
   :image_name: common_spaces_wide
@@ -597,10 +610,11 @@
     background: solid_blue
   :image_name: studios
   :id: 34
-  :updated_at: *4
+  :updated_at: 2023-01-04 18:50:12.038157205 +02:00
   :page_id: 6
   :index: 4
   :image_id: 38
+  :updated_by: markus.janhunen@iki.fi
 - :template: section_half_image
   :header: Makerspace
   :text: The hub encourages all people to be creative in any way they choose. We provide
@@ -707,3 +721,62 @@
   :page_id: 6
   :index: 10
   :image_id:
+- :template: section_large_image
+  :index: 4
+  :page_id: 5
+  :updated_at: 2023-01-04 18:08:03.871868509 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 41
+  :options: {}
+- :template: section_text
+  :index: 6
+  :page_id: 5
+  :updated_at: 2023-01-04 19:15:51.615405226 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 43
+  :options:
+    columns: '2'
+    background: white
+    color: none
+    margin: '0'
+    subheader: ''
+  :header: ''
+  :text: "## Our Story\r\n\r\n#### The birth of a community center \r\n\r\nRaisa Kaipainen
+    and Torsten Ruger bought the old Meltola hospital on the 27.4.2020 with the intent
+    to make it into a community centre. \r\n\r\nCurrently, the organisation is being
+    created to run the facility and plans are being actively developed. A great time
+    to join :-)"
+- :template: section_full_image
+  :index: 1
+  :page_id: 7
+  :updated_at: 2023-01-04 18:36:36.420348213 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 44
+  :options:
+    fixed: 'off'
+    color: white
+    text_align: center
+    item_align: center
+    image_align: center
+    shade_color: none
+  :image_id: 43
+  :header: Sky Conference
+  :text: "# Subheader\r\n\r\nHalf or full day, with or \r\nwithout food, see packages
+    below\r\n\r\n"
+- :template: section_cards
+  :index: 3
+  :page_id: 7
+  :header: ''
+  :text: ''
+  :options:
+    color: black
+    text_align: center
+    item_align: center
+    image_align: center
+    shade_color: none
+    background: light_blue
+    columns: '2'
+  :updated_at: 2023-01-04 20:08:40.028774121 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 46
+  :card_template: card_wide_square
