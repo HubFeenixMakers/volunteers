@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   mount Merged::Engine => "/merged"
 
-  get ":id" , to: "merged/view#page" , id: :id
+  get "/news/:id" , to: "merged/view#page" , id: :id , as: :view_blog
+  get ":id" , to: "merged/view#page" , id: :id , as: :view_page
+
   root "merged/view#page" , id: 'index'
 end

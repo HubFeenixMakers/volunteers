@@ -6,13 +6,12 @@
     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
     = csrf_meta_tags
     = csp_meta_tag
+    = stylesheet_link_tag "tailwind"
     = stylesheet_link_tag "application"
 
     = javascript_importmap_tags
-    - if Rails.env.development?
+    - if false
       %script{:src => "https://cdn.tailwindcss.com"}
-    - else
-      = stylesheet_link_tag "tailwind"
 
   %body
     = render "layouts/header"
