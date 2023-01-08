@@ -1,6 +1,14 @@
 GIT
-  remote: https://github.com/HubFeenixMakers/merged
-  revision: 178c0ba9d207acac46d799379926bf44307545f9
+  remote: https://github.com/ruby2js/ruby2js/
+  revision: f204f4e8f14cde6e4d4c6aafc55251a8d488a78d
+  branch: haml_fix
+  specs:
+    ruby2js (5.0.1)
+      parser
+      regexp_parser (~> 2.1.1)
+
+PATH
+  remote: ../merged
   specs:
     merged (0.1.0)
       active_hash
@@ -10,15 +18,6 @@ GIT
       rails (>= 7.0.4)
       redcarpet
       ruby2js (~> 5.0, >= 5.0.1)
-
-GIT
-  remote: https://github.com/ruby2js/ruby2js/
-  revision: f204f4e8f14cde6e4d4c6aafc55251a8d488a78d
-  branch: haml_fix
-  specs:
-    ruby2js (5.0.1)
-      parser
-      regexp_parser (~> 2.1.1)
 
 GEM
   remote: https://rubygems.org/
