@@ -21,4 +21,8 @@ module ApplicationHelper
     Rails.application.routes.url_helpers
   end
 
+  def button_classes
+    "mr-3 inline-block rounded-lg px-3 py-2 text-md font-medium border border-gray-500"
+  end
+
 end

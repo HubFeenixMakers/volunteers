@@ -46,7 +46,7 @@
           %p.font-medium.text-gray-900 News
           %nav.mt-6{"aria-label" => "Footer Navigation - Downloads"}
             %ul.space-y-4.text-sm
-              - if blog = last_blog
+              - if blog = Merged::PagesHelper.last_blog
                 %li
                   %a.text-gray-700.transition.hover:opacity-75{:href => main_app.view_blog_path(blog.page.name) }
                     Latest News

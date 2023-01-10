@@ -3,32 +3,32 @@
 
 .flex.justify-center.m-20
   .flex.flex-col
-    %h1 Editing member
+    %h1.text-4xl Editing profile
 
 = simple_form_for @member , builder: SimpleForm::Tailwind::FormBuilder do |f|
   = f.error_notification
 
-  .grid.grid-cols-3.gap-10.mx-20
-    = f.input :name
-    = f.input :public , label: "Public: (Click box below)"
-    = f.input :picture , as: :file
+  .grid.grid-cols-4.mx-20
+    .info.mr-8
+      = f.input :name
+      = f.input :public , label: "Public: (Click box below)"
+      = f.input :picture , as: :file
+      .flex.justify-center.actions.m-10
+        = f.button :button, "Update", class: button_classes + " bg-cyan-200"
+        = link_to  member_path(@member) do
+          %button.ml-10{type: :submit, class: button_classes}
+            Back
+    .field.flex.flex-col.pr-2.border-r-8.border-slate-600
+      = f.text_area :bio ,rows: 18 , "v-model" => "markdown" , class: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+    %div.h-90
+      -if @member.picture_url
+        %div.overflow-hidden.ml-2.mr-8
+          = image_tag @member.picture_url, class: "object-contain w-full"
+      -else
+        No Picture
     .preview.prose
       %b.text-2xl Preview
       %div{"v-html" => "compiledMarkdown"}
-    .field.flex.flex-col
-      = f.text_area :bio ,rows: 15 , "v-model" => "markdown" , class: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-    %div
-      -if @member.picture_url
-        %div.overflow-hidden
-          .my-5 Currently
-          = image_tag @member.picture_url, class: "object-contain h-40"
-      -else
-        No Picture
-  .flex.justify-center.actions.m-10
-    = f.button :button, "Update", class: "flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-    = link_to  member_path(@member) do
-      %button.ml-20.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400{type: :submit}
-        Back
 :ruby2js
   class Mark < Vue
     options el: '.grid'
