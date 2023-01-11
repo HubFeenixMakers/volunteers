@@ -4,7 +4,7 @@ module MembersHelper
     if someone.picture.blank?
       image = asset_url("no_image")
     else
-      image = element.picture.url
+      image = someone.picture.url
     end
     image_tag(image , alt: someone.name , class: classes )
   end

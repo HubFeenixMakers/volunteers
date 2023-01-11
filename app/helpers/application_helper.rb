@@ -1,8 +1,13 @@
 require "redcarpet"
 
 module ApplicationHelper
-  include Merged::ViewHelper
-  
+
+  def prose_classes
+    classes  = "prose lg:prose-lg "
+    classes += "prose-headings:text-inherit "
+    { class: classes }
+  end
+
   def renderer
     options = {hard_wrap: true , autolink: true, no_intra_emphasis: true ,
         safe_links_only: true, no_styles: true ,

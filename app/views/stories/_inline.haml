@@ -1,0 +1,12 @@
+%section.overflow-hidden.grid.grid-cols-1.m-5.md:m-12.lg:m-20.md:grid-cols-2
+  %div
+    = image_for( story , "h-56 w-full object-cover sm:h-full")
+  .p-8.md:p-12.lg:px-16.lg:py-24
+    .mx-auto.max-w-xl.text-center
+      %h2.text-2xl.font-bold.md:text-4xl
+        = story.header
+      %h4.text-xl.mt-10.md:text-2xl
+        = distance_of_time_in_words_to_now story.happened
+        ago
+      .mt-8{ prose_classes }
+        = markdown(story.text)

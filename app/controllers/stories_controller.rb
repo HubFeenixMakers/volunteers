@@ -3,7 +3,7 @@ class StoriesController < ApplicationController
 
   # GET /stories
   def index
-    @stories = Story.all
+    @stories = Story.all.page params[:page]
   end
 
   # GET /stories/1
@@ -22,6 +22,7 @@ class StoriesController < ApplicationController
   # POST /stories
   def create
     @story = Story.new(story_params)
+    @story.member = current_member
 
     if @story.save
       redirect_to @story, notice: "Story was successfully created."

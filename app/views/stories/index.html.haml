@@ -1,26 +1,6 @@
-%h1 Listing stories
-
-%table
-  %thead
-    %tr
-      %th Picture
-      %th Header
-      %th Text
-      %th Happened
-      %th
-      %th
-      %th
-
-  %tbody
-    - @stories.each do |story|
-      %tr
-        %td= story.picture
-        %td= story.header
-        %td= story.text
-        %td= story.happened
-        %td= link_to 'Show', story
-        %td= link_to 'Edit', edit_story_path(story)
-        %td= link_to 'Destroy', story, method: :delete, data: { confirm: 'Are you sure?' }
+= paginate @stories
+- @stories.each do |story|
+  = render "inline" , story: story
 
 %br
 

@@ -5,7 +5,8 @@ class Member < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   mount_uploader :picture, PictureUploader
-
+  has_many :stories
+  
   def admin
     true
   end

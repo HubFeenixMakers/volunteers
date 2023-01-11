@@ -1,7 +1,20 @@
-%h1 Editing story
+.grid.grid-cols-3
+  %div
+  %div
+    %h1 Editing story
+    = form_for @story do |f|
+      - if @story.errors.any?
+        #error_explanation
+          %h2= "#{pluralize(@story.errors.count, "error")} prohibited this story from being saved:"
+          %ul
+            - @story.errors.full_messages.each do |message|
+              %li= message
 
-= render 'form'
-
-= link_to 'Show', @story
-\|
-= link_to 'Back', stories_path
+      = f.input :picture , as: :file
+      = f.input :header
+      = f.input :text
+      = f.input :happened , class: "flex"
+      = f.submit 'Save'
+    = link_to 'Show', @story
+    = link_to 'Back', stories_path
+  %div

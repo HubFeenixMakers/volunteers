@@ -47,12 +47,14 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_11_164425) do
   end
 
   create_table "stories", force: :cascade do |t|
+    t.bigint "member_id"
     t.string "picture"
     t.string "header"
     t.text "text"
     t.date "happened"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_stories_on_member_id"
   end
 
   create_table "thredded_categories", force: :cascade do |t|

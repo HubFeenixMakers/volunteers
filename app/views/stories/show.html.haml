@@ -1,17 +1,4 @@
-%p#notice= notice
-
-%p
-  %b Picture:
-  = @story.picture
-%p
-  %b Header:
-  = @story.header
-%p
-  %b Text:
-  = @story.text
-%p
-  %b Happened:
-  = @story.happened
+= render "inline" , story: @story
 
 = link_to 'Edit', edit_story_path(@story)
 \|
