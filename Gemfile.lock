@@ -422,6 +422,7 @@ DEPENDENCIES
   haml-rails
   html2haml
   importmap-rails
+  kaminari
   merged!
   mina
   passenger
