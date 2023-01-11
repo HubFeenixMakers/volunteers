@@ -2,6 +2,16 @@ require "redcarpet"
 
 module ApplicationHelper
 
+  # different template according to the amount of text
+  def render_story(story)
+    return "" unless story
+    text_length = story.text.length
+    template = "text"
+    template = "half" if text_length < 200
+    template = "pic" if text_length < 100
+    render partial: "stories/#{template}" , locals: {story: story}
+  end
+
   def prose_classes
     classes  = "prose lg:prose-lg "
     classes += "prose-headings:text-inherit "

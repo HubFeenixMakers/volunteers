@@ -1,6 +1,6 @@
 = paginate @stories
 - @stories.each do |story|
-  = render "inline" , story: story
+  = render_story(story)
 
 %br
 
