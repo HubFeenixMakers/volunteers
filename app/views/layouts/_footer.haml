@@ -3,45 +3,29 @@
     .lg:flex.lg:items-start.lg:gap-8
       %a.inline-flex.items-center{"aria-label" => "Hub Feenix", :href => "/", :title => "Hub Feenix"}
         = image_tag("feenix_lintu" , class: "h-20")
-      .grid.grid-cols-2.gap-8.mt-8.lg:mt-0.lg:grid-cols-5.lg:gap-y-16
-        .col-span-2
-          %div
-            %h2.text-2xl.font-bold.text-gray-900
-              Get the latest news!
-            %p.mt-4.text-gray-500
-              Stay up to date without being spammed. Just big events and major news
-        .col-span-2.lg:col-span-3.lg:flex.lg:items-end
-          %form.w-full
-            %label.sr-only{:for => "UserEmail"} Email
-            .p-2.border.border-gray-100.focus-within:ring.sm:flex.sm:items-center.sm:gap-4
-              %input#UserEmail.w-full.border-none.focus:border-transparent.focus:ring-transparent.sm:text-sm{:placeholder => "jaakko@iki.fi", :type => "email"}/
-              %button.w-full.px-6.py-3.mt-1.text-sm.font-bold.tracking-wide.text-white.uppercase.transition-none.bg-teal-500.hover:bg-teal-600.sm:mt-0.sm:w-auto.sm:flex-shrink-0
-                Sign Up
+      .w-full.grid.grid-cols-2.gap-8.mt-8.lg:mt-0.lg:grid-cols-5.lg:gap-y-16
         .col-span-2.sm:col-span-1
-          %p.font-medium.text-gray-900 Main
+          %p.font-medium.text-gray-900 Stories
           %nav.mt-6{"aria-label" => "Footer Navigation - Services"}
             %ul.space-y-4.text-sm
-              -[:restreats , :studios , :makerspace , :coworking].each do |main|
+              -[:stories].each do |main|
                 %li
                   %a.text-gray-700.transition.hover:opacity-75{:href => "/#{main}"}
                     =main.capitalize
         .col-span-2.sm:col-span-1
-          %p.font-medium.text-gray-900 Hub Feenix
+          %p.font-medium.text-gray-900 Info
           %nav.mt-6{"aria-label" => "Footer Navigation - Hub Feenix"}
             %ul.space-y-4.text-sm
               %li
                 %a.text-gray-700.transition.hover:opacity-75{:href => "/about"}
                   About
         .col-span-2.sm:col-span-1
-          %p.font-medium.text-gray-900 Event Spaces
+          %p.font-medium.text-gray-900 People
           %nav.mt-6{"aria-label" => "Footer Navigation - Hub Feenix"}
             %ul.space-y-4.text-sm
               %li
-                %a.text-gray-700.transition.hover:opacity-75{:href => "/retreats"}
-                  Retreats
-              %li
-                %a.text-gray-700.transition.hover:opacity-75{:href => "/coworking"}
-                  Coworking
+                %a.text-gray-700.transition.hover:opacity-75{:href => "/members"}
+                  People
         .col-span-2.sm:col-span-1
           %p.font-medium.text-gray-900 News
           %nav.mt-6{"aria-label" => "Footer Navigation - Downloads"}

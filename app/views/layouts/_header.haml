@@ -4,7 +4,7 @@
       = image_tag("feenix_lintu" , class: "h-20")
       %span.ml-2.text-xl.font-bold.tracking-wide.text-gray-800.uppercase Hub Feenix
     %ul.flex.items-center.hidden.space-x-8.lg:flex
-      - [:retreats , :studios , :makerspace , :coworking, :about].each do |link|
+      - [:volunteers , :stories , :info , :arriving, :about].each do |link|
         %li
           %a.font-medium.tracking-wide.text-gray-700.transition-colors.duration-400.hover:text-cyan-800{"aria-label" => "Our product", :href => "/#{link}", :title => link.capitalize}= link.capitalize
       %li

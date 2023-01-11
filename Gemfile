@@ -22,8 +22,8 @@ gem 'thredded', '~> 1.0'
 gem "simple_form" , "5.1.0"
 gem "simple_form_tailwind_css"
 
-#gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
-gem "merged" , path: "../merged"
+gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
+#gem "merged" , path: "../merged"
 
 gem "passenger" ,  require: "phusion_passenger/rack_handler"
 
