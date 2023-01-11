@@ -1,7 +1,8 @@
 require "redcarpet"
 
 module ApplicationHelper
-
+  include Merged::ViewHelper
+  
   def renderer
     options = {hard_wrap: true , autolink: true, no_intra_emphasis: true ,
         safe_links_only: true, no_styles: true ,
