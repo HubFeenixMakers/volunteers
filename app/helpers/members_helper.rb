@@ -9,4 +9,10 @@ module MembersHelper
     image_tag(image , alt: someone.name , class: classes )
   end
 
+  def stayed(member)
+    return "Not arrived" if member.arrived.blank?
+    text = member.arrived.to_s
+    return text + " not left" if member.left.blank?
+    text + " " + distance_of_time_in_words( member.left , member.arrived)    
+  end
 end

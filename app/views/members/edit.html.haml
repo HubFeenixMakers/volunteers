@@ -5,14 +5,17 @@
   .flex.flex-col
     %h1.text-4xl Editing profile
 
-= simple_form_for @member , builder: SimpleForm::Tailwind::FormBuilder do |f|
+= simple_form_for @member  do |f|
   = f.error_notification
 
   .grid.grid-cols-4.mx-20
     .info.mr-8
       = f.input :name
+      .grid.grid-cols-2.gap-10
+        = f.input :arrived
+        = f.input :left
       = f.input :public , label: "Public: (Click box below)"
-      = f.input :picture , as: :file
+      = f.input :picture , as: :file , label: (@member.picture.blank? ? "Add picture" : "Change picture")
       .flex.justify-center.actions.m-10
         = f.button :button, "Update", class: button_classes + " bg-cyan-200"
         = link_to  member_path(@member) do

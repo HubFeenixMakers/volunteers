@@ -6,7 +6,7 @@
     .flex.flex-col.justify-center.p-8.lg:p-16.lg:pl-10{:class => "lg:w-1/2"}
       %div
         %p.inline-block.px-3.py-px.mb-4.text-xs.font-semibold.tracking-wider.text-teal-900.uppercase.rounded-full.bg-teal-accent-400
-          Arrived
+          = stayed(@member)
       %h5.mb-3.text-3xl.font-extrabold.leading-none.sm:text-4xl
         = @member.name
       .mb-8.text-gray-800
