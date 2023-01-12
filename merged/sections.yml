@@ -85,3 +85,37 @@
   :updated_by: maijanposteja@gmail.com
   :id: 41
   :options: {}
+- :template: section_full_up
+  :index: 1
+  :page_id: 7
+  :updated_at: 2023-01-12 14:03:14.346120458 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 42
+  :options:
+    background: white
+    color: none
+    margin: '0'
+    subheader: ''
+    text_align: center
+    item_align: center
+    button_link: ''
+    button_text: ''
+  :header: Info
+  :text: About the hub and living here
+- :template: section_full_up
+  :index: 1
+  :page_id: 8
+  :updated_at: 2023-01-12 14:02:53.136945565 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 43
+  :options:
+    background: white
+    color: none
+    margin: '0'
+    subheader: ''
+    text_align: center
+    item_align: center
+    button_link: ''
+    button_text: ''
+  :header: Before coming here
+  :text: "things to know\r\n\r\nthe RULES"

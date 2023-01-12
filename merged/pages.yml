@@ -9,3 +9,13 @@
   :updated_at: 2022-12-10 20:28:17.967357225 +02:00
   :id: 6
   :type: page
+- :name: info
+  :updated_at: 2023-01-12 14:01:48.322031914 +02:00
+  :type: page
+  :updated_by: torsten@villataika.fi
+  :id: 7
+- :name: arriving
+  :updated_at: 2023-01-12 14:02:14.590692012 +02:00
+  :type: page
+  :updated_by: torsten@villataika.fi
+  :id: 8
