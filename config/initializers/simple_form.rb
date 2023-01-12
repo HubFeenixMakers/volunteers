@@ -14,7 +14,7 @@ SimpleForm.setup do |config|
   # stack. The options given below are used to wrap the
   # whole input.
 
-  config.wrappers :default, tag: 'div', class: '', error_class: '', valid_class: '' do |b|
+  config.wrappers :default, tag: 'div', class: 'mt-2', error_class: '', valid_class: '' do |b|
     b.use :html5
     b.use :placeholder
     b.optional :maxlength
@@ -42,7 +42,7 @@ SimpleForm.setup do |config|
 
     b.use :label, class: "block text-sm font-medium text-gray-700"
 
-    b.wrapper tag: 'div', class: 'mt-1 flex rounded-md shadow-sm' do |d|
+    b.wrapper tag: 'div', class: 'mt-4 flex rounded-md shadow-sm' do |d|
       d.use :prepend
       d.use :input,
         class: "flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300",

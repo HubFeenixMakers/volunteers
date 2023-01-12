@@ -7,8 +7,8 @@ module ApplicationHelper
     return "" unless story
     text_length = story.text.length
     template = "text"
-    template = "half" if text_length < 200
-    template = "pic" if text_length < 100
+    template = "half" if text_length < 400
+    template = "pic" if text_length < 200
     render partial: "stories/#{template}" , locals: {story: story}
   end
 
@@ -33,12 +33,25 @@ module ApplicationHelper
     self.renderer.render(text).html_safe
   end
 
+  def shorten(text , to = 100)
+    return "" if text.blank?
+    "#{text[0..to]}  . . . ".html_safe
+  end
   def main_app
     Rails.application.routes.url_helpers
   end
 
   def button_classes
     "mr-3 inline-block rounded-lg px-3 py-2 text-md font-medium border border-gray-500"
+  end
+
+  def rows( text )
+    return 5 if text.blank?
+    text = text.text unless text.is_a?(String)
+    return 5 if text.blank?
+    rows = (text.length / 60).to_i
+    return 5 if rows < 5
+    rows
   end
 
 end
