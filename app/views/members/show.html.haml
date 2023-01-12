@@ -6,16 +6,11 @@
     .flex.flex-col.justify-center.p-8.lg:p-16.lg:pl-10{:class => "lg:w-1/2"}
       %div
         %p.inline-block.px-3.py-px.mb-4.text-xs.font-semibold.tracking-wider.text-teal-900.uppercase.rounded-full.bg-teal-accent-400
-          Role ?
+          Arrived
       %h5.mb-3.text-3xl.font-extrabold.leading-none.sm:text-4xl
         = @member.name
       .mb-8.text-gray-800
         .prose= markdown(@member.bio)
-      .flex.items-center
-        %a.inline-flex.items-center.font-semibold.transition-colors.duration-200.text-deep-purple-accent-400.hover:text-deep-purple-800{"aria-label" => "", :href => "/"}
-          Learn More
-          %svg.inline-block.w-3.ml-2{:fill => "currentColor", :viewbox => "0 0 12 12"}
-            %path{:d => "M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"}
 
 - if current_member == @member
   .flex.justify-around
