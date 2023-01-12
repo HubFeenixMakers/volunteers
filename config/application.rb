@@ -18,12 +18,13 @@ require "rails/test_unit/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module HubfeenixFi
+module Volunteers
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 
     config.hosts << "green-machine.local" #our "staging"
+    config.hosts << "volunteers.hubfeenix.fi" #production
 
     # Configuration for the application, engines, and railties goes here.
     #
