@@ -28,11 +28,11 @@ gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
 
 gem "passenger" ,  require: "phusion_passenger/rack_handler"
 
+gem "bootsnap", require: false
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "bootsnap", require: false
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
-  gem "mina"
   gem 'guard-minitest'
   gem 'guard' # NOTE: this is necessary in newer versions
 end
@@ -40,6 +40,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem "mina"
 end
 
 group :test do
