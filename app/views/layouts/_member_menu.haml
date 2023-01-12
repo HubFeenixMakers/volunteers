@@ -4,7 +4,7 @@
       Forum
     %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => main_app.member_path(current_member), :role => "menuitem"}
       Profile
-    - if current_member.admin?
+    - unless Rails.env.production?
       %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => merged.pages_path(), :role => "menuitem"}
         CMS
   = form_tag( main_app.destroy_member_session_path , {method: :delete  } ) do

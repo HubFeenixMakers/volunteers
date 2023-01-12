@@ -6,11 +6,11 @@ class Member < ApplicationRecord
 
   mount_uploader :picture, PictureUploader
   has_many :stories
-  
+
   def admin
-    true
+    self.email == "torsten@villataika.fi"
   end
   def admin?
-    true
+    self.email == "torsten@villataika.fi"
   end
 end
