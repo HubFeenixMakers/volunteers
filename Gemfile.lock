@@ -427,6 +427,7 @@ DEPENDENCIES
   mina
   passenger
   pg (~> 1.1)
+  pundit (~> 2.3)
   rails (~> 7.0)
   ruby2js!
   sassc-rails

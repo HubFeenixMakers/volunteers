@@ -17,6 +17,7 @@ class StoriesController < ApplicationController
 
   # GET /stories/1/edit
   def edit
+    authorize @story
   end
 
   # POST /stories
