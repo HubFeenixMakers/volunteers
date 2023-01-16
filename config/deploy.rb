@@ -25,6 +25,8 @@ set :user, 'feenix'          # Username in the server to SSH to.
 set :shared_dirs, fetch(:shared_dirs, []).push('tmp/pids' , 'tmp/sockets' , 'public/uploads')
 set :shared_files, fetch(:shared_files, []).push('config/master.key')
 
+set :force_migrate , true
+
 # This task is the environment that is loaded for all remote run commands, such as
 # `mina deploy` or `mina rake`.
 task :remote_environment do
@@ -53,6 +55,7 @@ task :deploy do
     invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
     invoke :'rails:assets_precompile'
+    invoke :'rails:db_migrate'
     invoke :'deploy:cleanup'
 
     on :launch do

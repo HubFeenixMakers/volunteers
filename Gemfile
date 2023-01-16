@@ -23,8 +23,8 @@ gem "simple_form" , "5.1.0"
 gem "simple_form_tailwind_css"
 gem 'kaminari'
 
-gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
-#gem "merged" , path: "../merged"
+#gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
+gem "merged" , path: "../merged"
 
 gem "passenger" ,  require: "phusion_passenger/rack_handler"
 
@@ -49,3 +49,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "pundit", "~> 2.3"
