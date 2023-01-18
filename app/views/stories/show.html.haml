@@ -1,5 +1,9 @@
 = render_story @story
 
-= link_to 'Edit', edit_story_path(@story)
-\|
-= link_to 'Back', stories_path
+.mx-20.flex.justify-between
+  = link_to edit_story_path(@story) do
+    %button.mt-6.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
+      Edit
+  = link_to stories_path do
+    %button.mt-6.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
+      Back

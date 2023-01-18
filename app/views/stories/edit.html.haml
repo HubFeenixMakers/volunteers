@@ -2,13 +2,8 @@
   %div
   %div
     %h1 Editing story
-    = form_for @story do |f|
-      - if @story.errors.any?
-        #error_explanation
-          %h2= "#{pluralize(@story.errors.count, "error")} prohibited this story from being saved:"
-          %ul
-            - @story.errors.full_messages.each do |message|
-              %li= message
+    = simple_form_for @story do |f|
+      = f.error_notification
 
       = f.input :picture , as: :file , label: (@story.picture.blank? ? "Add picture" : "Change picture")
       = f.input :header
