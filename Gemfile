@@ -26,8 +26,7 @@ gem 'kaminari'
 gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
 #gem "merged" , path: "../merged"
 
-gem "passenger" ,  require: "phusion_passenger/rack_handler"
-
+gem "passenger" , "6.0.15" ,  require: "phusion_passenger/rack_handler"
 gem "bootsnap", require: false
 
 group :development, :test do
