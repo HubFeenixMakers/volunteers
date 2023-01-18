@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 ruby "3.1.3"
 
+#gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
+gem "merged" , path: "../merged"
+
 gem "rails", "~> 7.0"
 
 gem "sprockets-rails"
@@ -22,9 +25,6 @@ gem 'thredded', '~> 1.0'
 gem "simple_form" , "5.1.0"
 gem "simple_form_tailwind_css"
 gem 'kaminari'
-
-gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
-#gem "merged" , path: "../merged"
 
 gem "passenger" , "6.0.15" ,  require: "phusion_passenger/rack_handler"
 gem "bootsnap", require: false

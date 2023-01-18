@@ -5,7 +5,7 @@
   :text: "\r\n\r\n\r\n\r\n\r\n"
   :options:
     background: light_blue
-    color: solid_black
+    text_color: solid_black
     text_align: center
     button_link: "/transportation"
     button_text: Transportation
@@ -19,7 +19,7 @@
   :text: "beans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\n"
   :options:
     background: solid_blue
-    color: solid_blue
+    text_color: solid_blue
     text_align: center
     button_link: ''
     button_text: ''
@@ -33,7 +33,7 @@
   :text: "washing machine\r\nshower\r\ncommon kitchen\r\nbathrooms"
   :options:
     background: solid_indigo
-    color: solid_black
+    text_color: solid_black
     text_align: center
     button_link: ''
     button_text: ''
@@ -47,7 +47,7 @@
   :text: "music room \r\nsauna\r\ncomputer room\r\ngym\r\n"
   :options:
     background: solid_blue
-    color: solid_blue
+    text_color: solid_blue
     text_align: center
     button_link: ''
     button_text: ''
@@ -61,7 +61,7 @@
   :text: "clothing room\r\nwork clothes\r\nfunny hats\r\nlarge socks\r\n"
   :options:
     background: light_blue
-    color: solid_black
+    text_color: solid_black
     text_align: center
     button_link: ''
     button_text: ''

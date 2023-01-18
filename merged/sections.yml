@@ -8,7 +8,7 @@
     check later, or follow us on facebook."
   :options:
     fixed: 'off'
-    color: white
+    text_color: white
     text_align: left
     shade_color: solid_blue_25
     item_align: left
@@ -32,7 +32,7 @@
     residencies, and other gatherings."
   :options:
     background: light_orange
-    color: solid_blue
+    text_color: solid_blue
     margin: '0'
     subheader: ''
     button_link: ''
@@ -50,7 +50,7 @@
   :image_name: map_wide
   :options:
     fixed: 'on'
-    color: black
+    text_color: black
     text_align: left
     shade_color: none
     item_align: left
@@ -69,7 +69,7 @@
   :options:
     fixed: 'on'
     shade_color: black_25
-    color: white
+    text_color: white
     text_align: center
     item_align: left
     image_align: center
@@ -88,18 +88,19 @@
 - :template: section_full_up
   :index: 5
   :page_id: 7
-  :updated_at: 2023-01-14 19:34:21.430524728 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-18 23:53:07.932318628 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 42
   :options:
-    background: white
-    color: none
-    margin: '0'
+    background: light_blue
+    text_color: none
+    margin: '20'
     subheader: About the Hub and living here
-    text_align: left
+    text_align: center
     item_align: center
     button_link: ''
     button_text: ''
+    columns: '3'
   :header: Info
   :text: "Hub Feenix is a non-profit centre for creativity and wellbeing, \r\nrun
     by Co-operative Hub Feenix.\r\nOur values are love of life, fairness, continuous
@@ -190,7 +191,7 @@
   :id: 43
   :options:
     background: white
-    color: none
+    text_color: none
     margin: '0'
     subheader: ''
     text_align: center
@@ -210,7 +211,7 @@
     background: light_orange
     columns: '5'
     subheader: ''
-    color: solid_blue
+    text_color: solid_blue
     text_align: left
   :header: Accomodation
   :text: ''
@@ -224,7 +225,7 @@
     subheader: ''
     margin: '20'
     order: left
-    color: solid_black
+    text_color: solid_black
     background: light_blue
     button_link: ''
     button_text: ''
@@ -251,7 +252,7 @@
   :options:
     order: left
     background: light_orange
-    color: none
+    text_color: none
     text_align: center
     subheader: ''
     button_link: ''
@@ -269,7 +270,7 @@
   :options:
     order: left
     background: light_blue
-    color: none
+    text_color: none
     subheader: ''
     text_align: left
     button_link: ''
