@@ -5,17 +5,28 @@
         = image_tag("feenix_lintu.webp" , class: "h-20")
       .w-full.grid.grid-cols-2.gap-8.mt-8.lg:mt-0.lg:grid-cols-5.lg:gap-y-16
         .col-span-2.sm:col-span-1
-          %p.font-medium.text-gray-900 Stories
+          %p.font-medium.text-gray-900 Area
           %nav.mt-6{"aria-label" => "Footer Navigation - Services"}
             %ul.space-y-4.text-sm
-              -[:stories].each do |main|
-                %li
-                  %a.text-gray-700.transition.hover:opacity-75{:href => "/#{main}"}
-                    =main.capitalize
+              %li
+                %a.text-gray-700.transition.hover:opacity-75{:href => "/local"}
+                  Local Area
+              %li
+                %a.text-gray-700.transition.hover:opacity-75{:href => "/helsinki"}
+                  Helsinki & Turkku
+              %li
+                %a.text-gray-700.transition.hover:opacity-75{:href => "/other_sites"}
+                  Other Sites
         .col-span-2.sm:col-span-1
-          %p.font-medium.text-gray-900 Info
+          %p.font-medium.text-gray-900 Information
           %nav.mt-6{"aria-label" => "Footer Navigation - Hub Feenix"}
             %ul.space-y-4.text-sm
+              %li
+                %a.text-gray-700.transition.hover:opacity-75{:href => "/info"}
+                  Info
+              %li
+                %a.text-gray-700.transition.hover:opacity-75{:href => "/arriving"}
+                  Arriving
               %li
                 %a.text-gray-700.transition.hover:opacity-75{:href => "/about"}
                   About
@@ -26,6 +37,9 @@
               %li
                 %a.text-gray-700.transition.hover:opacity-75{:href => "/members"}
                   Volunteers
+                %li
+                  %a.text-gray-700.transition.hover:opacity-75{:href => "/stories"}
+                    Stories
         .col-span-2.sm:col-span-1
           %p.font-medium.text-gray-900 News
           %nav.mt-6{"aria-label" => "Footer Navigation - Downloads"}
