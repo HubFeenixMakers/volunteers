@@ -1,1 +1,71 @@
---- []
+---
+- :section_id: 44
+  :index: 1
+  :header: ''
+  :text: "\r\n\r\n\r\n\r\n\r\n"
+  :options:
+    background: light_blue
+    color: solid_black
+    text_align: center
+    button_link: "/transportation"
+    button_text: Transportation
+  :updated_at: 2023-01-18 16:03:41.752621578 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 1
+  :image_id: 49
+- :section_id: 44
+  :index: 2
+  :header: Food
+  :text: "beans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\n"
+  :options:
+    background: solid_blue
+    color: solid_blue
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-18 13:48:45.089449230 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 2
+  :image_id: 48
+- :section_id: 44
+  :index: 3
+  :header: utilities
+  :text: "washing machine\r\nshower\r\ncommon kitchen\r\nbathrooms"
+  :options:
+    background: solid_indigo
+    color: solid_black
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-18 13:49:51.357574298 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 3
+  :image_id: 50
+- :section_id: 44
+  :index: 4
+  :header: Facilities
+  :text: "music room \r\nsauna\r\ncomputer room\r\ngym\r\n"
+  :options:
+    background: solid_blue
+    color: solid_blue
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-18 13:50:55.799490416 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 4
+  :image_id: 51
+- :section_id: 44
+  :index: 5
+  :header: Clothing
+  :text: "clothing room\r\nwork clothes\r\nfunny hats\r\nlarge socks\r\n"
+  :options:
+    background: light_blue
+    color: solid_black
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-18 13:52:32.303724776 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 5
+  :image_id: 52
