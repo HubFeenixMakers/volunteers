@@ -18,4 +18,5 @@
 
 .prose{
   color: inherit;
+  --tw-prose-bullets: #6b7280;
 }
