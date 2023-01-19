@@ -188,3 +188,85 @@
   :updated_by: solsolsola123@gmail.com
   :id: 12
   :image_id: 60
+- :section_id: 55
+  :index: 1
+  :header: The workaday deal
+  :text: "each workawayer is expected to work 5 hours per week day, when possible
+    in flexible work-hours.\r\nwe do our best to match the work with the workers preferences."
+  :options:
+    background: none
+    color: none
+    order: left
+    text_align: center
+  :updated_at: 2023-01-19 16:11:33.694266588 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 13
+- :section_id: 55
+  :index: 2
+  :header: Work types
+  :text: "some of the common work types include:\r\npainting, cleaning, cooking, renovation,
+    decoration, gardening and more."
+  :options:
+    background: none
+    color: none
+    order: left
+    text_align: center
+  :updated_at: 2023-01-19 16:13:23.268805377 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 14
+- :section_id: 55
+  :index: 3
+  :header: House rules
+  :text: "since we all liv together, everyone is required to follow basic rules,\r\nplease
+    read below."
+  :options:
+    background: none
+    color: none
+    order: left
+    text_align: center
+  :updated_at: 2023-01-19 16:14:39.644011110 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 15
+- :section_id: 59
+  :index: 1
+  :header: Plane
+  :text: "Helsinki/ vantaa airport is the closest available airport, from there you
+    can take the metro to the city center, and from there the Train to karjaa(karis).\r\n[see
+    more](https://www.finavia.fi/en/airports/helsinki-airport/access)"
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-19 19:41:42.882700439 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 16
+  :image_id: 62
+- :section_id: 59
+  :index: 2
+  :header: Ferry
+  :text: "you can take a ferry from Estonia/ Talin, the Ferry takes arround two hours
+    and costs 20 - 30 Euro's.\r\nFerries from Stockholm, take around 10 hours amd
+    cost 40 - 70 Euro's. "
+  :options:
+    background: none
+    text_color: none
+    order: left
+    text_align: center
+  :updated_at: 2023-01-19 16:55:41.712018575 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 17
+  :image_id: 64
+- :section_id: 59
+  :index: 3
+  :header: Train
+  :text: "The train can be taken from Helsinki to Karjaa(karis), make sure to contact
+    us at least an hour before you arrive so we can come pick you up.   \r\n[see more](https://www.vr.fi/en)"
+  :options:
+    background: none
+    text_color: none
+    order: left
+    text_align: center
+  :updated_at: 2023-01-19 19:38:36.720210191 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 18
+  :image_id: 63

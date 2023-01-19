@@ -186,8 +186,8 @@
 - :template: section_full_up
   :index: 1
   :page_id: 8
-  :updated_at: 2023-01-12 14:02:53.136945565 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-19 16:37:55.930268246 +02:00
+  :updated_by: solsolsola123@gmail.com
   :id: 43
   :options:
     background: white
@@ -196,10 +196,10 @@
     subheader: ''
     text_align: center
     item_align: center
-    button_link: ''
-    button_text: ''
+    button_link: "/what_to_expect"
+    button_text: what to expect
   :header: Before coming here
-  :text: "things to know\r\n\r\nthe RULES"
+  :text: read the info section
 - :template: section_cards
   :index: 2
   :page_id: 7
@@ -256,12 +256,21 @@
 - :template: section_full_up
   :index: 1
   :page_id: 10
-  :updated_at: 2023-01-19 14:26:14.946110645 +02:00
+  :updated_at: 2023-01-19 23:04:57.352770608 +02:00
   :updated_by: torsten@villataika.fi
   :id: 51
-  :options: {}
+  :options:
+    background: white
+    text_color: none
+    margin: '0'
+    subheader: ''
+    text_align: center
+    item_align: center
+    button_link: ''
+    button_text: ''
   :header: Day acivities locally
-  :text: ''
+  :text: "We are in the country side, so nature is close (walking, swimming etc) \r\nBut
+    also a surprising amount of local culture is really worth the visit."
 - :template: section_cards
   :index: 1
   :page_id: 7
@@ -314,3 +323,125 @@
     text_align: left
   :header: facilities
   :text: ''
+- :template: section_cards
+  :index: 1
+  :page_id: 11
+  :updated_at: 2023-01-19 16:15:05.231469582 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 55
+  :card_template: card_gap_square
+  :options:
+    background: white
+    columns: '3'
+    subheader: ''
+    color: none
+    text_align: left
+  :header: what to expect
+  :text: ''
+- :template: section_text
+  :index: 2
+  :page_id: 11
+  :updated_at: 2023-01-19 19:57:09.762829947 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 56
+  :options:
+    columns: '4'
+    background: white
+    color: none
+    margin: '0'
+    subheader: ''
+    button_link: ''
+    button_text: ''
+    text_color: none
+    text_align: left
+  :header: House rules
+  :text: "**RESPECT THE PROPERTY OF HUB FEENIX**\r\nAll of us in Hub Feenix respect
+    the property of others. Everything in here is always somebody’s property, that
+    somebody has bought -also in the storage rooms in the 1st floor and in the basement.
+    So please always ask first if you need to take something (from Raisa or Maija
+    L, tools etc. Torsten). The food storages in the 1st floor are only for the use
+    of the cafeteria/ customer kitchen. Common workaway food can be found in the accommodation
+    corridor 3A’s kitchen, and the room next to it. There is separate shelves and
+    fridges for everyone’s private food as well as the common food -Maija L will show
+    them to you.\r\n\r\n**HEATING**\r\nHeating this big house in the winter time is
+    very expensive, so let’s take good care of the heated spaces. Electric heaters
+    are the most expensive to use (10-20€ a day!) so we use them only when really
+    needed. Keep the door to your room open at the daytime, so the warm air from the
+    air pump can get in. If you need to use the electric heater in the night time,
+    always keep it at level ”1”, never at ”2”, and remember to switch it off for the
+    day. You can also borrow an electric heat-blanket for your bed. If you need fresh
+    air in your room, keep the window open only for 5mins while you’re in the room.\r\n\r\n**NO
+    CANDLES**\r\nThere is an automatic fire alarm system in the house, so we can not
+    burn candles or incenses inside. It costs 1000€ if the fire brigade drives here
+    for a false alarm.\r\n\r\n\r\n\r\n**VISITORS**\r\nWhen having visitors and showing
+    them around, please keep only to the areas that are meant for the public = please
+    don’t take visitors to the basement or the storage corridors.\r\n\r\n**DOORS**\r\nAll
+    the outside doors must always be kept locked. The main door can sometimes be open
+    during events and courses, but only during daytime. And remember to give back
+    your outdoor key when leaving! \r\n\r\n"
+- :template: section_small_image
+  :index: 3
+  :page_id: 11
+  :header: Recycling
+  :text: "**COMPOSTING AND RECYCLING**\r\nWe recycle all the waste we can -old food,
+    plastic, cardboard, paper, metal, glass. You can find small recycling unit in
+    our kitchen, a little bit bigger one in the storage room opposite to the kitchen,
+    and the biggest ”main recycling room” in the 1B storage corridor. \r\nMixed waste
+    that cannot be recycled, goes to the big black bin in the back yard, ask Maija
+    for more detailed instruction. When the bucket for composted food gets full, it
+    should be emptied in the wooden compost box in the inner yard (close to saunas).
+    It has 4 sections, use the one that doesn’t have a stone on it. When the bucket
+    is empty, wash it in our 3A cleaning room, and then fill it 1/4 with sawdust (there’s
+    a big bag in the cleaning room). \r\nIn Finland you get money back from empty
+    drinking bottles and cans, so it’s worth taking them back to the shop and not
+    crush them.\r\n"
+  :options:
+    columns: 3
+    background: none
+    text_color: none
+    margin: '20'
+    text_align: center
+    subheader: ''
+    order: left
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-19 23:02:52.753835129 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 57
+  :image_id: 65
+- :template: section_full_image
+  :index: 2
+  :page_id: 8
+  :header: Where we are
+  :text: ''
+  :options:
+    background: none
+    text_color: none
+    margin: 20
+    text_align: center
+    item_align: center
+  :updated_at: 2023-01-19 16:43:17.478969887 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 58
+  :image_id: 61
+- :template: section_feature
+  :index: 3
+  :page_id: 8
+  :updated_at: 2023-01-19 19:54:43.578835025 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 59
+  :card_template: card_gap_square
+  :options:
+    background: white
+    columns: '3'
+    subheader: ''
+    text_color: none
+    text_align: left
+  :header: How to get here
+  :text: "address: Högbensvägen 30, 10350 Högben\r\nnearby town: Karjaa(Karis)\r\ndistance
+    from Helsinki: approximately 1 hour by train or car.\r\n\r\n\r\n##what you should
+    bring##\r\n\r\n**Clothing** - it can get pretty cold during winter, so make sure
+    to come with several layer of clothes, preferably woolen. \r\ndon't forget a swimsuit
+    for the sauna.\r\n**grooming and shower** -The hub accommodates a dry blower,
+    soap and shampoo, but make sure to bring your own dental cleaning items, and any
+    other grooming equipment you may need."
