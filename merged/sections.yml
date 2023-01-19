@@ -86,10 +86,10 @@
   :id: 41
   :options: {}
 - :template: section_full_up
-  :index: 5
+  :index: 6
   :page_id: 7
-  :updated_at: 2023-01-18 23:53:07.932318628 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-19 15:58:25.312124267 +02:00
+  :updated_by: solsolsola123@gmail.com
   :id: 42
   :options:
     background: light_blue
@@ -201,9 +201,9 @@
   :header: Before coming here
   :text: "things to know\r\n\r\nthe RULES"
 - :template: section_cards
-  :index: 1
+  :index: 2
   :page_id: 7
-  :updated_at: 2023-01-18 14:51:45.049411060 +02:00
+  :updated_at: 2023-01-19 15:29:14.848373050 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 44
   :card_template: card_feature_normal
@@ -218,8 +218,8 @@
 - :template: section_text
   :index: 3
   :page_id: 7
-  :updated_at: 2023-01-18 23:44:18.344294140 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-19 15:58:14.700493187 +02:00
+  :updated_by: solsolsola123@gmail.com
   :id: 46
   :options:
     subheader: ''
@@ -241,41 +241,76 @@
     season's fresh and frozen veggies "
   :image_id: 54
   :card_template: card_full_image
-- :template: section_half_image
-  :index: 2
+- :template: section_cards
+  :index: 1
+  :page_id: 9
+  :updated_at: 2023-01-19 14:26:59.100565929 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 50
+  :options: {}
+  :card_template: card_full_image
+  :header: The workaway deal
+  :text: For about 5 hours of work 5 days a week you get basic food and accommodation.
+    On top of this everyone participates in keeping the accommodation area 3A clean
+    (we have cleaning shifts there every Wed & Sun).
+- :template: section_full_up
+  :index: 1
+  :page_id: 10
+  :updated_at: 2023-01-19 14:26:14.946110645 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 51
+  :options: {}
+  :header: Day acivities locally
+  :text: ''
+- :template: section_cards
+  :index: 1
   :page_id: 7
-  :header: Transportation
-  :text: "**Car** - The hub provides a luxuries peugeot \r\n**Bus** - a bus arrives
-    every hour to the nearby station\r\n**Bicycle** - prime ultra carbon nuclear powered
-    bicycle for your everyday use.\r\n**Train** - the nearby train station is perfect
-    for long distance travels \r\n**Sled** - Dont\r\n"
+  :header: general
+  :text: ''
   :options:
+    margin: 20
     order: left
-    background: light_orange
     text_color: none
-    text_align: center
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-18 15:57:53.800567374 +02:00
-  :updated_by: solsolsola123@gmail.com
-  :id: 47
-  :image_id: 55
-- :template: section_half_image
-  :index: 4
-  :page_id: 7
-  :updated_at: 2023-01-18 16:01:00.954884636 +02:00
-  :updated_by: solsolsola123@gmail.com
-  :id: 48
-  :options:
-    order: left
-    background: light_blue
-    text_color: none
+    background: none
+    columns: '3'
     subheader: ''
     text_align: left
+  :updated_at: 2023-01-19 15:29:01.888067415 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 52
+  :card_template: card_wide_square
+- :template: section_small_image
+  :index: 4
+  :page_id: 7
+  :updated_at: 2023-01-19 15:37:54.580202354 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 53
+  :options:
+    subheader: ''
+    margin: '0'
+    order: left
+    text_color: none
+    background: light_blue
     button_link: ''
     button_text: ''
-  :image_id: 56
-  :header: common utilities
-  :text: "**Washing machine** \r\n**kitchen** - common kitchen and lounge space\r\n**storage**
-    - individual shelves for dry/ non refrigirated food\r\n**Showers** \r\n\r\n"
+  :header: accommodation
+  :text: "hub feeing provides accommodation in double rooms, with shared showers and
+    common kitchen and lounge.\r\nthe volunteers have a dedicated corridor, where
+    5 - 10 volunteers reside at all times. \r\nthe volunteers are allowed to use the
+    many hub facilities."
+  :image_id: 58
+- :template: section_cards
+  :index: 5
+  :page_id: 7
+  :updated_at: 2023-01-19 15:47:45.344999889 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 54
+  :card_template: card_normal_square
+  :options:
+    background: white
+    columns: '4'
+    subheader: ''
+    text_color: none
+    text_align: left
+  :header: facilities
+  :text: ''

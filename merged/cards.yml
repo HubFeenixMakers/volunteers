@@ -7,65 +7,184 @@
     background: light_blue
     text_color: solid_black
     text_align: center
-    button_link: "/transportation"
+    button_link: info/Accomodation
     button_text: Transportation
-  :updated_at: 2023-01-18 16:03:41.752621578 +02:00
+  :updated_at: 2023-01-19 12:13:26.801609135 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 1
   :image_id: 49
 - :section_id: 44
   :index: 2
-  :header: Food
-  :text: "beans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\nbeans\r\ntofu\r\n"
+  :header: ''
+  :text: ''
   :options:
     background: solid_blue
     text_color: solid_blue
     text_align: center
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-18 13:48:45.089449230 +02:00
+    button_link: "/food"
+    button_text: Food
+  :updated_at: 2023-01-19 12:05:08.721307480 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 2
   :image_id: 48
 - :section_id: 44
   :index: 3
-  :header: utilities
-  :text: "washing machine\r\nshower\r\ncommon kitchen\r\nbathrooms"
+  :header: ''
+  :text: ''
   :options:
     background: solid_indigo
     text_color: solid_black
     text_align: center
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-18 13:49:51.357574298 +02:00
+    button_link: "/utilities"
+    button_text: utilities
+  :updated_at: 2023-01-19 12:05:27.829714024 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 3
   :image_id: 50
 - :section_id: 44
   :index: 4
-  :header: Facilities
-  :text: "music room \r\nsauna\r\ncomputer room\r\ngym\r\n"
+  :header: ''
+  :text: "\r\n"
   :options:
     background: solid_blue
     text_color: solid_blue
     text_align: center
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-18 13:50:55.799490416 +02:00
+    button_link: "/Facilities"
+    button_text: Facilities
+  :updated_at: 2023-01-19 12:06:01.003811448 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 4
   :image_id: 51
 - :section_id: 44
   :index: 5
-  :header: Clothing
-  :text: "clothing room\r\nwork clothes\r\nfunny hats\r\nlarge socks\r\n"
+  :header: ''
+  :text: ''
   :options:
     background: light_blue
     text_color: solid_black
     text_align: center
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-18 13:52:32.303724776 +02:00
+    button_link: "/Clothing"
+    button_text: Clothing
+  :updated_at: 2023-01-19 12:06:39.849284242 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 5
   :image_id: 52
+- :section_id: 52
+  :index: 1
+  :header: Transportation
+  :text: "- **Car** - The hub provides a volunteer car at cost price.  \r\n- **Bus**
+    - a bus arrives to the hub twice a day [see here](https://www.matkahuolto.fi/en).\r\n-
+    **Bicycle** - free bycicle for everyday use.\r\n- **Train** - the nearby train
+    station is perfect for longer travels, one hour to Helsinki, [see more](https://www.vr.fi/en).\r\n"
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-19 15:24:24.830407450 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 6
+  :image_id: 55
+- :section_id: 52
+  :index: 2
+  :header: common utilities
+  :text: "- **Washing machine** \r\n- **kitchen** - common kitchen and lounge space\r\n-
+    **storage** - individual shelves for dry/ non refrigirated food\r\n- **Showers**
+    \r\n"
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-19 15:25:37.738326293 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 7
+  :image_id: 56
+- :section_id: 52
+  :index: 3
+  :header: clothing
+  :text: "##Our common clothing room offers:\r\n\r\n• shirts\r\n• pants\r\n• sweatshirts\r\n•
+    sweaters\r\n• shoes\r\n• work clothes\r\n• coats\r\n• scarves\r\n• hats\r\n• gloves\r\n•
+    sock\r\n• robes\r\n"
+  :options:
+    background: light_gray
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-19 15:26:44.362100245 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 8
+  :image_id: 57
+- :section_id: 54
+  :index: 1
+  :header: music room
+  :text: "the music rooms is equipped with - \r\nacoustic and electric drum kits,\r\nguitar\r\nand
+    piano"
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    subheader: ''
+    order: left
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-19 15:45:04.371033456 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 9
+  :image_id: 51
+- :section_id: 54
+  :index: 2
+  :header: sauna
+  :text: "the sauna is open at least once a week.\r\nsometimes during summer the sauna
+    is moved to the lake. "
+  :options:
+    background: light_gray
+    text_color: none
+    text_align: center
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-19 15:45:09.180623548 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 10
+  :image_id: 59
+- :section_id: 54
+  :index: 3
+  :header: gym
+  :text: "the gym offers\r\nparalets\r\npull-up bar\r\ntrx\r\nweights"
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-19 15:51:14.531746232 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 11
+  :image_id: 59
+- :section_id: 54
+  :index: 4
+  :header: Football field
+  :text: the Field right near the hub building, where you can play a sport of your
+    choice.
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+    order: left
+  :updated_at: 2023-01-19 15:56:47.741955010 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 12
+  :image_id: 60
