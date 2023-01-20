@@ -19,11 +19,6 @@
   :type: page
   :updated_by: torsten@villataika.fi
   :id: 8
-- :name: work
-  :updated_at: 2023-01-19 12:19:26.304678489 +02:00
-  :type: page
-  :updated_by: solsolsola123@gmail.com
-  :id: 9
 - :name: local_area
   :updated_at: 2023-01-19 14:19:31.139069629 +02:00
   :type: page
@@ -34,3 +29,8 @@
   :type: page
   :updated_by: solsolsola123@gmail.com
   :id: 11
+- :name: activities_and_possibilities
+  :updated_at: 2023-01-20 12:18:46.182746030 +02:00
+  :type: page
+  :updated_by: solsolsola123@gmail.com
+  :id: 12

@@ -1,179 +1,112 @@
 ---
-- :section_id: 44
-  :index: 1
-  :header: ''
-  :text: "\r\n\r\n\r\n\r\n\r\n"
-  :options:
-    background: light_blue
-    text_color: solid_black
-    text_align: center
-    button_link: info/Accomodation
-    button_text: Transportation
-  :updated_at: 2023-01-19 12:13:26.801609135 +02:00
-  :updated_by: solsolsola123@gmail.com
-  :id: 1
-  :image_id: 49
-- :section_id: 44
-  :index: 2
-  :header: ''
-  :text: ''
-  :options:
-    background: solid_blue
-    text_color: solid_blue
-    text_align: center
-    button_link: "/food"
-    button_text: Food
-  :updated_at: 2023-01-19 12:05:08.721307480 +02:00
-  :updated_by: solsolsola123@gmail.com
-  :id: 2
-  :image_id: 48
-- :section_id: 44
-  :index: 3
-  :header: ''
-  :text: ''
-  :options:
-    background: solid_indigo
-    text_color: solid_black
-    text_align: center
-    button_link: "/utilities"
-    button_text: utilities
-  :updated_at: 2023-01-19 12:05:27.829714024 +02:00
-  :updated_by: solsolsola123@gmail.com
-  :id: 3
-  :image_id: 50
-- :section_id: 44
-  :index: 4
-  :header: ''
-  :text: "\r\n"
-  :options:
-    background: solid_blue
-    text_color: solid_blue
-    text_align: center
-    button_link: "/Facilities"
-    button_text: Facilities
-  :updated_at: 2023-01-19 12:06:01.003811448 +02:00
-  :updated_by: solsolsola123@gmail.com
-  :id: 4
-  :image_id: 51
-- :section_id: 44
-  :index: 5
-  :header: ''
-  :text: ''
-  :options:
-    background: light_blue
-    text_color: solid_black
-    text_align: center
-    button_link: "/Clothing"
-    button_text: Clothing
-  :updated_at: 2023-01-19 12:06:39.849284242 +02:00
-  :updated_by: solsolsola123@gmail.com
-  :id: 5
-  :image_id: 52
 - :section_id: 52
   :index: 1
   :header: Transportation
-  :text: "- **Car** - The hub provides a volunteer car at cost price.  \r\n- **Bus**
-    - a bus arrives to the hub twice a day [see here](https://www.matkahuolto.fi/en).\r\n-
-    **Bicycle** - free bycicle for everyday use.\r\n- **Train** - the nearby train
-    station is perfect for longer travels, one hour to Helsinki, [see more](https://www.vr.fi/en).\r\n"
+  :text: "- **Car** - The hub provides a volunteer car at cost price ((0,20€/ km)
+    little driving test required before borrowing it first time).  \r\n- **Bus** -
+    There’s a bus stop right in front of the house. On the weekdays, busses go to
+    Karjaa (7 km -grocery stores, post office, train station etc.) and to Helsinki.
+    [see here](https://www.matkahuolto.fi/en).\r\n- **Bicycle** - free bycicle for
+    everyday use.\r\n- **Train** - the nearby train station is perfect for longer
+    travels, one hour to Helsinki, [see more](https://www.vr.fi/en).\r\n"
   :options:
-    background: light_orange
+    background: none
     text_color: none
-    text_align: left
+    text_align: center
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-19 15:24:24.830407450 +02:00
+  :updated_at: 2023-01-20 15:05:02.175324690 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 6
-  :image_id: 55
+  :image_id: 85
 - :section_id: 52
   :index: 2
   :header: common utilities
   :text: "- **Washing machine** \r\n- **kitchen** - common kitchen and lounge space\r\n-
     **storage** - individual shelves for dry/ non refrigirated food\r\n- **Showers**
-    \r\n"
+    - Showers are equiped with common accessories and a dry blower.\r\n"
   :options:
-    background: light_blue
+    background: none
     text_color: none
-    text_align: left
+    text_align: center
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-19 15:25:37.738326293 +02:00
+  :updated_at: 2023-01-20 15:05:13.529685567 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 7
-  :image_id: 56
+  :image_id: 86
 - :section_id: 52
   :index: 3
   :header: clothing
-  :text: "##Our common clothing room offers:\r\n\r\n• shirts\r\n• pants\r\n• sweatshirts\r\n•
-    sweaters\r\n• shoes\r\n• work clothes\r\n• coats\r\n• scarves\r\n• hats\r\n• gloves\r\n•
-    sock\r\n• robes\r\n"
+  :text: "## Our common clothing room offers\r\n\r\n• shirts    • pants\r\n• sweatshirts
+    \   • sweaters\r\n• shoes    • work clothes\r\n• coats    • scarves\r\n• hats
+    \   •.  gloves\r\n• sock    • robes\r\n\r\n"
   :options:
-    background: light_gray
+    background: none
     text_color: none
-    text_align: left
+    text_align: center
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-19 15:26:44.362100245 +02:00
+  :updated_at: 2023-01-20 16:26:27.921415567 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 8
-  :image_id: 57
+  :image_id: 87
 - :section_id: 54
   :index: 1
   :header: music room
   :text: "the music rooms is equipped with - \r\nacoustic and electric drum kits,\r\nguitar\r\nand
     piano"
   :options:
-    background: light_blue
+    background: white
     text_color: none
     text_align: center
     subheader: ''
     order: left
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-19 15:45:04.371033456 +02:00
+  :updated_at: 2023-01-20 15:22:18.319924756 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 9
-  :image_id: 51
+  :image_id: 90
 - :section_id: 54
   :index: 2
   :header: sauna
   :text: "the sauna is open at least once a week.\r\nsometimes during summer the sauna
     is moved to the lake. "
   :options:
-    background: light_gray
+    background: none
     text_color: none
     text_align: center
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-19 15:45:09.180623548 +02:00
+  :updated_at: 2023-01-20 15:22:33.737883632 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 10
-  :image_id: 59
+  :image_id: 91
 - :section_id: 54
   :index: 3
   :header: gym
   :text: "the gym offers\r\nparalets\r\npull-up bar\r\ntrx\r\nweights"
   :options:
-    background: light_orange
+    background: none
     text_color: none
     text_align: center
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-19 15:51:14.531746232 +02:00
+  :updated_at: 2023-01-20 15:22:49.542849146 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 11
-  :image_id: 59
+  :image_id: 92
 - :section_id: 54
   :index: 4
   :header: Football field
@@ -184,10 +117,13 @@
     text_color: none
     text_align: center
     order: left
-  :updated_at: 2023-01-19 15:56:47.741955010 +02:00
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-20 15:28:25.194277856 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 12
-  :image_id: 60
+  :image_id: 94
 - :section_id: 55
   :index: 1
   :header: The workaday deal
@@ -198,9 +134,10 @@
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-19 16:11:33.694266588 +02:00
+  :updated_at: 2023-01-20 14:31:13.947040815 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 13
+  :image_id: 82
 - :section_id: 55
   :index: 2
   :header: Work types
@@ -211,22 +148,24 @@
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-19 16:13:23.268805377 +02:00
+  :updated_at: 2023-01-20 14:30:56.981893379 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 14
+  :image_id: 81
 - :section_id: 55
   :index: 3
   :header: House rules
-  :text: "since we all liv together, everyone is required to follow basic rules,\r\nplease
+  :text: "since we all live together, everyone is required to follow basic rules,\r\nplease
     read below."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-19 16:14:39.644011110 +02:00
+  :updated_at: 2023-01-20 14:32:31.034198174 +02:00
   :updated_by: solsolsola123@gmail.com
   :id: 15
+  :image_id: 83
 - :section_id: 59
   :index: 1
   :header: Plane
@@ -270,3 +209,123 @@
   :updated_by: solsolsola123@gmail.com
   :id: 18
   :image_id: 63
+- :section_id: 60
+  :index: 1
+  :header: Explore nature
+  :text: The hub is surrounded by a beautiful forest, and a nearby lake
+  :options:
+    background: light_gray
+    text_color: black
+    text_align: center
+  :updated_at: 2023-01-20 13:09:07.402009575 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 19
+  :image_id: 68
+- :section_id: 60
+  :index: 2
+  :header: Visit nearby bars
+  :text: "bars include:\r\n\r\n**The yard** in karjaa(karis)\r\n**Rock'n'Roll Cafe**
+    \ in lohjaa"
+  :options:
+    background: light_blue
+    text_color: black
+    text_align: center
+  :updated_at: 2023-01-20 13:09:19.650334150 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 20
+  :image_id: 69
+- :section_id: 60
+  :index: 3
+  :header: Visit Helsinki
+  :text: 'The coastal capital of finland has no shortage of tourist attractions and
+    interesting locations.  '
+  :options:
+    background: solid_blue
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-20 13:09:30.958780402 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 21
+  :image_id: 70
+- :section_id: 60
+  :index: 4
+  :header: In-house activities
+  :text: There’s also lots of things happening in the house. For example yoga classes,
+    language lessons, Ecstatic dance evening, Etc.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-20 14:51:55.959187402 +02:00
+  :updated_by: solsolsola123@gmail.com
+  :id: 22
+  :image_id: 19
+- :section_id: 51
+  :index: 1
+  :header: Swimming
+  :text: 'Swimming in clean lakes There are several opertunities to go swimming. The
+    closest beach is only 7min walk. There are three more family friendly beaches
+    a few minutes drive away by car or bicycle. '
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-20 14:13:14.904435014 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 23
+  :image_id: 76
+- :section_id: 51
+  :index: 2
+  :header: Fiskars & Bilnas Villages
+  :text: 'The beautifully restored art and craft centre of Fiskars is just a 5 minutes
+    drive away. There are handicraft shops, workshops, cafes and restaurants. Bilnas,
+    another old ironwork centre, is just over 10 minutes drive. '
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-20 14:14:06.773003961 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 24
+  :image_id: 75
+- :section_id: 51
+  :index: 3
+  :header: Hanko
+  :text: 'Tammisaari and Hanko, old towns Tammisaari and Hanko are both beautiful
+    old towns with lots of wooden houses, by the sea. Perfect for a day trip, Tammisaari
+    is just over half an hours drive and Hanko slightly further. '
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-20 14:16:35.107520671 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 25
+  :image_id: 74
+- :section_id: 51
+  :index: 4
+  :header: Raasepori Castle and Mustio
+  :text: 'The old stone castle of Raasepori, now the namesake of the region is close
+    by. Also the grand castle of Mustio is just 15 minutes away where you can have
+    a dinner or enjoy a cuppa by the lake. '
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-20 14:15:03.420353156 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 26
+  :image_id: 73
+- :section_id: 51
+  :index: 5
+  :header: Walk or cycle through woods
+  :text: 'There are many unpaved paths through the surrounding nature reseve. Bring
+    your own bicycle, get one from us or walk to explore the surrounding nature. '
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-20 14:16:24.754169162 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 27
+  :image_id: 77
