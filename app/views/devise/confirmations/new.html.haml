@@ -1,5 +1,5 @@
 .flex.justify-center
-  .w-full.max-w-xs
+  .w-full.max-w-xs.md:max-w-md
     %h1.font-hairline.mb-6.text-center Resend Confirmation Instructions
     = form_for(resource, as: resource_name,
         url: confirmation_path(resource_name),
@@ -15,6 +15,6 @@
           class: "appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none shadow focus:shadow-outline" |
       .mb-4
         = f.submit "Resend Confirmation Info",                                                                                                |
-          class: "button bg-blue-500 hover:bg-blue-700 font-bold text-white focus:outline-none py-2 px-4 rounded focus:shadow-outline w-full" |
+          class: "button bg-cyan-700 hover:bg-cyan-500 font-bold text-white focus:outline-none py-2 px-4 rounded focus:shadow-outline w-full" |
       = render "devise/shared/links"
     = render "devise/shared/form_footer"
