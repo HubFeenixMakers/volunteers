@@ -240,7 +240,7 @@
     Peanuts & raisins\r\n• Tofu\r\n• Cheese\r\n• Flour & yeast\r\n• Peanut butter\r\n•
     season's fresh and frozen veggies "
   :image_id: 54
-  :card_template: card_full_image
+  :card_template:
 - :template: section_cards
   :index: 1
   :page_id: 9
