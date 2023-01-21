@@ -329,3 +329,14 @@
   :updated_by: torsten@villataika.fi
   :id: 27
   :image_id: 77
+- :section_id: 53
+  :index: 1
+  :header: NEW
+  :text: NEW
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-21 20:03:17.319201475 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 28

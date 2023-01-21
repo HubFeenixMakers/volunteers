@@ -403,15 +403,6 @@
   :id: 51
   :updated_at: 2023-01-19 15:47:06.915969272 +02:00
   :updated_by: solsolsola123@gmail.com
-- :name: winter-jacket
-  :type: png
-  :tags: ''
-  :width: 324
-  :height: 324
-  :size: 46
-  :id: 52
-  :updated_at: 2023-01-18 14:50:24.762115413 +02:00
-  :updated_by: solsolsola123@gmail.com
 - :name: Image-For-Article-595-1
   :type: jpeg
   :tags: ''
@@ -421,33 +412,6 @@
   :id: 53
   :updated_at: 2023-01-18 13:45:29.427987323 +02:00
   :updated_by: solsolsola123@gmail.com
-- :name: 906-avocado-and-radish-salad
-  :type: jpeg
-  :tags: ''
-  :width: 1566
-  :height: 1068
-  :size: 300
-  :id: 54
-  :updated_at: 2023-01-18 14:57:30.962156505 +02:00
-  :updated_by: solsolsola123@gmail.com
-- :name: Transportation hero
-  :type: jpeg
-  :tags: ''
-  :width: 753
-  :height: 410
-  :size: 116
-  :id: 55
-  :updated_at: 2023-01-19 14:13:24.910074923 +02:00
-  :updated_by: torsten@villataika.fi
-- :name: washing
-  :type: jpeg
-  :tags: ''
-  :width: 753
-  :height: 502
-  :size: 48
-  :id: 56
-  :updated_at: 2023-01-19 14:13:08.017584900 +02:00
-  :updated_by: torsten@villataika.fi
 - :name: clothes
   :type: jpeg
   :tags: ''
@@ -465,15 +429,6 @@
   :size: 140
   :id: 58
   :updated_at: 2023-01-19 15:31:12.455459122 +02:00
-  :updated_by: solsolsola123@gmail.com
-- :name: sauna
-  :type: jpeg
-  :tags: ''
-  :width: 1440
-  :height: 1080
-  :size: 323
-  :id: 59
-  :updated_at: 2023-01-19 15:44:54.044049343 +02:00
   :updated_by: solsolsola123@gmail.com
 - :name: soccer-ball-on-field
   :type: jpeg
@@ -726,15 +681,6 @@
   :size: 710
   :id: 87
   :updated_at: 2023-01-20 15:04:17.954809335 +02:00
-  :updated_by: solsolsola123@gmail.com
-- :name: healthy-eating
-  :type: png
-  :tags: ''
-  :width: 512
-  :height: 512
-  :size: 39
-  :id: 88
-  :updated_at: 2023-01-20 15:15:23.888116025 +02:00
   :updated_by: solsolsola123@gmail.com
 - :name: salad
   :type: png

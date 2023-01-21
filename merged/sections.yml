@@ -146,8 +146,8 @@
 - :template: section_full_up
   :index: 1
   :page_id: 8
-  :updated_at: 2023-01-19 16:37:55.930268246 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 20:16:38.896560915 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 43
   :options:
     background: white
@@ -159,12 +159,12 @@
     button_link: "/what_to_expect"
     button_text: what to expect
   :header: Before coming here
-  :text: read the info section
+  :text: Read the info section!
 - :template: section_text
-  :index: 3
+  :index: 4
   :page_id: 7
-  :updated_at: 2023-01-20 15:29:52.108661424 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 20:13:43.900111336 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 46
   :options:
     subheader: ''
@@ -176,15 +176,10 @@
     button_text: ''
     columns: '4'
     text_align: left
-  :header: 'Basic food we provide:'
-  :text: "\r\n• Rice\r\n• Pasta\r\n• Oatmeal\r\n• Bread\r\n• Margarine\r\n• Oat milk\r\n•
-    Red & green lentils\r\n• Pasta\r\n• Oatmeal\r\n• Bread\r\n• Margarine\r\n• Oat
-    milk\r\n• Red & green lentils\r\n• Beans\r\n• Chopped tomatoes\r\n• Onions + garlic\r\n•
-    Fruit - bananas, apples ,clementines\r\n• Root veggies - potatoes, carrots, beetroots\r\n•
-    Spices\r\n• Jam\r\n• Sauces - ketchup, mayonnaise, mustard \r\n• Lemon juice &
-    vinegar\r\n• Coffee & tea selection\r\n• Cooking oil\r\n• Peanuts & raisins\r\n•
-    Tofu\r\n• Cheese\r\n• Flour & yeast\r\n• Peanut butter\r\n• season's fresh and
-    frozen veggies "
+  :header: Food
+  :text: "Whole Hub Feenix is a vegetarian area, so no other food is allowed in the
+    house. \r\nBasic food is included in the workaway deal, such as rice, pasta, seasons
+    veggies, beans, lentils, bread, porridge flakes, tea & coffee.\r\n "
   :image_id: 89
 - :template: section_cards
   :index: 1
@@ -219,9 +214,9 @@
     also a surprising amount of local culture is really worth the visit."
   :card_template: card_normal_round
 - :template: section_cards
-  :index: 1
+  :index: 2
   :page_id: 7
-  :header: Accommodation
+  :header: ''
   :text: ''
   :options:
     margin: 20
@@ -231,15 +226,15 @@
     columns: '3'
     subheader: ''
     text_align: left
-  :updated_at: 2023-01-20 15:31:10.149534001 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 19:05:40.887385808 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 52
   :card_template: card_normal_square
-- :template: section_small_image
-  :index: 4
+- :template: section_cards
+  :index: 1
   :page_id: 7
-  :updated_at: 2023-01-20 16:33:43.315473579 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 20:26:50.383498613 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 53
   :options:
     subheader: ''
@@ -251,17 +246,18 @@
     button_text: ''
     text_align: left
   :header: Living
-  :text: "hub feenix provides accommodation in double rooms, with shared showers and
-    common kitchen and lounge.\r\nthe volunteers have a dedicated corridor, where
-    5 - 10 volunteers reside at all times. \r\nthe volunteers are allowed to use the
-    many hub facilities."
+  :text: Accommodation is in shared rooms (2-4 persons), with shared showers & toilets,
+    and a common kitchen and lounge. Volunteers have a dedicated corridor for themselves.
+    We have a place for about 5-15 workaways at a time (bit more in the summer, bit
+    less in the winter due to the heating situation). We'll provide bed sheets and
+    a towel for you.
   :image_id: 95
   :card_template: card_full_image
 - :template: section_cards
-  :index: 2
+  :index: 3
   :page_id: 7
-  :updated_at: 2023-01-20 15:17:50.340950793 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 19:45:06.296912879 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 54
   :card_template: card_normal_square
   :options:
@@ -270,13 +266,13 @@
     subheader: ''
     text_color: none
     text_align: left
-  :header: facilities
+  :header: Facilities
   :text: ''
 - :template: section_cards
   :index: 1
   :page_id: 11
-  :updated_at: 2023-01-20 14:41:11.698773113 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 20:29:53.572692161 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 55
   :card_template: card_wide_square
   :options:
@@ -285,7 +281,7 @@
     subheader: ''
     color: none
     text_align: left
-  :header: what to expect
+  :header: What to expect
   :text: ''
 - :template: section_text
   :index: 2
@@ -385,8 +381,8 @@
 - :template: section_feature
   :index: 3
   :page_id: 8
-  :updated_at: 2023-01-20 14:45:25.284988962 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 20:24:00.649015349 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 59
   :card_template: card_gap_square
   :options:
@@ -396,18 +392,19 @@
     text_color: none
     text_align: left
   :header: How to get here
-  :text: "address: Högbensvägen 30, 10350 Högben\r\nnearby town: Karjaa(Karis)\r\ndistance
-    from Helsinki: approximately 1 hour by train or car.\r\n\r\n[see on google maps](https://www.google.com/maps/place/Hub+Feenix/@60.1087256,23.7915169,17z/data=!3m1!4b1!4m5!3m4!1s0x468da5124a023e29:0xcae080e9021c7724!8m2!3d60.1087229!4d23.7937056)\r\n\r\n##what
+  :text: "Address: Högbenintie 30, 10350 Meltola\r\nNearby town: Karjaa (Karis)\r\nDistance
+    from Helsinki: approximately 1 hour by train or car (75 km)\r\n\r\n[see on google
+    maps](https://www.google.com/maps/place/Hub+Feenix/@60.1087256,23.7915169,17z/data=!3m1!4b1!4m5!3m4!1s0x468da5124a023e29:0xcae080e9021c7724!8m2!3d60.1087229!4d23.7937056)\r\n\r\n##What
     you should bring##\r\n\r\n**Clothing** - it can get pretty cold during winter,
-    so make sure to come with several layer of clothes, preferably woolen. \r\ndon't
-    forget a swimsuit for the sauna.\r\n**grooming and shower** -The hub accommodates
-    a dry blower, soap and shampoo, but make sure to bring your own dental cleaning
-    items, and any other grooming equipment you may need.\r\n\r\n"
+    so make sure to come with several layers of clothes, preferably woollen (we can
+    also borrow you more). \r\nDon't forget a swimsuit for the sauna and swimming.\r\n**Grooming
+    and shower** -The Hub has a hair dryer, soap and shampoo, but make sure to bring
+    any other grooming equipment you may need. We'll provide a towel for you.\r\n\r\n"
 - :template: section_cards
   :index: 1
   :page_id: 12
-  :updated_at: 2023-01-20 14:49:14.615050430 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-21 20:30:54.845182103 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 60
   :card_template: card_full_image
   :options:
@@ -416,9 +413,9 @@
     subheader: ''
     text_color: none
     text_align: left
-  :header: Activities And Possibilities
+  :header: Activities and possibilities
   :text: 'There are plenty of options when it comes to finding something exciting
-    to do near the hub, here are a few - '
+    to do near the Hub, here are a few - '
 - :template: section_text
   :index: 2
   :page_id: 12
