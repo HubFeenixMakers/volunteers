@@ -54,4 +54,22 @@ module ApplicationHelper
     rows
   end
 
+    def main_menu
+      [["/members" , "Volunteers"],["/stories" , "Stories"], ["/info" , "Info"],
+       ["/arriving" , "Arriving"],["/about" , "About"], ]
+    end
+    def member_memu
+      items =[["/forum" ,"Forum"] , [main_app.member_path(current_member) , "Settings"]]
+      if current_member.admin? and !Rails.env.production?
+        items << [merged.pages_path(), "CMS" ]
+      end
+      items
+    end
+    def mobile_menu
+      if current_member
+        member_memu
+      else
+        [main_app.member_session_path, "Login"]
+      end
+    end
 end

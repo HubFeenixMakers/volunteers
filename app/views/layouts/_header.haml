@@ -4,11 +4,9 @@
       = image_tag("feenix_lintu.webp" , class: "h-20")
       %span.ml-2.text-xl.font-bold.tracking-wide.text-gray-800.uppercase Hub Feenix
     %ul.flex.items-center.hidden.space-x-8.lg:flex
-      %li
-        %a.font-medium.tracking-wide.text-gray-700.transition-colors.duration-400.hover:text-cyan-800{"aria-label" => "Our product", :href => "/members", :title => "Volunteers"} Volunteers
-      - [ :stories , :info , :arriving, :about].each do |link|
+      - main_menu.each do |link , text|
         %li
-          %a.font-medium.tracking-wide.text-gray-700.transition-colors.duration-400.hover:text-cyan-800{"aria-label" => "Our product", :href => "/#{link}", :title => link.capitalize}= link.capitalize
+          %a.font-medium.tracking-wide.text-gray-700.transition-colors.duration-400.hover:text-cyan-800{"aria-label" => "Our product", :href => link, :title => text}= text
       %li
         = link_to "https://www.facebook.com/hubfeenix" , :target => "_blank" do
           = image_tag("fb.webp" , class: "h-10 rounded-md")
