@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/HubFeenixMakers/merged
-  revision: 05ee69ce24b7c5a593b8c57c87a3e1f8e50f3b32
+  revision: accb6682675f92eed6e1c306995017b1c8da1289
   specs:
     merged (0.1.0)
       active_hash
@@ -294,7 +294,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.4)
+    rails-html-sanitizer (1.5.0)
       loofah (~> 2.19, >= 2.19.1)
     rails_gravatar (1.0.4)
       actionview
