@@ -5,10 +5,11 @@ module ApplicationHelper
   # different template according to the amount of text
   def render_story(story)
     return "" unless story
+    puts story.text.length
     text_length = story.text.length
     template = "text"
-    template = "half" if text_length < 400
-    template = "pic" if text_length < 200
+    template = "half" if text_length < 500
+    template = "pic" if text_length < 300
     render partial: "stories/#{template}" , locals: {story: story}
   end
 

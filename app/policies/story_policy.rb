@@ -1,4 +1,4 @@
-class StoryPolicy < ApplicationPolicy
+class StoryPolicy < EditOwnPolicy
 
   def edit?
     (member == record.member) or member.admin?

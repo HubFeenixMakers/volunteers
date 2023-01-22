@@ -1,26 +1,21 @@
 class StoriesController < ApplicationController
   before_action :set_story, only: %i[ show edit update destroy ]
 
-  # GET /stories
   def index
     @stories = Story.all.page params[:page]
   end
 
-  # GET /stories/1
   def show
   end
 
-  # GET /stories/new
   def new
     @story = Story.new
   end
 
-  # GET /stories/1/edit
   def edit
     authorize @story
   end
 
-  # POST /stories
   def create
     @story = Story.new(story_params)
     @story.member = current_member
@@ -32,8 +27,8 @@ class StoriesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /stories/1
   def update
+    authorize @story
     if @story.update(story_params)
       redirect_to @story, notice: "Story was successfully updated."
     else
@@ -41,8 +36,8 @@ class StoriesController < ApplicationController
     end
   end
 
-  # DELETE /stories/1
   def destroy
+    authorize @story
     @story.destroy
     redirect_to stories_url, notice: "Story was successfully destroyed."
   end
