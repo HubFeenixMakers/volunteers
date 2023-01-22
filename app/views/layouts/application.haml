@@ -32,7 +32,7 @@
     - if false
       %script{:src => "https://cdn.tailwindcss.com"}
 
-  %body
+  %body.max-w-screen-2xl.xl:mx-auto
     = render "layouts/header"
     = render "layouts/messages"
     = yield
