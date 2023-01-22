@@ -3,8 +3,8 @@ class Story < ApplicationRecord
 
   mount_uploader :picture, PictureUploader
 
-  validates :text, length: { maximum: 1000 }
-  validates :header , length: { minimum: 5 }
+  validates :text, length: { minimum: 5 , maximum: 1000 }
+  validates :header , length: { minimum: 5 , maximum: 400}
 
   def name
     header
