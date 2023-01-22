@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/HubFeenixMakers/merged
-  revision: accb6682675f92eed6e1c306995017b1c8da1289
+  revision: ee228d48f4a20dc89a7c09ea9354b4b2c899271b
   specs:
     merged (0.1.0)
       active_hash
