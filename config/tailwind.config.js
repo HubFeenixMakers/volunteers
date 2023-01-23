@@ -11,6 +11,7 @@ module.exports = {
   content: [
     './public/*.html',
     './app/helpers/**/*.rb',
+    './config/initializers/**/*.rb',
     './app/javascript/**/*.js',
     './app/views/**/*.{erb,haml,html,slim}' ,
     fullname , fullname2

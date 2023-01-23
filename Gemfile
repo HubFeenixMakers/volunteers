@@ -26,6 +26,7 @@ gem 'thredded', '~> 1.0'
 gem "simple_form" , "5.1.0"
 gem "simple_form_tailwind_css"
 gem 'kaminari'
+gem 'ransack'
 
 gem "passenger" , "6.0.15" ,  require: "phusion_passenger/rack_handler"
 gem "bootsnap", require: false
