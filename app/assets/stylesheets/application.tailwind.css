@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
 
 @layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+  .button {
+    @apply inline-block rounded-lg px-3 py-2 text-base font-medium border border-gray-500 hover:border-black;
+  }
+  .change {
+    @apply bg-cyan-200;
+  }
+  .remove {
+    @apply bg-red-200;
+  }
+  .action {
+    @apply bg-green-200;
   }
 }
-
-@import 'actiontext.css';
-*/
