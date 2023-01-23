@@ -21,6 +21,15 @@
           %li
             %a.w-full.h-full.block.tracking-wide.text-xl.p-2.rounded-lg.hover:bg-cyan-200{ :href => link , :title => text}
               = text
+        -if(current_member)
+          = form_tag( main_app.destroy_member_session_path , {method: :delete  ,class: "text-center"}) do
+            %button.w-full.items-center.gap-2.rounded-lg.px-4.py-2.text-sm.text-blue-700.hover:bg-red-50{:role => "menuitem", :type => "submit"}
+              %svg.h-4.w-4{:fill => "none", :stroke => "currentColor", "stroke-width" => "2", :viewbox => "0 0 24 24", :xmlns => "http://www.w3.org/2000/svg"}
+                %path{:d => "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16", "stroke-linecap" => "round", "stroke-linejoin" => "round"}
+              Sign out
+        -else
+          %a.inline-flex.items-center.justify-center.h-12.px-6.font-medium.tracking-wide.text-white.transition.duration-200.rounded-lg.shadow-md.bg-green-800.hover:bg-blue-800.focus:shadow-outline.focus:outline-none{"aria-label" => "Sign up", :href => main_app.member_session_path, :title => "Log in or Sign up"}
+            Login
 :javascript
   var drop_hidden = true;
   function menu_on() {
