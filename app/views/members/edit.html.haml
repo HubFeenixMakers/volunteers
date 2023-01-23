@@ -1,15 +1,14 @@
 %script{:src => "https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"}
 %script{:src => "https://cdn.jsdelivr.net/npm/marked/marked.min.js"}
 
-.flex.justify-center.m-20
-  .flex.flex-col
+.flex.justify-center.m-5.m-5.md:m-12.lg:m-20
+  .flex.flex-col.text-center
     %h1.text-4xl Edit your profile
 
-= simple_form_for @member  do |f|
-
-  .flex.justify-center
-    .column{class: "w-11/12 md:w-10/12"}
-      .grid.grid-cols-1.md:grid-cols-2.mx-20.gap-10
+.flex.justify-center.m-5.m-5.md:m-12.lg:m-20
+  .flex.flex-col.text-center{class: "w-full md:w-10/12"}
+    = simple_form_for @member  do |f|
+      .grid.grid-cols-1.md:grid-cols-2.gap-10
         = render "merged/form/editor" , object: @member , field: :bio, form: f
         .info.mr-8
           .text-red-700= f.error_notification
