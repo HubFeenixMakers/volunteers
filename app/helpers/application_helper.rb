@@ -61,7 +61,7 @@ module ApplicationHelper
     end
     def member_memu
       items =[["/forum" ,"Forum"] , [main_app.member_path(current_member) , "Settings"]]
-      if current_member.admin? and !Rails.env.production?
+      if !Rails.env.production?
         items << [merged.pages_path(), "CMS" ]
       end
       items
