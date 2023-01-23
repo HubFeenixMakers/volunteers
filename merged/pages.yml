@@ -24,11 +24,13 @@
   :type: page
   :updated_by: torsten@villataika.fi
   :id: 10
-- :name: what_to_expect
-  :updated_at: 2023-01-19 16:07:15.084563139 +02:00
+- :name: workaway_deal
+  :updated_at: 2023-01-23 14:27:14.689445406 +02:00
   :type: page
-  :updated_by: solsolsola123@gmail.com
+  :updated_by: maijanposteja@gmail.com
   :id: 11
+  :options: {}
+  :redirects: what_to_expect
 - :name: activities_and_possibilities
   :updated_at: 2023-01-20 12:18:46.182746030 +02:00
   :type: page

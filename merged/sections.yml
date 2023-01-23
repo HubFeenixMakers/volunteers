@@ -146,7 +146,7 @@
 - :template: section_full_up
   :index: 1
   :page_id: 8
-  :updated_at: 2023-01-21 20:16:38.896560915 +02:00
+  :updated_at: 2023-01-23 14:28:24.317938221 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 43
   :options:
@@ -156,8 +156,8 @@
     subheader: ''
     text_align: center
     item_align: center
-    button_link: "/what_to_expect"
-    button_text: what to expect
+    button_link: "/workaway_deal"
+    button_text: Workaway deal
   :header: Before coming here
   :text: Read the info section!
 - :template: section_text
