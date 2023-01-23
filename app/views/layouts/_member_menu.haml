@@ -1,12 +1,8 @@
 #menu-dropdown.hidden.absolute.right-0.z-10.mt-4.w-36.origin-top-right.rounded-md.border.border-gray-100.bg-white.shadow-lg{:role => "menu"}
   .p-2
-    %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => "/forum", :role => "menuitem"}
-      Forum
-    %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => main_app.member_path(current_member), :role => "menuitem"}
-      Profile
-    - unless Rails.env.production?
-      %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => merged.pages_path(), :role => "menuitem"}
-        CMS
+    - member_memu.each do |link , text|
+      %a.block.rounded-lg.px-4.py-2.text-sm.text-gray-500.hover:bg-gray-50.hover:text-gray-700{:href => link, :role => "menuitem"}
+        =text
   = form_tag( main_app.destroy_member_session_path , {method: :delete  } ) do
     %button.flex.w-full.items-center.gap-2.rounded-lg.px-4.py-2.text-sm.text-blue-700.hover:bg-red-50{:role => "menuitem", :type => "submit"}
       %svg.h-4.w-4{:fill => "none", :stroke => "currentColor", "stroke-width" => "2", :viewbox => "0 0 24 24", :xmlns => "http://www.w3.org/2000/svg"}

@@ -1,44 +1,28 @@
-= javascript_include_tag "merged/vue.min.js"
-= javascript_include_tag "marked.min.js"
+%script{:src => "https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"}
+%script{:src => "https://cdn.jsdelivr.net/npm/marked/marked.min.js"}
 
-.flex.justify-center.m-20
-  .flex.flex-col
-    %h1.text-4xl Editing profile
+.flex.justify-center.m-5.m-5.md:m-12.lg:m-20
+  .flex.flex-col.text-center
+    %h1.text-4xl Edit your profile
 
-= simple_form_for @member  do |f|
-  = f.error_notification
-
-  .grid.grid-cols-4.mx-20
-    .info.mr-8
-      = f.input :name
-      .grid.grid-cols-2.gap-10
-        = f.input :arrived
-        = f.input :left
-      = f.input :public , label: "Public: (Click box below)"
-      = f.input :picture , as: :file , label: (@member.picture.blank? ? "Add picture" : "Change picture")
-      .flex.justify-center.actions.m-10
-        = f.button :button, "Update", class: button_classes + " bg-cyan-200"
-        = link_to  member_path(@member) do
-          %button.ml-10{type: :submit, class: button_classes}
-            Back
-    .field.flex.flex-col.pr-2.border-r-8.border-slate-600
-      = f.text_area :bio ,rows: 18 , "v-model" => "markdown" , class: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-    %div.h-90
-      -if @member.picture_url
-        %div.overflow-hidden.ml-2.mr-8
-          = image_tag @member.picture_url, class: "object-contain w-full"
-      -else
-        No Picture
-    .preview.prose
-      %b.text-2xl Preview
-      %div{"v-html" => "compiledMarkdown"}
-:ruby2js
-  class Mark < Vue
-    options el: '.grid'
-    def initialize
-      @markdown = "#{@member.bio.to_s.html_safe}"
-    end
-    def compiledMarkdown
-      marked.parse(@markdown)
-    end
-  end
+.flex.justify-center.m-5.m-5.md:m-12.lg:m-20
+  .flex.flex-col.text-center{class: "w-full md:w-10/12"}
+    = simple_form_for @member  do |f|
+      .grid.grid-cols-1.md:grid-cols-2.gap-10
+        = render "merged/form/editor" , object: @member , field: :bio, form: f
+        .info.mr-8
+          .text-red-700= f.error_notification
+          = f.input :name
+          .grid.grid-cols-2.gap-10
+            = f.input :arrived
+            = f.input :left
+          .flex.h-16.mt-2
+            = image_tag(@member.picture_url , class: "align-middle mr-2") if @member.picture?
+            = f.input :picture , as: :file , input_html: {wrapper_class: "w-full"},
+            label: (@member.picture.blank? ? "Add picture" : "Change picture")
+            = f.hidden_field :picture_cache
+          .flex.justify-center.actions.m-10
+            = f.button :button, "Update", class: button_classes + " bg-cyan-200"
+            = link_to  member_path(@member) do
+              %button.ml-10{type: :submit, class: button_classes}
+                Back

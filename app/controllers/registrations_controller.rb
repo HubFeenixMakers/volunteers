@@ -5,20 +5,22 @@ class RegistrationsController < Devise::RegistrationsController
   # before_action :configure_account_update_params, only: [:update]
   prepend_before_action :authenticate_scope!, only: [:edit_email]
 
-
   def new
     build_resource
     super
   end
-  # POST /resource
+
   def create
     if message = math_check
+      puts message
       flash.now.alert = message
+      build_resource(sign_up_params)
+      render :new
+    else
+      super
     end
-    super
   end
 
-  # GET /resource/edit
   def edit_email
     build_resource
     puts "EDIT"
@@ -28,16 +30,11 @@ class RegistrationsController < Devise::RegistrationsController
     build_resource
     super
   end
-  # PUT /resource
+
   def update
     puts "UPDATE"
     super
   end
-
-  # DELETE /resource
-  # def destroy
-  #   super
-  # end
 
   protected
 

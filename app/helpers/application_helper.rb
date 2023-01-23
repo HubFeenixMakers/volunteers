@@ -5,10 +5,11 @@ module ApplicationHelper
   # different template according to the amount of text
   def render_story(story)
     return "" unless story
+    puts story.text.length
     text_length = story.text.length
     template = "text"
-    template = "half" if text_length < 400
-    template = "pic" if text_length < 200
+    template = "half" if text_length < 500
+    template = "pic" if text_length < 300
     render partial: "stories/#{template}" , locals: {story: story}
   end
 
@@ -54,4 +55,22 @@ module ApplicationHelper
     rows
   end
 
+    def main_menu
+      [["/members" , "Volunteers"],["/stories" , "Stories"], ["/info" , "Info"],
+       ["/arriving" , "Arriving"],["/about" , "About"], ]
+    end
+    def member_memu
+      items =[["/forum" ,"Forum"] , [main_app.member_path(current_member) , "Settings"]]
+      if current_member.admin? and !Rails.env.production?
+        items << [merged.pages_path(), "CMS" ]
+      end
+      items
+    end
+    def mobile_menu
+      if current_member
+        member_memu
+      else
+        [main_app.member_session_path, "Login"]
+      end
+    end
 end

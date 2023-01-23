@@ -7,6 +7,9 @@ class Member < ApplicationRecord
   mount_uploader :picture, PictureUploader
   has_many :stories
 
+  validates :bio, length: { maximum: 1000 }
+  validates :name , length: { minimum: 3 }
+
   def admin
     self.email == "torsten@villataika.fi"
   end

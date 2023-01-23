@@ -10,8 +10,9 @@ Rails.application.routes.draw do
 
   mount Thredded::Engine => '/forum'
 
-  mount Merged::Engine => "/merged"
+  mount Merged::Engine => "/merged" unless Rails.env.production?
 
+  post "/form" , to: "merged/form#post" , as: :post_form
   get "/news/:id" , to: "merged/view#page" , id: :id , as: :view_blog
   get ":id" , to: "merged/view#page" , id: :id , as: :view_page
 

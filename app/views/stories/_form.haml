@@ -1,0 +1,20 @@
+%div
+  Story layout changes with the amount of text.
+  For short text a wide picture is best. Otherwise square, and for
+  longer text a high picture also works.
+= simple_form_for @story do |f|
+  = f.error_notification
+  .flex.h-16.mt-2
+    = image_tag(@story.picture_url , class: "align-middle mr-2") if @story.picture?
+    = f.input :picture , as: :file , input_html: {wrapper_class: "w-full"},
+    label: (@story.picture.blank? ? "Add picture" : "Change picture")
+    = f.hidden_field :picture_cache
+  = f.input :header
+  = render "merged/form/editor" , object: @story , field: :text, form: f
+  = f.input :happened , wrapper_class: "flex mt-4 align-center"
+  .flex.justify-between.mt-6
+    %button.bg-cyan-200.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
+      = f.submit 'Save'
+    = link_to member_path(current_member) do
+      %button.ml-20.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
+        Back

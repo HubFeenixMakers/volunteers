@@ -6,6 +6,11 @@
                url: registration_path(resource_name) ) do |f|
       = render "devise/shared/error_messages", resource: resource
       .mb-4
+        = f.label :name, class: "block font-bold mb-2 text-gray-700 text-sm"
+        = f.input :name,
+          placeholder: "Pekka Virtanen",
+          class: "appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none shadow focus:shadow-outline"
+      .mb-4
         = f.label :email, class: "block font-bold mb-2 text-gray-700 text-sm"
         = f.email_field :email,
           autocomplete: "email",
