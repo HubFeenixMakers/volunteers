@@ -2,262 +2,274 @@
 - :section_id: 52
   :index: 1
   :header: Transportation
-  :text: "- **Car** - The hub provides a volunteer car at cost price ((0,20€/ km)
-    little driving test required before borrowing it first time).  \r\n- **Bus** -
+  :text: "- **Car** - The Hub provides a volunteer car at cost price (0,20€/ km.)
+    Little driving test required before borrowing it first time.  \r\n- **Bus** -
     There’s a bus stop right in front of the house. On the weekdays, busses go to
     Karjaa (7 km -grocery stores, post office, train station etc.) and to Helsinki.
-    [see here](https://www.matkahuolto.fi/en).\r\n- **Bicycle** - free bycicle for
-    everyday use.\r\n- **Train** - the nearby train station is perfect for longer
-    travels, one hour to Helsinki, [see more](https://www.vr.fi/en).\r\n"
+    [see here](https://www.matkahuolto.fi/en).\r\n- **Bicycle** - We have a few bikes
+    that can be borrowed for everyday use.\r\n- **Train** - The nearby train station
+    in Karjaa is perfect for longer travels, for example one hour to Helsinki, [see
+    more](https://www.vr.fi/en).\r\n"
   :options:
     background: none
     text_color: none
-    text_align: center
+    text_align: left
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 13:14:34.540414941 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 20:50:18.099346501 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 6
   :image_id: 71
 - :section_id: 52
   :index: 2
-  :header: common utilities
-  :text: "- **Washing machine** \r\n- **kitchen** - common kitchen and lounge space\r\n-
-    **storage** - individual shelves for dry/ non refrigirated food\r\n- **Showers**
-    - Showers are equiped with common accessories and a dry blower.\r\n"
+  :header: Common utilities
+  :text: "- **Laundry room** - washing machine, iron \r\n- **Kitchen** - common kitchen
+    and lounge space\r\n- **Storage** - space for everyone's private food\r\n- **Showers**
+    - showers are equiped with soaps -take your other personal hygienic products with
+    you"
   :options:
     background: none
     text_color: none
-    text_align: center
+    text_align: left
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 13:16:03.653033918 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 20:21:32.725746169 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 7
-  :image_id: 50
+  :image_id: 102
 - :section_id: 52
   :index: 3
-  :header: clothing
-  :text: "## Our common clothing room offers\r\n\r\n• shirts    • pants\r\n• sweatshirts
-    \   • sweaters\r\n• shoes    • work clothes\r\n• coats    • scarves\r\n• hats
-    \   •.  gloves\r\n• sock    • robes\r\n\r\n"
+  :header: Clothing
+  :text: "## You can borrow **work clothes** and **warm winter clothes** for your
+    stay, such as \r\n\r\n\r\n• shirts    • pants\r\n• sweatshirts    • sweaters\r\n•
+    shoes    • painting clothes\r\n• jackets    • scarves\r\n• hats    •.  gloves\r\n•
+    woolly socks    • bathrobes\r\n\r\n"
   :options:
     background: none
     text_color: none
-    text_align: center
+    text_align: left
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 13:15:41.951836043 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 20:40:53.889949461 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 8
-  :image_id: 84
+  :image_id: 103
 - :section_id: 54
   :index: 1
-  :header: music room
-  :text: "the music rooms is equipped with - \r\nacoustic and electric drum kits,\r\nguitar\r\nand
+  :header: Music room
+  :text: "The music rooms is equipped with - \r\nacoustic and electric drum kits,\r\nguitar\r\nand
     piano"
   :options:
     background: white
     text_color: none
-    text_align: center
+    text_align: left
     subheader: ''
     order: left
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 13:17:01.200273416 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 20:53:23.089085572 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 9
   :image_id: 72
 - :section_id: 54
   :index: 2
-  :header: sauna
-  :text: "the sauna is open at least once a week.\r\nsometimes during summer the sauna
-    is moved to the lake. "
+  :header: Sauna
+  :text: "Sauna is normally heated once a week.\r\nSometimes during the summer we
+    move it  to the lake! "
   :options:
     background: none
     text_color: none
-    text_align: center
+    text_align: left
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 13:17:12.864159743 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 20:55:24.466866735 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 10
   :image_id: 78
 - :section_id: 54
   :index: 3
-  :header: gym
-  :text: "the gym offers\r\nparalets\r\npull-up bar\r\ntrx\r\nweights"
+  :header: Gym
+  :text: "The gym offers\r\nparalets\r\npull-up bar\r\ntrx\r\nweights"
   :options:
     background: none
     text_color: none
-    text_align: center
+    text_align: left
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 13:17:32.133434214 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 20:53:54.169695531 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 11
   :image_id: 79
 - :section_id: 54
   :index: 4
   :header: Football field
-  :text: the Field right near the hub building, where you can play a sport of your
-    choice.
+  :text: There's a field right next to the Hub building, where you can play a sport
+    of your choice.
   :options:
     background: none
     text_color: none
-    text_align: center
+    text_align: left
     order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 13:17:55.200944974 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 20:55:37.315093887 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 12
   :image_id: 93
 - :section_id: 55
   :index: 1
   :header: The workaday deal
-  :text: "each workawayer is expected to work 5 hours per week day, when possible
-    in flexible work-hours.\r\nwe do our best to match the work with the workers preferences."
+  :text: "Each workawayer is expected to work 5 hours per day, 5 days a week, when
+    possible in flexible work-hours.\r\nWe do our best to match the work with the
+    workers preferences."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-20 14:31:13.947040815 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 22:48:20.873949746 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 13
   :image_id: 82
 - :section_id: 55
   :index: 2
   :header: Work types
-  :text: "some of the common work types include:\r\npainting, cleaning, cooking, renovation,
-    decoration, gardening and more."
+  :text: "Some of the common work types include:\r\npainting, cleaning, cooking, renovating,
+    decorating, gardening, computer work and more."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-20 14:30:56.981893379 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 22:51:14.563333222 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 14
   :image_id: 81
 - :section_id: 55
   :index: 3
   :header: House rules
-  :text: "since we all live together, everyone is required to follow basic rules,\r\nplease
+  :text: "Since we all live together, everyone is required to follow basic rules,\r\nplease
     read below."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-20 14:32:31.034198174 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 22:51:26.553202416 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 15
   :image_id: 83
 - :section_id: 59
   :index: 1
   :header: Plane
-  :text: "Helsinki/ vantaa airport is the closest available airport, from there you
-    can take the metro to the city center, and from there the Train to karjaa(karis).\r\n[see
-    more](https://www.finavia.fi/en/airports/helsinki-airport/access)"
+  :text: "Helsinki-Vantaa airport is the closest one, from there you can take the
+    train to the city center, and then to Karjaa. You can also buy the train ticket
+    straight from the airport to Karjaa, changing train once in Pasila (a station
+    just before Helsinki city centre).\r\n[see more](https://www.finavia.fi/en/airports/helsinki-airport/access)"
   :options:
-    background: none
+    background: light_blue
     text_color: none
-    text_align: center
-  :updated_at: 2023-01-19 19:41:42.882700439 +02:00
-  :updated_by: solsolsola123@gmail.com
+    text_align: left
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-23 22:07:00.003439376 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 16
   :image_id: 62
 - :section_id: 59
   :index: 2
   :header: Ferry
-  :text: "you can take a ferry from Estonia/ Talin, the Ferry takes arround two hours
-    and costs 20 - 30 Euro's.\r\nFerries from Stockholm, take around 10 hours amd
-    cost 40 - 70 Euro's. "
+  :text: "You can take a ferry from Tallin/ Estonia, it takes around 2 hours and costs
+    20-30 €.\r\nFerries from Stockholm/ Sweden, takes around 10 hours and cost 40-70
+    €. There's also a ferry from Travemunde/ Germany. "
   :options:
-    background: none
+    background: light_blue
     text_color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-19 16:55:41.712018575 +02:00
-  :updated_by: solsolsola123@gmail.com
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-23 22:01:22.562193539 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 17
   :image_id: 64
 - :section_id: 59
   :index: 3
   :header: Train
-  :text: "The train can be taken from Helsinki to Karjaa(karis), make sure to contact
-    us at least an hour before you arrive so we can come pick you up.   \r\n[see more](https://www.vr.fi/en)"
+  :text: "The train can be taken from Helsinki to Karjaa (Karis), takes about 1 hour.
+    Make sure to contact us well in advance before you arrive, so we can arrange to
+    come to pick you up.   \r\n[see more](https://www.vr.fi/en)"
   :options:
-    background: none
+    background: light_blue
     text_color: none
     order: left
-    text_align: center
-  :updated_at: 2023-01-19 19:38:36.720210191 +02:00
-  :updated_by: solsolsola123@gmail.com
+    text_align: left
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-23 22:11:24.168748272 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 18
   :image_id: 63
 - :section_id: 60
   :index: 1
   :header: Explore nature
-  :text: The hub is surrounded by a beautiful forest, and a nearby lake
+  :text: The Hub is surrounded by a beautiful forest, and a nearby lake.
   :options:
     background: light_gray
     text_color: black
     text_align: center
-  :updated_at: 2023-01-20 13:09:07.402009575 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 23:49:14.675435045 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 19
-  :image_id: 68
+  :image_id: 117
 - :section_id: 60
   :index: 2
   :header: Visit nearby bars
-  :text: "bars include:\r\n\r\n**The yard** in karjaa(karis)\r\n**Rock'n'Roll Cafe**
-    \ in lohjaa"
+  :text: "bars include:\r\n\r\n**The Yard** in Karjaa\r\n**Rock'n'Roll Cafe**  in
+    Lohja"
   :options:
     background: light_blue
     text_color: black
     text_align: center
-  :updated_at: 2023-01-20 13:09:19.650334150 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 23:38:51.005331347 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 20
   :image_id: 69
 - :section_id: 60
   :index: 3
   :header: Visit Helsinki
-  :text: 'The coastal capital of finland has no shortage of tourist attractions and
+  :text: 'The coastal capital of Finland has no shortage of tourist attractions and
     interesting locations.  '
   :options:
     background: solid_blue
     text_color: white
     text_align: center
-  :updated_at: 2023-01-20 13:09:30.958780402 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 23:37:32.682196925 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 21
   :image_id: 70
 - :section_id: 60
   :index: 4
   :header: In-house activities
   :text: There’s also lots of things happening in the house. For example yoga classes,
-    language lessons, Ecstatic dance evening, Etc.
+    language lessons, Extatic dance evenings, Etc.
   :options:
     background: light_orange
     text_color: none
     text_align: center
-  :updated_at: 2023-01-20 14:51:55.959187402 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 23:49:59.353172635 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 22
   :image_id: 19
 - :section_id: 51
@@ -329,3 +341,230 @@
   :updated_by: torsten@villataika.fi
   :id: 27
   :image_id: 77
+- :section_id: 53
+  :index: 1
+  :header: ''
+  :text: 'Volunteers have a dedicated corridor for themselves. We have a place for
+    about 5-15 workaways at a time (bit more in the summer, bit less in the winter
+    due to the heating situation). '
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    subheader: ''
+    order: left
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-23 19:58:18.016054139 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 28
+  :image_id: 99
+- :section_id: 53
+  :index: 2
+  :header: ''
+  :text: Accommodation is in shared rooms (2-4 persons), with shared showers & toilets,
+    and a common kitchen and lounge. We provide bed sheets and a towel for you.
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-23 19:58:27.856336520 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 29
+  :image_id: 100
+- :section_id: 46
+  :index: 2
+  :header: ''
+  :text: ''
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: right
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-23 21:35:40.070813614 +02:00
+  :updated_by: !ruby/object:Member
+    concise_attributes:
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: id
+      value_before_type_cast: 1
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: name
+      value_before_type_cast: Maija Leminen
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: bio
+      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: picture
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: public
+      value_before_type_cast: false
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: created_at
+      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: updated_at
+      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: email
+      value_before_type_cast: maijanposteja@gmail.com
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: encrypted_password
+      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_token
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_sent_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: remember_created_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_token
+      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmed_at
+      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_sent_at
+      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: unconfirmed_email
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: arrived
+      value_before_type_cast: '2023-01-13'
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: left
+      value_before_type_cast: '2023-01-13'
+    new_record: false
+    active_record_yaml_version: 2
+  :id: 30
+  :image_id: 110
+- :section_id: 46
+  :index: 1
+  :header: ''
+  :text: "Whole Hub Feenix is a vegetarian area, so no other food is allowed in the
+    house. \r\nBasic food is included in the workaway deal, such as rice, pasta, seasons
+    veggies, beans, lentils, bread, porridge flakes, tea & coffee."
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-23 21:50:03.893833609 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 31
+  :image_id: 112
+- :section_id: 62
+  :index: 1
+  :header: ''
+  :text: ''
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-23 22:42:06.454156527 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 33
+  :image_id: 114
+- :section_id: 62
+  :index: 2
+  :header: ''
+  :text: ''
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-23 22:42:13.374961241 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 34
+  :image_id: 115
+- :section_id: 62
+  :index: 3
+  :header: ''
+  :text: ''
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-23 22:42:22.022819565 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 35
+  :image_id: 116
+- :section_id: 65
+  :index: 1
+  :header: ''
+  :text: '**Downhill skiing** -Finland''s most southest ski hill "Påminne" is only
+    10 mins from the Hub.'
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 01:01:37.182845443 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 36
+  :image_id: 118
+- :section_id: 65
+  :index: 4
+  :header: ''
+  :text: ''
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 01:02:30.188380687 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 37
+  :image_id: 120
+- :section_id: 65
+  :index: 2
+  :header: ''
+  :text: "**Trips to close by historical sites and villages** - Our city Raasepori
+    is a popular tourist destination. Within half an hour's car drive from the Hub
+    there's lots to see - art village Fiskars, historical Raseborg castle ruins, old
+    seaside town Tammisaari, Mustio castle with big mansion style garden etc."
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 01:05:47.271650060 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 38
+  :image_id: 73
+- :section_id: 65
+  :index: 3
+  :header: ''
+  :text: "**Horse riding** With a separate fee, it's also possible to go riding in
+    the forest with Hub's own horses. And you can always come to say hello to them
+    and our two sheep!"
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 01:02:36.796011348 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 39
+  :image_id: 121

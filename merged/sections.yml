@@ -88,8 +88,8 @@
 - :template: section_full_up
   :index: 5
   :page_id: 7
-  :updated_at: 2023-01-20 15:08:18.861073195 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 23:25:34.166327420 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 42
   :options:
     background: light_blue
@@ -101,7 +101,7 @@
     button_link: ''
     button_text: ''
     columns: '3'
-  :header: Info
+  :header: Info MAIJA WILL REDO THIS
   :text: "Hub Feenix is a non-profit centre for creativity and wellbeing, \r\nrun
     by Co-operative Hub Feenix.\r\nOur values are love of life, fairness, continuous
     learning and giving to life with all our work in Hub Feenix.\r\nWelcome to join
@@ -160,10 +160,10 @@
     button_text: Workaway deal
   :header: Before coming here
   :text: Read the info section!
-- :template: section_text
+- :template: section_cards
   :index: 4
   :page_id: 7
-  :updated_at: 2023-01-21 20:13:43.900111336 +02:00
+  :updated_at: 2023-01-23 21:31:56.405637515 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 46
   :options:
@@ -174,13 +174,12 @@
     background: none
     button_link: ''
     button_text: ''
-    columns: '4'
+    columns: '2'
     text_align: left
   :header: Food
-  :text: "Whole Hub Feenix is a vegetarian area, so no other food is allowed in the
-    house. \r\nBasic food is included in the workaway deal, such as rice, pasta, seasons
-    veggies, beans, lentils, bread, porridge flakes, tea & coffee.\r\n "
-  :image_id: 89
+  :text: "\r\n "
+  :image_id: 0
+  :card_template: card_wide_square
 - :template: section_cards
   :index: 1
   :page_id: 10
@@ -230,11 +229,11 @@
   :updated_by: maijanposteja@gmail.com
   :id: 52
   :card_template: card_normal_square
-- :template: section_feature
+- :template: section_cards
   :index: 1
   :page_id: 7
-  :updated_at: 2023-01-23 13:26:22.632323058 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 19:57:55.549246464 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 53
   :options:
     subheader: ''
@@ -245,14 +244,11 @@
     button_link: ''
     button_text: ''
     text_align: left
+    columns: '2'
   :header: Living
-  :text: Accommodation is in shared rooms (2-4 persons), with shared showers & toilets,
-    and a common kitchen and lounge. Volunteers have a dedicated corridor for themselves.
-    We have a place for about 5-15 workaways at a time (bit more in the summer, bit
-    less in the winter due to the heating situation). We'll provide bed sheets and
-    a towel for you.
-  :image_id: 95
-  :card_template: card_full_image
+  :text: ''
+  :image_id: 0
+  :card_template: card_wide_square
 - :template: section_cards
   :index: 3
   :page_id: 7
@@ -284,7 +280,7 @@
   :header: What to expect
   :text: ''
 - :template: section_text
-  :index: 2
+  :index: 3
   :page_id: 11
   :updated_at: 2023-01-20 14:39:55.972317660 +02:00
   :updated_by: solsolsola123@gmail.com
@@ -329,7 +325,7 @@
     a week, some of the volunteers attend a cleaning shift, where the entire volunteer
     corridoor is cleaned."
 - :template: section_small_image
-  :index: 3
+  :index: 4
   :page_id: 11
   :header: Recycling
   :text: "**COMPOSTING AND RECYCLING**\r\nWe recycle all the waste we can -old food,
@@ -381,10 +377,10 @@
 - :template: section_cards
   :index: 3
   :page_id: 8
-  :updated_at: 2023-01-23 13:22:16.669429085 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-23 22:13:51.832340644 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 59
-  :card_template: card_gap_square
+  :card_template: card_feature_normal
   :options:
     background: white
     columns: '3'
@@ -394,12 +390,7 @@
   :header: How to get here
   :text: "Address: Högbenintie 30, 10350 Meltola\r\nNearby town: Karjaa (Karis)\r\nDistance
     from Helsinki: approximately 1 hour by train or car (75 km)\r\n\r\n[see on google
-    maps](https://www.google.com/maps/place/Hub+Feenix/@60.1087256,23.7915169,17z/data=!3m1!4b1!4m5!3m4!1s0x468da5124a023e29:0xcae080e9021c7724!8m2!3d60.1087229!4d23.7937056)\r\n\r\n##What
-    you should bring##\r\n\r\n**Clothing** - it can get pretty cold during winter,
-    so make sure to come with several layers of clothes, preferably woollen (we can
-    also borrow you more). \r\nDon't forget a swimsuit for the sauna and swimming.\r\n**Grooming
-    and shower** -The Hub has a hair dryer, soap and shampoo, but make sure to bring
-    any other grooming equipment you may need. We'll provide a towel for you.\r\n\r\n"
+    maps](https://www.google.com/maps/place/Hub+Feenix/@60.1087256,23.7915169,17z/data=!3m1!4b1!4m5!3m4!1s0x468da5124a023e29:0xcae080e9021c7724!8m2!3d60.1087229!4d23.7937056)\r\n\r\n\r\n"
 - :template: section_cards
   :index: 1
   :page_id: 12
@@ -419,17 +410,78 @@
 - :template: section_text
   :index: 2
   :page_id: 12
-  :updated_at: 2023-01-20 16:15:15.457899452 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-24 01:03:43.598194637 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 61
   :options: {}
   :header: Games & shared activities
   :text: "**Basement hide and seek** -  The basement is structured like a maze which
-    allows for alot of creative expression when when finding somewhere to hide.\r\n\r\n**Among
+    allows for a lot of creative expression when when finding somewhere to hide.\r\n\r\n**Among
     us/ jackbox** - the computer room allows for joined video gaming experiences.\r\n\r\n**Football**
     - The winter version is more exciting!\r\n\r\n**Dudo** -  Dudo is a fun dice game
-    [see rules](https://bead.game/games/dice-games/dudo)\r\n\r\n**Card & Board games**
-    - The kitchen lounge has several board and card games.  \r\n\r\n**Ski** -  there's
-    free-to-use ski equipment in the hub for everybodies use. \r\n\r\n**Ice skating**
-    -  \r\n**Watching movies** -  \r\n**Swimming in the lake** -  take a summer swim,
-    or a walk during winter.\r\n"
+    [see rules](https://bead.game/games/dice-games/dudo)\r\n\r\n**Card & board games**
+    - The kitchen lounge has several board and card games.  \r\n\r\n**Cross-country
+    skiing** -  there's ski equipment in the Hub for everybody use. \r\n\r\n**Ice
+    skating** - you can borrow our ice skates too, in Karjaa there is a free ice skating
+    arena and sometimes (depending on weather and snow situation) it's possible to
+    skate on the lake too.\r\n\r\n**Watching movies** -  there's a large screen and
+    a comfy sofa in the living room.\r\n\r\n**Swimming in the lake** -  take a summer
+    swim, or a walk during winter.\r\n\r\n**Bike riding, jogging, walking** - there's
+    many ways to explore and enjoy the surrounding nature, there's both shorter and
+    longer treks around the Hub.\r\n\r\n**Mushroom and berry picking** -popular Finnish
+    hobby in the late summer and autumn! Great way to spend time in the forrest and
+    possibly find some healthy ingredients for cooking."
+- :template: section_cards
+  :index: 5
+  :page_id: 8
+  :updated_at: 2023-01-23 23:30:15.272979051 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 62
+  :options:
+    background: white
+    columns: '3'
+    subheader: ''
+    text_color: none
+    text_align: left
+  :card_template: card_wide_square
+  :header: ''
+  :text: ''
+- :template: section_full_up
+  :index: 2
+  :page_id: 11
+  :updated_at: 2023-01-23 22:55:38.893651182 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 63
+  :card_template: ''
+  :options: {}
+  :header: Maija will ad the code of conduct here and edit house rules
+  :text: ''
+- :template: section_large_image
+  :index: 4
+  :page_id: 8
+  :updated_at: 2023-01-23 23:32:17.915968380 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 64
+  :card_template: ''
+  :options: {}
+  :image_id: 113
+  :header: What you should bring
+  :text: "**Clothing** - it can get pretty cold during winter, so make sure to come
+    with several layers of clothes, preferably woollen (we can also borrow you more).
+    \r\nDon't forget a swimsuit for the sauna and swimming.\r\n\r\n**Grooming and
+    shower** -The Hub has a hair dryer, soap and shampoo, but bring any other grooming
+    equipment you may need. We'll provide a towel for you.\r\n\r\n**Yourself as you
+    are** -with open mind and heart, ready to share and learn new!\r\n"
+- :template: section_cards
+  :index: 3
+  :page_id: 12
+  :updated_at: 2023-01-24 00:55:32.749883390 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 65
+  :card_template: card_wide_square
+  :options:
+    background: white
+    columns: '2'
+    subheader: ''
+    text_color: none
+    text_align: left
