@@ -8,6 +8,7 @@ gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
 gem "rails", "~> 7.0"
 
 gem "sprockets-rails"
+gem "sprockets" , "4.1.1"
 gem "pg", "~> 1.1"
 
 gem "importmap-rails"
