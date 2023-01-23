@@ -230,11 +230,11 @@
   :updated_by: maijanposteja@gmail.com
   :id: 52
   :card_template: card_normal_square
-- :template: section_cards
+- :template: section_feature
   :index: 1
   :page_id: 7
-  :updated_at: 2023-01-21 20:26:50.383498613 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-23 13:26:22.632323058 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 53
   :options:
     subheader: ''
@@ -271,10 +271,10 @@
 - :template: section_cards
   :index: 1
   :page_id: 11
-  :updated_at: 2023-01-21 20:29:53.572692161 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-23 13:23:34.892324444 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 55
-  :card_template: card_wide_square
+  :card_template: card_normal_square
   :options:
     background: white
     columns: '3'
@@ -378,11 +378,11 @@
   :updated_by: solsolsola123@gmail.com
   :id: 58
   :image_id: 61
-- :template: section_feature
+- :template: section_cards
   :index: 3
   :page_id: 8
-  :updated_at: 2023-01-21 20:24:00.649015349 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-23 13:22:16.669429085 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 59
   :card_template: card_gap_square
   :options:

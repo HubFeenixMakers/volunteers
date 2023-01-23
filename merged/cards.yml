@@ -17,10 +17,10 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 15:05:02.175324690 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 13:14:34.540414941 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 6
-  :image_id: 85
+  :image_id: 71
 - :section_id: 52
   :index: 2
   :header: common utilities
@@ -35,10 +35,10 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 15:05:13.529685567 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 13:16:03.653033918 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 7
-  :image_id: 86
+  :image_id: 50
 - :section_id: 52
   :index: 3
   :header: clothing
@@ -53,10 +53,10 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 16:26:27.921415567 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 13:15:41.951836043 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 8
-  :image_id: 87
+  :image_id: 84
 - :section_id: 54
   :index: 1
   :header: music room
@@ -70,10 +70,10 @@
     order: left
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 15:22:18.319924756 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 13:17:01.200273416 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 9
-  :image_id: 90
+  :image_id: 72
 - :section_id: 54
   :index: 2
   :header: sauna
@@ -87,10 +87,10 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 15:22:33.737883632 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 13:17:12.864159743 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 10
-  :image_id: 91
+  :image_id: 78
 - :section_id: 54
   :index: 3
   :header: gym
@@ -103,10 +103,10 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 15:22:49.542849146 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 13:17:32.133434214 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 11
-  :image_id: 92
+  :image_id: 79
 - :section_id: 54
   :index: 4
   :header: Football field
@@ -120,10 +120,10 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 15:28:25.194277856 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-23 13:17:55.200944974 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 12
-  :image_id: 94
+  :image_id: 93
 - :section_id: 55
   :index: 1
   :header: The workaday deal
@@ -329,14 +329,3 @@
   :updated_by: torsten@villataika.fi
   :id: 27
   :image_id: 77
-- :section_id: 53
-  :index: 1
-  :header: NEW
-  :text: NEW
-  :options:
-    background: none
-    text_color: none
-    text_align: center
-  :updated_at: 2023-01-21 20:03:17.319201475 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 28
