@@ -137,6 +137,9 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-async (1.0.0)
+      activejob (>= 5.0)
+      devise (>= 4.0)
     erubi (1.12.0)
     erubis (2.7.0)
     execjs (2.8.1)
@@ -363,6 +366,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     ssrf_filter (1.1.1)
+    sucker_punch (3.1.0)
+      concurrent-ruby (~> 1.0)
     tailwindcss-rails (2.0.21-x86_64-linux)
       railties (>= 6.0.0)
     temple (0.10.0)
@@ -421,6 +426,7 @@ DEPENDENCIES
   carrierwave (>= 3.0.0.beta, < 4.0)
   debug
   devise
+  devise-async
   guard
   guard-minitest
   haml-rails
@@ -441,6 +447,7 @@ DEPENDENCIES
   simple_form_tailwind_css
   sprockets (= 4.1.1)
   sprockets-rails
+  sucker_punch (~> 3.1)
   tailwindcss-rails
   thredded (~> 1.0)
   web-console
