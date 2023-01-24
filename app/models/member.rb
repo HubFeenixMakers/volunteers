@@ -2,7 +2,7 @@ class Member < ApplicationRecord
   # Include default devise modules. Others available are:
   # , :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,:confirmable,
-         :recoverable, :rememberable, :validatable
+         :recoverable, :rememberable, :validatable, :async
 
   mount_uploader :picture, PictureUploader
   has_many :stories
