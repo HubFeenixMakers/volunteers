@@ -41,3 +41,13 @@
   :type: page
   :updated_by: maijanposteja@gmail.com
   :id: 13
+- :name: in_summer
+  :updated_at: 2023-01-24 22:44:37.221037641 +02:00
+  :type: page
+  :updated_by: torsten@villataika.fi
+  :id: 14
+- :name: in_winter
+  :updated_at: 2023-01-24 22:44:54.716492377 +02:00
+  :type: page
+  :updated_by: torsten@villataika.fi
+  :id: 15

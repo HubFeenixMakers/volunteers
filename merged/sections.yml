@@ -429,23 +429,39 @@
 - :template: section_cards
   :index: 1
   :page_id: 13
-  :updated_at: 2023-01-24 01:10:20.884155873 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 00:12:12.444766597 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 66
-  :card_template: card_full_image
-  :options: {}
+  :card_template: card_normal_square
+  :options:
+    background: white
+    columns: '4'
+    subheader: ''
+    text_color: none
+    text_align: center
   :header: Finland's 4 seasons
-  :text: ''
+  :text: "Finland has four seasons, or in other words a **real** winter.\r\n\r\nSummer
+    is easy, beautiful, especially after the long winter. Autumn gentle even sometimes
+    a little too fast. Winter is a long and dark, but also clear and beautiful.\r\nBy
+    the time spring comes, we have forgotten the last summer and are glad to see light
+    and life again, so urgently coming forth.And then it starts again\r\nEach season
+    it quite it's own and beatiful, and here we want to introduce a little what that
+    means.\r\n"
 - :template: section_cards
   :index: 2
   :page_id: 13
-  :updated_at: 2023-01-24 02:28:39.840506708 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 01:14:46.130313604 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 71
   :card_template: card_wide_square
-  :options: {}
-  :header: ''
-  :text: ''
+  :options:
+    background: white
+    columns: '2'
+    subheader: ''
+    text_color: none
+    text_align: center
+  :header: Summer and winter
+  :text: we've dedicated a page for the main seasons, you can fill in the dots between
   :image_id: 0
 - :template: section_cards
   :index: 4
@@ -460,3 +476,31 @@
     subheader: ''
     text_color: none
     text_align: left
+- :template: section_cards
+  :index: 1
+  :page_id: 14
+  :updated_at: 2023-01-24 22:44:41.910577819 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 73
+  :card_template: card_full_image
+  :options: {}
+- :template: section_cards
+  :index: 1
+  :page_id: 15
+  :updated_at: 2023-01-24 22:44:56.217394855 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 74
+  :card_template: card_full_image
+  :options: {}
+- :template: section_half_image
+  :index: 2
+  :page_id: 14
+  :updated_at: 2023-01-24 23:25:19.322802742 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 75
+  :card_template: ''
+  :options: {}
+  :image_id: 115
+  :header: Summer in Finland
+  :text: "Long long nights, at midsummer the sun goes down at eleven, it never really
+    gets dark.\r\n \r\n"

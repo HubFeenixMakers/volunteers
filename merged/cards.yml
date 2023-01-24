@@ -438,305 +438,110 @@
   :id: 35
   :image_id: 116
 - :section_id: 66
-  :index: 1
+  :index: 3
   :header: Winter
-  :text: ''
+  :text: "Winter is a long and dark, but also clear and beautiful.\r\nX-mas is darkest,
+    but even February is coldest, it gets light again"
   :options:
-    background: none
+    background: solid_blue
     text_color: white
     text_align: center
-  :updated_at: 2023-01-24 01:41:35.051846905 +02:00
-  :updated_by: maijanposteja@gmail.com
+    subheader: ''
+    order: right
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-25 00:53:43.013237916 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 40
   :image_id: 122
 - :section_id: 66
-  :index: 4
+  :index: 2
   :header: Autumn
-  :text: ''
+  :text: We make the most out of the autmn, enjoying the memory of warm, before it
+    gets dark.
   :options:
-    background: none
+    background: solid_red
     text_color: white
     text_align: center
-  :updated_at: 2023-01-24 01:24:23.613265653 +02:00
-  :updated_by: maijanposteja@gmail.com
+    subheader: ''
+    order: right
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-25 00:48:41.959065314 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 41
   :image_id: 123
 - :section_id: 66
-  :index: 2
+  :index: 4
   :header: Spring
-  :text: ''
+  :text: By the time spring comes, we have forgotten the last summer and are glad
+    to see light and life again, so urgently coming forth
   :options:
-    background: none
-    text_color: white
+    background: light_blue
+    text_color: black
     text_align: center
-  :updated_at: 2023-01-24 01:41:51.780471602 +02:00
-  :updated_by: !ruby/object:Member
-    concise_attributes:
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: id
-      value_before_type_cast: 1
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: name
-      value_before_type_cast: Maija Leminen
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: bio
-      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: picture
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: public
-      value_before_type_cast: false
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: created_at
-      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: updated_at
-      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: email
-      value_before_type_cast: maijanposteja@gmail.com
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: encrypted_password
-      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_token
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_sent_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: remember_created_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_token
-      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmed_at
-      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_sent_at
-      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: unconfirmed_email
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: arrived
-      value_before_type_cast: '2023-01-13'
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: left
-      value_before_type_cast: '2023-01-13'
-    new_record: false
-    active_record_yaml_version: 2
+    subheader: ''
+    order: right
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-25 00:46:24.727773085 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 42
   :image_id: 124
 - :section_id: 66
-  :index: 3
+  :index: 1
   :header: Summer
-  :text: ''
+  :text: Summer is easy, but short and active. Beautiful, especially after the long
+    winter.
   :options:
-    background: none
-    text_color: white
+    background: light_orange
+    text_color: black
     text_align: center
-  :updated_at: 2023-01-24 01:41:58.251901271 +02:00
-  :updated_by: !ruby/object:Member
-    concise_attributes:
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: id
-      value_before_type_cast: 1
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: name
-      value_before_type_cast: Maija Leminen
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: bio
-      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: picture
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: public
-      value_before_type_cast: false
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: created_at
-      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: updated_at
-      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: email
-      value_before_type_cast: maijanposteja@gmail.com
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: encrypted_password
-      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_token
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_sent_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: remember_created_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_token
-      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmed_at
-      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_sent_at
-      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: unconfirmed_email
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: arrived
-      value_before_type_cast: '2023-01-13'
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: left
-      value_before_type_cast: '2023-01-13'
-    new_record: false
-    active_record_yaml_version: 2
+    subheader: ''
+    order: right
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-25 00:47:43.929239825 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 43
   :image_id: 125
 - :section_id: 71
   :index: 2
   :header: Winter
-  :text: Some tekst here
+  :text: "Usually there is varying amounts of snow from beginning of November to the
+    end of march. Sometimes it melts, often not.\r\nWe only call it cold when it gets
+    below minus 15 (and it does!). And it get **dark** , which we see as the opposite
+    of the light in summer.\r\nVery rarely we see a Boreals."
   :options:
     background: none
     text_color: none
     text_align: left
     order: left
     subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 02:48:48.374892871 +02:00
-  :updated_by: !ruby/object:Member
-    concise_attributes:
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: id
-      value_before_type_cast: 1
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: name
-      value_before_type_cast: Maija Leminen
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: bio
-      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: picture
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: public
-      value_before_type_cast: false
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: created_at
-      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: updated_at
-      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: email
-      value_before_type_cast: maijanposteja@gmail.com
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: encrypted_password
-      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_token
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_sent_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: remember_created_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_token
-      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmed_at
-      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_sent_at
-      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: unconfirmed_email
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: arrived
-      value_before_type_cast: '2023-01-13'
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: left
-      value_before_type_cast: '2023-01-13'
-    new_record: false
-    active_record_yaml_version: 2
-  :id: 44
-  :image_id: 130
-- :section_id: 71
-  :index: 1
-  :header: Winter
-  :text: "November-March\r\nSome teksts here"
-  :options:
-    background: none
-    text_color: none
-    text_align: left
-    order: left
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 02:49:25.768466063 +02:00
-  :updated_by: maijanposteja@gmail.com
+    button_link: "/in_winter"
+    button_text: Winter
+  :updated_at: 2023-01-24 23:11:23.962046547 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 45
   :image_id: 127
 - :section_id: 71
-  :index: 5
-  :header: Spring
-  :text: "April-May\r\nsome text here"
-  :options:
-    background: none
-    text_color: none
-    text_align: left
-    order: left
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 02:50:11.031850388 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 46
-  :image_id: 131
-- :section_id: 71
-  :index: 3
+  :index: 1
   :header: Summer
-  :text: "June-August\r\nSome texts here"
+  :text: "Everybodu off course enjoys the summer, none more than the Fins (after a
+    long winter)\r\nFinish summer is never too hot, just around 25. Still the lakes
+    heat up and swimming in the near by lake is a daily activity. "
   :options:
     background: none
     text_color: none
     text_align: left
     order: left
     subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 02:50:45.664458627 +02:00
-  :updated_by: maijanposteja@gmail.com
+    button_link: "/in_summer"
+    button_text: Summer
+  :updated_at: 2023-01-25 00:56:33.466535830 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 47
   :image_id: 128
-- :section_id: 71
-  :index: 4
-  :header: Summer
-  :text: Some text here
-  :options:
-    background: none
-    text_color: none
-    text_align: left
-    order: left
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 02:48:06.298411084 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 48
-  :image_id: 134
-- :section_id: 71
-  :index: 6
-  :header: Autumn
-  :text: "September-October\r\nSome text here"
-  :options:
-    background: none
-    text_color: none
-    text_align: left
-    order: left
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 02:51:31.113491380 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 49
-  :image_id: 129
 - :section_id: 51
   :index: 6
   :header: Downhill skiing
