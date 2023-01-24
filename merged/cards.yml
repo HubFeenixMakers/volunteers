@@ -288,7 +288,7 @@
   :image_id: 76
 - :section_id: 51
   :index: 2
-  :header: Fiskars & Bilnas Villages
+  :header: Fiskars & Billnäs Villages
   :text: 'The beautifully restored art and craft centre of Fiskars is just a 5 minutes
     drive away. There are handicraft shops, workshops, cafes and restaurants. Bilnas,
     another old ironwork centre, is just over 10 minutes drive. '
@@ -296,8 +296,8 @@
     background: none
     text_color: none
     text_align: center
-  :updated_at: 2023-01-20 14:14:06.773003961 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-01-24 02:59:36.066057421 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 24
   :image_id: 75
 - :section_id: 51
@@ -470,24 +470,12 @@
     background: none
     text_color: none
     text_align: center
-  :updated_at: 2023-01-23 22:42:06.454156527 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 33
-  :image_id: 114
-- :section_id: 62
-  :index: 2
-  :header: ''
-  :text: ''
-  :options:
-    background: none
-    text_color: none
-    text_align: center
-  :updated_at: 2023-01-23 22:42:13.374961241 +02:00
+  :updated_at: 2023-01-24 04:06:11.552300013 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 34
   :image_id: 115
 - :section_id: 62
-  :index: 3
+  :index: 2
   :header: ''
   :text: ''
   :options:
@@ -498,64 +486,162 @@
   :updated_by: maijanposteja@gmail.com
   :id: 35
   :image_id: 116
-- :section_id: 65
+- :section_id: 66
   :index: 1
-  :header: ''
-  :text: '**Downhill skiing** -Finland''s most southest ski hill "Påminne" is only
-    10 mins from the Hub.'
-  :options:
-    background: none
-    text_color: none
-    text_align: left
-    order: left
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 01:01:37.182845443 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 36
-  :image_id: 118
-- :section_id: 65
-  :index: 4
-  :header: ''
+  :header: Winter
   :text: ''
   :options:
     background: none
-    text_color: none
-    text_align: left
-    order: left
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 01:02:30.188380687 +02:00
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-24 01:41:35.051846905 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 37
-  :image_id: 120
-- :section_id: 65
+  :id: 40
+  :image_id: 122
+- :section_id: 66
+  :index: 4
+  :header: Autumn
+  :text: ''
+  :options:
+    background: none
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-24 01:24:23.613265653 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 41
+  :image_id: 123
+- :section_id: 66
   :index: 2
-  :header: ''
-  :text: "**Trips to close by historical sites and villages** - Our city Raasepori
-    is a popular tourist destination. Within half an hour's car drive from the Hub
-    there's lots to see - art village Fiskars, historical Raseborg castle ruins, old
-    seaside town Tammisaari, Mustio castle with big mansion style garden etc."
+  :header: Spring
+  :text: ''
   :options:
     background: none
-    text_color: none
-    text_align: left
-    order: left
-    subheader: ''
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-24 01:05:47.271650060 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 38
-  :image_id: 73
-- :section_id: 65
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-24 01:41:51.780471602 +02:00
+  :updated_by: !ruby/object:Member
+    concise_attributes:
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: id
+      value_before_type_cast: 1
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: name
+      value_before_type_cast: Maija Leminen
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: bio
+      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: picture
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: public
+      value_before_type_cast: false
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: created_at
+      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: updated_at
+      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: email
+      value_before_type_cast: maijanposteja@gmail.com
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: encrypted_password
+      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_token
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_sent_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: remember_created_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_token
+      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmed_at
+      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_sent_at
+      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: unconfirmed_email
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: arrived
+      value_before_type_cast: '2023-01-13'
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: left
+      value_before_type_cast: '2023-01-13'
+    new_record: false
+    active_record_yaml_version: 2
+  :id: 42
+  :image_id: 124
+- :section_id: 66
   :index: 3
-  :header: ''
-  :text: "**Horse riding** With a separate fee, it's also possible to go riding in
-    the forest with Hub's own horses. And you can always come to say hello to them
-    and our two sheep!"
+  :header: Summer
+  :text: ''
+  :options:
+    background: none
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-24 01:41:58.251901271 +02:00
+  :updated_by: !ruby/object:Member
+    concise_attributes:
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: id
+      value_before_type_cast: 1
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: name
+      value_before_type_cast: Maija Leminen
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: bio
+      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: picture
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: public
+      value_before_type_cast: false
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: created_at
+      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: updated_at
+      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: email
+      value_before_type_cast: maijanposteja@gmail.com
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: encrypted_password
+      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_token
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_sent_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: remember_created_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_token
+      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmed_at
+      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_sent_at
+      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: unconfirmed_email
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: arrived
+      value_before_type_cast: '2023-01-13'
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: left
+      value_before_type_cast: '2023-01-13'
+    new_record: false
+    active_record_yaml_version: 2
+  :id: 43
+  :image_id: 125
+- :section_id: 71
+  :index: 2
+  :header: Winter
+  :text: Some tekst here
   :options:
     background: none
     text_color: none
@@ -564,7 +650,188 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-24 01:02:36.796011348 +02:00
+  :updated_at: 2023-01-24 02:48:48.374892871 +02:00
+  :updated_by: !ruby/object:Member
+    concise_attributes:
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: id
+      value_before_type_cast: 1
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: name
+      value_before_type_cast: Maija Leminen
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: bio
+      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: picture
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: public
+      value_before_type_cast: false
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: created_at
+      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: updated_at
+      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: email
+      value_before_type_cast: maijanposteja@gmail.com
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: encrypted_password
+      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_token
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: reset_password_sent_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: remember_created_at
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_token
+      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmed_at
+      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: confirmation_sent_at
+      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: unconfirmed_email
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: arrived
+      value_before_type_cast: '2023-01-13'
+    - !ruby/object:ActiveModel::Attribute::FromDatabase
+      name: left
+      value_before_type_cast: '2023-01-13'
+    new_record: false
+    active_record_yaml_version: 2
+  :id: 44
+  :image_id: 130
+- :section_id: 71
+  :index: 1
+  :header: Winter
+  :text: "November-March\r\nSome teksts here"
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 02:49:25.768466063 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 39
-  :image_id: 121
+  :id: 45
+  :image_id: 127
+- :section_id: 71
+  :index: 5
+  :header: Spring
+  :text: "April-May\r\nsome text here"
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 02:50:11.031850388 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 46
+  :image_id: 131
+- :section_id: 71
+  :index: 3
+  :header: Summer
+  :text: "June-August\r\nSome texts here"
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 02:50:45.664458627 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 47
+  :image_id: 128
+- :section_id: 71
+  :index: 4
+  :header: Summer
+  :text: Some text here
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 02:48:06.298411084 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 48
+  :image_id: 134
+- :section_id: 71
+  :index: 6
+  :header: Autumn
+  :text: "September-October\r\nSome text here"
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-24 02:51:31.113491380 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 49
+  :image_id: 129
+- :section_id: 51
+  :index: 6
+  :header: Downhill skiing
+  :text: Finland's most southest ski hill "Påminne" is only 10 mins from the Hub.
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-24 02:58:42.544009395 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 50
+  :image_id: 118
+- :section_id: 51
+  :index: 7
+  :header: Horse riding
+  :text: It's also possible to go riding in the forest with Hub's own horses (with
+    a separate fee). And you can always come to say hello to them and our two sheep!
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-24 03:22:24.814964351 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 51
+  :image_id: 135
+- :section_id: 72
+  :index: 1
+  :header: Coffee break!
+  :text: ''
+  :options:
+    background: none
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-24 03:50:44.080515579 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 52
+  :image_id: 137
+- :section_id: 72
+  :index: 2
+  :header: Testing the new freshly finished compost box!
+  :text: ''
+  :options:
+    background: none
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-24 03:51:49.769558857 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 53
+  :image_id: 114

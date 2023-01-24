@@ -410,7 +410,7 @@
 - :template: section_text
   :index: 2
   :page_id: 12
-  :updated_at: 2023-01-24 01:03:43.598194637 +02:00
+  :updated_at: 2023-01-24 03:34:12.515953156 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 61
   :options: {}
@@ -430,21 +430,26 @@
     many ways to explore and enjoy the surrounding nature, there's both shorter and
     longer treks around the Hub.\r\n\r\n**Mushroom and berry picking** -popular Finnish
     hobby in the late summer and autumn! Great way to spend time in the forrest and
-    possibly find some healthy ingredients for cooking."
+    possibly find some healthy ingredients for cooking.\r\n\r\n**Sharing your skills
+    with others** - it's fun to have little workshops together with other volunteers,
+    if you have any hobby or skill you would like to share with others. We've already
+    had for example Japanese tea seremony, photographing, French bread baking, Jiujitsu,
+    Yoga and so on..."
+  :image_id: 0
 - :template: section_cards
   :index: 5
   :page_id: 8
-  :updated_at: 2023-01-23 23:30:15.272979051 +02:00
+  :updated_at: 2023-01-24 04:08:32.800629156 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 62
   :options:
     background: white
-    columns: '3'
+    columns: '2'
     subheader: ''
     text_color: none
     text_align: left
-  :card_template: card_wide_square
-  :header: ''
+  :card_template: card_gap_square
+  :header: Welcome to join the Hub!
   :text: ''
 - :template: section_full_up
   :index: 2
@@ -485,3 +490,32 @@
     subheader: ''
     text_color: none
     text_align: left
+- :template: section_cards
+  :index: 1
+  :page_id: 13
+  :updated_at: 2023-01-24 01:10:20.884155873 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 66
+  :card_template: card_full_image
+  :options: {}
+  :header: Finland's 4 seasons
+  :text: ''
+- :template: section_cards
+  :index: 2
+  :page_id: 13
+  :updated_at: 2023-01-24 02:28:39.840506708 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 71
+  :card_template: card_wide_square
+  :options: {}
+  :header: ''
+  :text: ''
+  :image_id: 0
+- :template: section_cards
+  :index: 5
+  :page_id: 11
+  :updated_at: 2023-01-24 03:45:28.584503910 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 72
+  :card_template: card_full_image
+  :options: {}
