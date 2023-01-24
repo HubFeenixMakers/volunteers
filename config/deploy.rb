@@ -9,6 +9,7 @@ require 'mina/rbenv'  # for rbenv support. (https://rbenv.org)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :application_name, 'volunteers'
+#set :domain, 'www.rubydesign.fi'
 set :domain, '192.168.129.10'
 set :deploy_to, '/home/feenix/volunteers'
 set :repository, "https://github.com/HubFeenixMakers/volunteers.git"

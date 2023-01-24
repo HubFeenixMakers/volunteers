@@ -1,4 +1,10 @@
 = paginate @stories
+
+.flex.justify-end
+  = sort_link(@q, :happened ,class: 'flex flex-nowrap text-md')
+  .border-r-4.mx-4
+  = sort_link(@q, :created_at , class: 'flex flex-nowrap text-md')
+
 - @stories.each do |story|
   = render_story(story)
 
