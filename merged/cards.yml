@@ -63,8 +63,8 @@
 - :section_id: 54
   :index: 1
   :header: Music room
-  :text: "The music rooms is equipped with - \r\nacoustic and electric drum kits,\r\nguitar\r\nand
-    piano"
+  :text: "The music rooms is equipped with\r\nacoustic and electric drum kits,\r\nguitar\r\nand
+    piano."
   :options:
     background: white
     text_color: none
@@ -73,15 +73,16 @@
     order: left
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 20:53:23.089085572 +02:00
+  :updated_at: 2023-01-24 19:33:55.418156724 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 9
   :image_id: 72
 - :section_id: 54
   :index: 2
   :header: Sauna
-  :text: "Sauna is normally heated once a week.\r\nSometimes during the summer we
-    move it  to the lake! "
+  :text: 'The Sauna is normally heated once a week. The workawayers take care (in
+    their free time) that there''s always plenty of firewood chopped ready. Sometimes
+    during the summer we move the sauna to the lake! '
   :options:
     background: none
     text_color: none
@@ -90,14 +91,14 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 20:55:24.466866735 +02:00
+  :updated_at: 2023-01-24 19:40:22.858921574 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 10
   :image_id: 78
 - :section_id: 54
   :index: 3
   :header: Gym
-  :text: "The gym offers\r\nparalets\r\npull-up bar\r\ntrx\r\nweights"
+  :text: "The gym offers\r\nparalets\r\npull-up bar\r\ntrx\r\nweights."
   :options:
     background: none
     text_color: none
@@ -106,7 +107,7 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 20:53:54.169695531 +02:00
+  :updated_at: 2023-01-24 19:34:11.451461440 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 11
   :image_id: 79
@@ -132,13 +133,14 @@
   :header: The workaday deal
   :text: "Each workawayer is expected to work 5 hours per day, 5 days a week, when
     possible in flexible work-hours.\r\nWe do our best to match the work with the
-    workers preferences."
+    workers preferences. On top of this everyone participates in keeping the accommodation
+    area clean (we have cleaning shifts there every Wed & Sun)."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-23 22:48:20.873949746 +02:00
+  :updated_at: 2023-01-24 19:28:18.807772004 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 13
   :image_id: 82
@@ -159,14 +161,15 @@
 - :section_id: 55
   :index: 3
   :header: House rules
-  :text: "Since we all live together, everyone is required to follow basic rules,\r\nplease
-    read below."
+  :text: "Since we all live together, and create the safe and good-feeling space together,
+    everyone is required to follow the basic rules of the house.\r\nPlease read more
+    below."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-23 22:51:26.553202416 +02:00
+  :updated_at: 2023-01-24 20:35:46.674612328 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 15
   :image_id: 83
@@ -384,72 +387,20 @@
     background: none
     text_color: none
     text_align: left
-    order: right
+    order: left
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 21:35:40.070813614 +02:00
-  :updated_by: !ruby/object:Member
-    concise_attributes:
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: id
-      value_before_type_cast: 1
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: name
-      value_before_type_cast: Maija Leminen
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: bio
-      value_before_type_cast: "cvbbgbdfgb\r\n\r\ndfg\r\nsdg\r\ndfg\r\nh"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: picture
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: public
-      value_before_type_cast: false
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: created_at
-      value_before_type_cast: 2023-01-13 18:23:19.076522000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: updated_at
-      value_before_type_cast: 2023-01-18 09:28:41.734567000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: email
-      value_before_type_cast: maijanposteja@gmail.com
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: encrypted_password
-      value_before_type_cast: "$2a$12$hGgWjWBftikgJ6wOJcjfUu.gFpsPFba5tTVNjeHH0Jzkcqw685enS"
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_token
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: reset_password_sent_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: remember_created_at
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_token
-      value_before_type_cast: x1druYuXWwy9L8Uy3GnS
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmed_at
-      value_before_type_cast: 2023-01-13 18:24:46.555456000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: confirmation_sent_at
-      value_before_type_cast: 2023-01-13 18:23:19.076639000 Z
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: unconfirmed_email
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: arrived
-      value_before_type_cast: '2023-01-13'
-    - !ruby/object:ActiveModel::Attribute::FromDatabase
-      name: left
-      value_before_type_cast: '2023-01-13'
-    new_record: false
-    active_record_yaml_version: 2
+  :updated_at: 2023-01-24 18:52:33.638953015 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 30
   :image_id: 110
 - :section_id: 46
   :index: 1
   :header: ''
-  :text: "Whole Hub Feenix is a vegetarian area, so no other food is allowed in the
-    house. \r\nBasic food is included in the workaway deal, such as rice, pasta, seasons
-    veggies, beans, lentils, bread, porridge flakes, tea & coffee."
+  :text: "Whole of the Hub Feenix is a vegetarian area, so no other food is allowed
+    in the house. \r\nBasic food is included in the workaway deal, such as rice, pasta,
+    seasons veggies, beans, lentils, bread, porridge flakes, tea & coffee."
   :options:
     background: none
     text_color: none
@@ -458,7 +409,7 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 21:50:03.893833609 +02:00
+  :updated_at: 2023-01-24 18:52:01.390954455 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 31
   :image_id: 112
@@ -824,14 +775,26 @@
   :id: 52
   :image_id: 137
 - :section_id: 72
-  :index: 2
-  :header: Testing the new freshly finished compost box!
+  :index: 3
+  :header: Testing the new freshly finished compost box...
   :text: ''
   :options:
     background: none
     text_color: white
     text_align: center
-  :updated_at: 2023-01-24 03:51:49.769558857 +02:00
+  :updated_at: 2023-01-24 18:41:19.455569246 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 53
   :image_id: 114
+- :section_id: 72
+  :index: 2
+  :header: Just saying hello to Tähti ("Star") on a way to work.
+  :text: ''
+  :options:
+    background: none
+    text_color: white
+    text_align: center
+  :updated_at: 2023-01-24 18:45:52.784842679 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 54
+  :image_id: 138

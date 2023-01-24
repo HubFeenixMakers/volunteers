@@ -86,64 +86,6 @@
   :id: 41
   :options: {}
 - :template: section_full_up
-  :index: 5
-  :page_id: 7
-  :updated_at: 2023-01-23 23:25:34.166327420 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 42
-  :options:
-    background: light_blue
-    text_color: none
-    margin: '20'
-    subheader: About the Hub and living here
-    text_align: center
-    item_align: center
-    button_link: ''
-    button_text: ''
-    columns: '3'
-  :header: Info MAIJA WILL REDO THIS
-  :text: "Hub Feenix is a non-profit centre for creativity and wellbeing, \r\nrun
-    by Co-operative Hub Feenix.\r\nOur values are love of life, fairness, continuous
-    learning and giving to life with all our work in Hub Feenix.\r\nWelcome to join
-    the Hub!\r\n\r\n\r\nACTIVITIES AND POSSIBILITIES\r\nHub Feenix is surrounded by
-    beautiful nature, and you can take nice walks around the area. There are paths
-    in the forest, and everyone’s free to use them. It’s also possible to pick berries
-    and mushrooms. There’s a lake nearby, and you can take a swim, but always wear
-    a swimming suit.\r\nThere’s also lots of things happening in the house. For example
-    yoga classes (please check the times), \t\tlanguage lessons, Ecstatic dance evenings
-    (10€ for the people of the house), riding treks in the forest (ask Maija L for
-    prices and times). You´re warmly welcome to join all the activities. Some are
-    free, some have a participation fee. There’s also Gym in 1B corridor that you
-    can use freely. In the winter you can borrow ice skates and cross-country skis.\r\nIt´s
-    possible to borrow a Hub Feenix car, for the price of 0,20€/ km. Please ask Torsten
-    more about it (little driving test required before borrowing it first time).\r\nThere’s
-    a bus stop right in front of the house. On the weekdays (=schooldays, some also
-    on summer holiday season) busses go to Karjaa (7 km -grocery stores, post office,
-    train station etc.) and to Helsinki. There’s timetables on the wall in the beginning
-    of 1A corridor. You can also check them in www.matkahuolto.fi (our bus stop is
-    Meltola, Raasepori) or ask Hanna! You can also ask a lift from people who have
-    their own cars, if someone would have a same journey as you.\r\nThere’s couple
-    of bikes too that can be borrowed. You can ask Dave more about them.\r\nSauna:
-    please check the sauna times at the Workaway meeting! We’re always wearing swimming
-    suits in the sauna. If the outdoor sauna is used, the firewood must be chopped
-    so that there is always plenty of ready wood available (ask more from Dave).\r\nWe
-    use Signal for messaging together, please download the app if you don’t have it
-    yet, and we’ll add you to the Workaway group.\r\nFree Wi-Fi network is called
-    cumulus, password: feenix2020\r\n\r\nPUBLIC SPACES\r\nOur aim together is to always
-    keep the public spaces looking nice and inviting! There can be visitors coming
-    to look at the place any time! So let’s not leave tools, cleaning equipment, our
-    clothes or shoes etc. wondering around.\r\n\r\n\r\nVISITORS\r\nWhen having visitors
-    and showing them around, please keep only to the areas that are meant for the
-    public = please don’t take visitors to the basement or the storage corridors.\r\n\r\nRENTING
-    HUB FEENIX SPACES\r\nIt’s possible to rent spaces for your own interest, like
-    art studio, wood workshop, treatment space etc. For the workaways, using a space
-    for one hour, costs one hour of work. If heating is needed, there’s a separate
-    fee for that. Agree the renting with Torsten beforehand. If you would like to
-    rent a space for a longer time or for a bigger group of people, that can also
-    be possible -talk to Torsten about that too.\r\n\r\nQUESTIONS\r\nAlways feel free
-    to ask, if you need help or information! There are no silly questions!\r\n\r\nENJOY
-    YOUR STAY!"
-- :template: section_full_up
   :index: 1
   :page_id: 8
   :updated_at: 2023-01-23 14:28:24.317938221 +02:00
@@ -180,18 +122,6 @@
   :text: "\r\n "
   :image_id: 0
   :card_template: card_wide_square
-- :template: section_cards
-  :index: 1
-  :page_id: 10
-  :updated_at: 2023-01-19 14:26:59.100565929 +02:00
-  :updated_by: torsten@villataika.fi
-  :id: 50
-  :options: {}
-  :card_template: card_full_image
-  :header: The workaway deal
-  :text: For about 5 hours of work 5 days a week you get basic food and accommodation.
-    On top of this everyone participates in keeping the accommodation area 3A clean
-    (we have cleaning shifts there every Wed & Sun).
 - :template: section_cards
   :index: 1
   :page_id: 10
@@ -282,8 +212,8 @@
 - :template: section_text
   :index: 3
   :page_id: 11
-  :updated_at: 2023-01-20 14:39:55.972317660 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-24 20:18:33.284978612 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 56
   :options:
     columns: '4'
@@ -295,65 +225,39 @@
     button_text: ''
     text_color: none
     text_align: left
-  :header: House rules
-  :text: "**RESPECT THE PROPERTY OF HUB FEENIX**\r\nAll of us in Hub Feenix respect
-    the property of others. Everything in here is always somebody’s property, that
-    somebody has bought -also in the storage rooms in the 1st floor and in the basement.
-    So please always ask first if you need to take something (from Raisa or Maija
-    L, tools etc. Torsten). The food storages in the 1st floor are only for the use
-    of the cafeteria/ customer kitchen. Common workaway food can be found in the accommodation
-    corridor 3A’s kitchen, and the room next to it. There is separate shelves and
-    fridges for everyone’s private food as well as the common food -Maija L will show
-    them to you.\r\n\r\n**HEATING**\r\nHeating this big house in the winter time is
-    very expensive, so let’s take good care of the heated spaces. Electric heaters
-    are the most expensive to use (10-20€ a day!) so we use them only when really
-    needed. Keep the door to your room open at the daytime, so the warm air from the
-    air pump can get in. If you need to use the electric heater in the night time,
-    always keep it at level ”1”, never at ”2”, and remember to switch it off for the
-    day. You can also borrow an electric heat-blanket for your bed. If you need fresh
-    air in your room, keep the window open only for 5mins while you’re in the room.\r\n\r\n**NO
-    CANDLES**\r\nThere is an automatic fire alarm system in the house, so we can not
-    burn candles or incenses inside. It costs 1000€ if the fire brigade drives here
-    for a false alarm.\r\n\r\n\r\n\r\n**VISITORS**\r\nWhen having visitors and showing
-    them around, please keep only to the areas that are meant for the public = please
-    don’t take visitors to the basement or the storage corridors.\r\n\r\n**DOORS**\r\nAll
+  :header: Other handy things to know
+  :text: "MESSAGING & WI-FI\r\nWe use Signal for messaging together in the Hub, so
+    please download the app if you don’t have it yet, and we’ll add you to the Workaway
+    group when you arrive. We have free Wi-Fi network.\r\n\r\nPUBLIC SPACES\r\nOur
+    aim together is to always keep the public spaces looking nice and inviting in
+    Hub Feenix! There can be visitors coming to look at the place any time, so let’s
+    not leave tools, cleaning equipment, our clothes or shoes etc. wondering around.\r\n\r\nDOORS\r\nAll
     the outside doors must always be kept locked. The main door can sometimes be open
     during events and courses, but only during daytime. And remember to give back
-    your outdoor key when leaving! \r\n\r\n**MEETINGS**\r\nThere’s a Workaway meeting
-    every Monday morning 10am. where we about the works of the coming week, what’s
-    happening in Hub Feenix and all the other possible things!\r\n\r\n**CLEANING SHIFT**\r\nTwice
-    a week, some of the volunteers attend a cleaning shift, where the entire volunteer
-    corridoor is cleaned."
-- :template: section_small_image
-  :index: 4
-  :page_id: 11
-  :header: Recycling
-  :text: "**COMPOSTING AND RECYCLING**\r\nWe recycle all the waste we can -old food,
-    plastic, cardboard, paper, metal, glass. You can find small recycling unit in
-    our kitchen, a little bit bigger one in the storage room opposite to the kitchen,
-    and the biggest ”main recycling room” in the 1B storage corridor. \r\nMixed waste
-    that cannot be recycled, goes to the big black bin in the back yard, ask Maija
-    for more detailed instruction. When the bucket for composted food gets full, it
-    should be emptied in the wooden compost box in the inner yard (close to saunas).
-    It has 4 sections, use the one that doesn’t have a stone on it. When the bucket
-    is empty, wash it in our 3A cleaning room, and then fill it 1/4 with sawdust (there’s
-    a big bag in the cleaning room). \r\nIn Finland you get money back from empty
-    drinking bottles and cans, so it’s worth taking them back to the shop and not
-    crush them.\r\n"
-  :options:
-    columns: 3
-    background: none
-    text_color: none
-    margin: '20'
-    text_align: center
-    subheader: ''
-    order: left
-    button_link: ''
-    button_text: ''
-  :updated_at: 2023-01-19 23:02:52.753835129 +02:00
-  :updated_by: torsten@villataika.fi
-  :id: 57
-  :image_id: 65
+    your outdoor key when leaving! \r\n\r\nRESPECT THE PROPERTY OF HUB FEENIX\r\nEverything
+    you see in Hub Feenix is always somebody’s property, that somebody has bought
+    -also in the storage rooms and in the basement. So please always ask first if
+    you need to take something. The food storages in the 1st floor are only for the
+    use of the cafeteria/ customer kitchen. Common workaway food can be found in the
+    accommodation corridor kitchen, and the room next to it. \r\n\r\nCOMPOSTING AND
+    RECYCLING\r\nWe recycle all the waste we can -old food, plastic, cardboard, paper,
+    metal, glass.\r\nIn Finland you get money back from empty drinking bottles and
+    cans, so it’s worth taking them back to the shop and not crush them.\r\n\r\nHEATING\r\nHeating
+    the big house in the winter time is very expensive, so let’s take good care of
+    the heated spaces. We do our best, but it is often pretty cool indoors too. The
+    best way to stay warm is to wear a lot warm clothes inside the house too -we will
+    borrow you some if you need.\r\n\r\nNO CANDLES\r\nThere is an automatic fire alarm
+    system in the house, so we can not burn candles or incenses inside. It costs 1000€
+    if the fire brigade drives here for a false alarm.\r\n\r\nVISITORS\r\nWhen having
+    visitors and showing them around, please keep only to the areas that are meant
+    for the public = please don’t take visitors to the basement or the storage corridors.\r\n\r\nRENTING
+    HUB FEENIX SPACES\r\nIt’s possible to rent spaces for your own interest, like
+    art studio, wood workshop, treatment space etc. For the workaways, using a space
+    for one hour, costs one hour of work. If heating is needed, there’s a separate
+    fee for that. Agree the renting with Torsten beforehand. If you would like to
+    rent a space for a longer time or for a bigger group of people, that can also
+    be possible -talk to Torsten about that too.\r\n\r\nQUESTIONS\r\nAlways feel free
+    to ask, if you need help or information! There are no silly questions!\r\n"
 - :template: section_full_image
   :index: 2
   :page_id: 8
@@ -439,7 +343,7 @@
 - :template: section_cards
   :index: 5
   :page_id: 8
-  :updated_at: 2023-01-24 04:08:32.800629156 +02:00
+  :updated_at: 2023-01-24 18:58:50.923978171 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 62
   :options:
@@ -451,16 +355,48 @@
   :card_template: card_gap_square
   :header: Welcome to join the Hub!
   :text: ''
-- :template: section_full_up
+- :template: section_text
   :index: 2
   :page_id: 11
-  :updated_at: 2023-01-23 22:55:38.893651182 +02:00
+  :updated_at: 2023-01-24 18:40:22.072999842 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 63
   :card_template: ''
-  :options: {}
-  :header: Maija will ad the code of conduct here and edit house rules
-  :text: ''
+  :options:
+    background: white
+    text_color: none
+    margin: '0'
+    subheader: ''
+    text_align: left
+    item_align: center
+    button_link: ''
+    button_text: ''
+  :header: Code of Conduct (House rules)
+  :text: "Hub Feenix is a non-profit community and co-operation, that promotes creativity,
+    wellbeing and continuous learning. Hub’s own values are love of life, fairness,
+    constant learning of new things and giving to life.\r\n\r\nThese common rules
+    have been created, so that everyone who stays, works, lives and visits Hub Feenix
+    can feel completely safe and well. These rules apply to everyone who works, lives
+    and visits in Hub’s inside and outside premises. Both adults and children follow
+    the same rules, and also the guests who are taking part in events and courses.
+    If for example some other rules have been partly agreed for the course space during
+    the course program, participants must anyhow follow this Code of Conduct outside
+    the course space in public areas. The course leader is responsible to take care,
+    that all the participants follow these rules of the house. The rules include also
+    e.g emailing and social media. They are updated according to need.\r\n\r\nAt Hub
+    Feenix, everyone is treated and addressed kindly, respectfully and equally, regardless
+    of gender, color, age, nationality, profession, sexual orientation or social status.
+    \r\n\r\nEveryone respects other people’s personal space and physical- and mental
+    integrity.\r\nEveryone in Hub Feenix’s inside and outside premises and yards commits
+    to behave in such a way, that he/she doesn't cause disturbance or shock to other
+    people in the area. In public spaces everyone is always wearing clothes, and using
+    swimming suite in sauna and on the swimming beach.\r\n\r\nVegetarian eating and
+    low-alcoholism are complied in all Hub Feenix's premises and outdoor areas. \r\n\r\nEveryone
+    in Hub Feenix respects the property of others. Using of the machines, equipment
+    and spaces of the Hub, is always agreed separately, as well as the fee for using
+    them.\r\n\r\nEveryone in Hub Feenix is obliged to consider others and not cause
+    disturbance to anyone, for example by making unnecessary noice. Loud working and
+    other loud noises must be avoided in the night time between 22-8 o’clock.\r\n"
 - :template: section_large_image
   :index: 4
   :page_id: 8
@@ -512,10 +448,15 @@
   :text: ''
   :image_id: 0
 - :template: section_cards
-  :index: 5
+  :index: 4
   :page_id: 11
-  :updated_at: 2023-01-24 03:45:28.584503910 +02:00
+  :updated_at: 2023-01-24 18:41:54.586329723 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 72
   :card_template: card_full_image
-  :options: {}
+  :options:
+    background: white
+    columns: '3'
+    subheader: ''
+    text_color: none
+    text_align: left
