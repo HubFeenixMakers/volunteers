@@ -1,11 +1,10 @@
-.group.h-96.items-end.relative.overflow-hidden
-  = image_for( picture , "inset-0 h-full w-full object-fit hover:scale-110 ease-in duration-700")
+.group.relative.overflow-hidden
+  .flex.justify-between
+    .ml-2=picture.member.name
+    .mr-2
+      = distance_of_time_in_words_to_now picture.happened
+      ago
+  = image_for( picture , "inset-0 h-full w-full object-fit hover:scale-105 ease-in duration-500")
   -unless picture.text.blank?
-    .absolute.mb-10.p-2.tracking-widest.text-left.text-black{class: "max-w-2/3"}
-      %div.transition-colors.group-hover:bg-black.group-hover:text-white.text-left.bg-gray-100
-        .m-1.p-1.text-xs
-          = picture.text
-          = picture.text
-  %div.bg-cyan-200
-    %div Torsten
-    %div some date
+    .absolute.bottom-0.left-0.right-0.px-4.pb-1.bg-gray-800.opacity-70.transition-colors.group-hover:bg-black.group-hover:opacity-100
+      .text-center.mt-2.text-white= picture.text

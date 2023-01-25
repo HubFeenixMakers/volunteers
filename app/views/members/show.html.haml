@@ -16,11 +16,15 @@
   .flex.justify-around.ml-20
     = link_to edit_member_path(@member) do
       %button.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
-        Edit
+        Edit Profile
 
     = link_to new_story_path() do
       %button.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
         New Story
+
+    = link_to new_picture_path() do
+      %button.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
+        New Picture
 
     = form_tag( destroy_member_session_path , {method: :delete  } ) do
       %button.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400{type: :submit}
@@ -32,3 +36,12 @@
     = link_to edit_story_path(story) do
       %button.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
         Edit Story
+
+.mx-20.grid.grid-cols-1.md:grid-cols-2.lg:grid-cols-3.gap-8.md:gap-12.lg:gap-16
+  - @member.pictures.each do |picture|
+    %div
+      = render picture , picture: picture
+      .flex.justify-around
+        = link_to edit_picture_path(picture) do
+          %button.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
+            Edit Picture
