@@ -1,0 +1,3 @@
+class PicturePolicy < EditOwnPolicy
+
+end

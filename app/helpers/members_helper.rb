@@ -6,7 +6,12 @@ module MembersHelper
     else
       image = someone.picture.url
     end
-    image_tag(image , alt: someone.name , class: classes )
+    if someone.respond_to? :name
+      alt = someone.name
+    else
+      alt = ""
+    end
+    image_tag(image , alt: alt , class: classes )
   end
 
   def stayed(member)

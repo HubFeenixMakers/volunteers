@@ -6,7 +6,9 @@ class Member < ApplicationRecord
 
   mount_uploader :picture, PictureUploader
   has_many :stories
-
+  has_many :stories
+  has_many :pictures
+  
   validates :bio, length: { maximum: 1000 }
   validates :name , length: { minimum: 3 }
 

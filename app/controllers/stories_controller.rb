@@ -45,13 +45,11 @@ class StoriesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_story
       @story = Story.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through.
     def story_params
-      params.require(:story).permit(:picture, :header, :text, :happened)
+      params.require(:story).permit(:picture,:picture_cache, :header, :text, :happened)
     end
 end

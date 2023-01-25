@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_01_12_123705) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_25_172223) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -46,6 +46,16 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_12_123705) do
     t.date "left"
     t.index ["email"], name: "index_members_on_email", unique: true
     t.index ["reset_password_token"], name: "index_members_on_reset_password_token", unique: true
+  end
+
+  create_table "pictures", force: :cascade do |t|
+    t.string "picture"
+    t.string "text"
+    t.date "happened"
+    t.bigint "member_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_pictures_on_member_id"
   end
 
   create_table "stories", force: :cascade do |t|
@@ -290,6 +300,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_12_123705) do
     t.index ["user_id", "postable_id"], name: "thredded_user_topic_read_states_user_postable", unique: true
   end
 
+  add_foreign_key "pictures", "members"
   add_foreign_key "thredded_messageboard_users", "thredded_messageboards", on_delete: :cascade
   add_foreign_key "thredded_messageboard_users", "thredded_user_details", on_delete: :cascade
   add_foreign_key "thredded_user_post_notifications", "members", column: "user_id", on_delete: :cascade
