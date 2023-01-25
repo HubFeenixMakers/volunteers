@@ -197,10 +197,10 @@
 - :template: section_cards
   :index: 1
   :page_id: 11
-  :updated_at: 2023-01-23 13:23:34.892324444 +02:00
+  :updated_at: 2023-01-25 02:41:34.483145412 +02:00
   :updated_by: torsten@villataika.fi
   :id: 55
-  :card_template: card_normal_square
+  :card_template: card_feature_normal
   :options:
     background: white
     columns: '3'
@@ -259,7 +259,7 @@
     be possible -talk to Torsten about that too.\r\n\r\nQUESTIONS\r\nAlways feel free
     to ask, if you need help or information! There are no silly questions!\r\n"
 - :template: section_full_image
-  :index: 2
+  :index: 3
   :page_id: 8
   :header: Where we are
   :text: ''
@@ -274,15 +274,15 @@
     shade_color: none
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-20 15:10:26.565754518 +02:00
-  :updated_by: solsolsola123@gmail.com
+  :updated_at: 2023-01-25 02:39:42.266319574 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 58
   :image_id: 61
 - :template: section_cards
-  :index: 3
+  :index: 2
   :page_id: 8
-  :updated_at: 2023-01-23 22:13:51.832340644 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 02:39:51.879367031 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 59
   :card_template: card_feature_normal
   :options:
