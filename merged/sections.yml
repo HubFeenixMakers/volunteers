@@ -297,9 +297,9 @@
     maps](https://www.google.com/maps/place/Hub+Feenix/@60.1087256,23.7915169,17z/data=!3m1!4b1!4m5!3m4!1s0x468da5124a023e29:0xcae080e9021c7724!8m2!3d60.1087229!4d23.7937056)\r\n\r\n\r\n"
 - :template: section_cards
   :index: 1
-  :page_id: 12
-  :updated_at: 2023-01-21 20:30:54.845182103 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :page_id: 10
+  :updated_at: 2023-01-25 03:30:27.757872017 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 60
   :card_template: card_full_image
   :options:
@@ -312,10 +312,10 @@
   :text: 'There are plenty of options when it comes to finding something exciting
     to do near the Hub, here are a few - '
 - :template: section_text
-  :index: 2
-  :page_id: 12
-  :updated_at: 2023-01-24 03:34:12.515953156 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :index: 1
+  :page_id: 10
+  :updated_at: 2023-01-25 03:35:57.967024551 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 61
   :options: {}
   :header: Games & shared activities
@@ -414,19 +414,6 @@
     equipment you may need. We'll provide a towel for you.\r\n\r\n**Yourself as you
     are** -with open mind and heart, ready to share and learn new!\r\n"
 - :template: section_cards
-  :index: 3
-  :page_id: 12
-  :updated_at: 2023-01-24 00:55:32.749883390 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 65
-  :card_template: card_wide_square
-  :options:
-    background: white
-    columns: '2'
-    subheader: ''
-    text_color: none
-    text_align: left
-- :template: section_cards
   :index: 1
   :page_id: 13
   :updated_at: 2023-01-25 00:12:12.444766597 +02:00
@@ -504,3 +491,10 @@
   :header: Summer in Finland
   :text: "Long long nights, at midsummer the sun goes down at eleven, it never really
     gets dark.\r\n \r\n"
+- :template: section_full_up
+  :index: 1
+  :page_id: 16
+  :updated_at: 2023-01-25 03:45:25.318340509 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 76
+  :card_template: ''
