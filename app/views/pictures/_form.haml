@@ -1,11 +1,11 @@
 %div
   Pictures may have a small text, that will be diplayed on top of the
-  picure.
+  picure. The Picture box is landscape with ratio 3/4.
   = simple_form_for @picture do |f|
     = f.error_notification
     .flex.h-16.mt-2
       = image_tag(@picture.picture_url , class: "align-middle mr-2") if @picture.picture?
-      = f.input :picture , as: :file , input_html: {wrapper_class: "w-full"},
+      .w-full= f.input :picture , as: :file ,
       label: (@picture.picture.blank? ? "Add picture" : "Change picture")
       = f.hidden_field :picture_cache
     = f.input :text , as: :text , input_html: { rows: 2 }

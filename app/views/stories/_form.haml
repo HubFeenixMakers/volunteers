@@ -6,7 +6,7 @@
   = f.error_notification
   .flex.h-16.mt-2
     = image_tag(@story.picture_url , class: "align-middle mr-2") if @story.picture?
-    = f.input :picture , as: :file , input_html: {wrapper_class: "w-full"},
+    .w-full= f.input :picture , as: :file , 
     label: (@story.picture.blank? ? "Add picture" : "Change picture")
     = f.hidden_field :picture_cache
   = f.input :header
