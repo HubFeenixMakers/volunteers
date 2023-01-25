@@ -134,28 +134,31 @@
   :text: "Each workawayer is expected to work 5 hours per day, 5 days a week, when
     possible in flexible work-hours.\r\nWe do our best to match the work with the
     workers preferences. On top of this everyone participates in keeping the accommodation
-    area clean (we have cleaning shifts there every Wed & Sun)."
+    area clean (eg do their own dishes). In winter some snow work. We have cleaning
+    shifts there every Wed & Sun."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-24 19:28:18.807772004 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:29:21.847991197 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 13
   :image_id: 82
 - :section_id: 55
   :index: 2
   :header: Work types
   :text: "Some of the common work types include:\r\npainting, cleaning, cooking, renovating,
-    decorating, gardening, computer work and more."
+    decorating, gardening, computer work and more.\r\nIf you have special skills do
+    tell. Also metal work, woodwork, electronics, marketing, event management, all
+    need to be done at times."
   :options:
     background: none
     color: none
     order: left
     text_align: center
-  :updated_at: 2023-01-23 22:51:14.563333222 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:27:50.914346126 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 14
   :image_id: 81
 - :section_id: 55
@@ -603,3 +606,78 @@
   :updated_by: maijanposteja@gmail.com
   :id: 54
   :image_id: 138
+- :section_id: 74
+  :index: 1
+  :header: No bad weather
+  :text: "In the nordics there is the saying that there is no bad weather, only bad
+    clothing.\r\nWe have a lot you can borrow, but you still need to put it on.\r\nEven
+    that sounds obvious, there is a reason i mention it."
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+    order: left
+  :updated_at: 2023-01-25 16:17:09.567801946 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 55
+  :image_id: 142
+- :section_id: 74
+  :index: 2
+  :header: Layers
+  :text: 'The way warm clothing is achieved is in Layers. Ideally wool against the
+    skin, definitely long woollen underwear. Woollen jumpers, fleece, thick down Jacket.
+    Warm boots, and woollen socks. And a hat. '
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+    order: left
+  :updated_at: 2023-01-25 16:13:09.613378304 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 56
+  :image_id: 141
+- :section_id: 74
+  :index: 3
+  :header: Enjoy It
+  :text: "Really the only way to deal with the winter is to enjoy it.\r\n\r\nEven
+    in the crazy ways.\r\n\r\nGet out there, go walking, skying, do sauna, go swimming.\r\nDon't
+    just wait for warm or sunny days."
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+    order: left
+  :updated_at: 2023-01-25 16:21:00.514228895 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 57
+  :image_id: 130
+- :section_id: 74
+  :index: 4
+  :header: Bright Light
+  :text: "Winter is dark, it does down to 5 hours of daylight. Sometimes many days
+    without sunlight. That is literally depressing.\r\n\r\nYou have to trick the body
+    to avoid bad feelings. Stare at the light. We have bright lights in the kitchen
+    area.\r\n\r\nAlso it is good not to be alone too much.\r\n"
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+    order: left
+  :updated_at: 2023-01-25 16:19:44.253089186 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 58
+  :image_id: 140
+- :section_id: 55
+  :index: 4
+  :header: Flexible Hours
+  :text: "We try to be as flexible in the hours and tasks as can be. \r\nWhile off
+    course getting the work done.\r\nThis means you ca work for extra days off, or
+    take a run in the middle of the day."
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-01-25 16:26:20.115691707 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 59
+  :image_id: 143

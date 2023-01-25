@@ -197,18 +197,23 @@
 - :template: section_cards
   :index: 1
   :page_id: 11
-  :updated_at: 2023-01-25 02:41:34.483145412 +02:00
+  :updated_at: 2023-01-25 16:35:16.368295736 +02:00
   :updated_by: torsten@villataika.fi
   :id: 55
   :card_template: card_feature_normal
   :options:
     background: white
-    columns: '3'
+    columns: '4'
     subheader: ''
     color: none
-    text_align: left
-  :header: What to expect
-  :text: ''
+    text_align: center
+    text_color: none
+  :header: Volunteering at Hub Feenix
+  :text: "Hub Feenix is a non-profit organisation hoping to bring all kinds of people
+    together.\r\nWe welcome also travellers on a budget that prefer to work rather
+    than pay money.\r\n\r\nMostly this happends through the [workaway site](https://www.workaway.info/en/host/735959816971),
+    which creates a safe space for people to meet.\r\nAfter the intial application
+    (see below), we have a Video chat, using the secure [Signal App](https://www.signal.org/)"
 - :template: section_text
   :index: 3
   :page_id: 11
@@ -453,8 +458,8 @@
 - :template: section_cards
   :index: 4
   :page_id: 11
-  :updated_at: 2023-01-24 18:41:54.586329723 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:39:32.625743500 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 72
   :card_template: card_full_image
   :options:
@@ -463,6 +468,13 @@
     subheader: ''
     text_color: none
     text_align: left
+  :header: Join the Hub as volunteer
+  :text: "If you want to apply, the best way is through workway.\r\n\r\nIn any case,
+    a successful application usually contains the following:\r\n- your reason to join
+    the Hub\r\n- details about you\r\n- the work you could contribute\r\n- your timing
+    / itinerary\r\n \r\nWe have a three week minimum and usually two month maximum
+    stay. We are aware that some people want to move to Finland, and can negotiate
+    once you are here, but make no promises over 2 months."
 - :template: section_cards
   :index: 1
   :page_id: 14
@@ -472,13 +484,26 @@
   :card_template: card_full_image
   :options: {}
 - :template: section_cards
-  :index: 1
+  :index: 2
   :page_id: 15
-  :updated_at: 2023-01-24 22:44:56.217394855 +02:00
+  :updated_at: 2023-01-25 15:11:24.682559060 +02:00
   :updated_by: torsten@villataika.fi
   :id: 74
-  :card_template: card_full_image
-  :options: {}
+  :card_template: card_normal_square
+  :options:
+    background: white
+    columns: '4'
+    subheader: 'dark and messy '
+    text_color: none
+    text_align: center
+  :header: Clear and beautiful
+  :text: "And everything in between.\r\n\r\nWinter usually starts in November. First
+    snow can come and one feels the days getting shorter.\r\nAfter New Year days are
+    slowly getting longer, but the snow makes everything look nice. Usually more sun
+    already.\r\nFebruary is often cold, minus twenty for weeks, but clear. Above picture
+    was taken then.\r\nMarch gets warmer, people start going out without jackets,
+    even T-shirt. Even it is still minus, it feels soo warm.\r\nIn April the snow
+    starts melting, green is coming and the race to summer begins."
 - :template: section_half_image
   :index: 2
   :page_id: 14
@@ -498,3 +523,22 @@
   :updated_by: torsten@villataika.fi
   :id: 76
   :card_template: ''
+- :template: section_full_image
+  :index: 1
+  :page_id: 15
+  :updated_at: 2023-01-25 14:35:30.093313267 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 77
+  :card_template: ''
+  :options:
+    fixed: 'on'
+    text_color: none
+    text_align: center
+    item_align: center
+    image_align: bottom
+    shade_color: none
+    button_link: ''
+    button_text: ''
+  :image_id: 139
+  :header: Winter Wonderland
+  :text: ''
