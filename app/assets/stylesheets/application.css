@@ -17,6 +17,7 @@
 }
 
 .prose{
+  max-width: 100%;
   color: inherit;
   --tw-prose-bullets: #6b7280;
 }

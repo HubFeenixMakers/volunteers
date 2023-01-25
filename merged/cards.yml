@@ -18,8 +18,8 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 20:50:18.099346501 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 17:03:36.978214748 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 6
   :image_id: 71
 - :section_id: 52
@@ -37,8 +37,8 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 20:21:32.725746169 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 17:03:40.690983773 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 7
   :image_id: 102
 - :section_id: 52
@@ -349,10 +349,10 @@
   :image_id: 77
 - :section_id: 53
   :index: 1
-  :header: ''
-  :text: 'Volunteers have a dedicated corridor for themselves. We have a place for
-    about 5-15 workaways at a time (bit more in the summer, bit less in the winter
-    due to the heating situation). '
+  :header: Kitchen + living room
+  :text: "Volunteers have a dedicated corridor for themselves, where you share a kitchen
+    and living room space.\r\n\r\nMeals are often taken together, mostly depending
+    on how many cooks are available."
   :options:
     background: none
     text_color: none
@@ -361,13 +361,13 @@
     order: left
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 19:58:18.016054139 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:47:41.820478507 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 28
   :image_id: 99
 - :section_id: 53
   :index: 2
-  :header: ''
+  :header: Rooms etc
   :text: Accommodation is in shared rooms (2-4 persons), with shared showers & toilets,
     and a common kitchen and lounge. We provide bed sheets and a towel for you.
   :options:
@@ -378,14 +378,16 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-23 19:58:27.856336520 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:48:50.024949323 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 29
   :image_id: 100
 - :section_id: 46
   :index: 2
-  :header: ''
-  :text: ''
+  :header: Eating
+  :text: "The Hub provides ingredients and space, sometimes ready food from Events.\r\nShared
+    meals are very common if not daily. Off course someone always needs to cook and
+    clean, but normally people work it out.\r\n"
   :options:
     background: none
     text_color: none
@@ -394,13 +396,13 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-24 18:52:33.638953015 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:52:24.078793636 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 30
   :image_id: 110
 - :section_id: 46
   :index: 1
-  :header: ''
+  :header: Provided
   :text: "Whole of the Hub Feenix is a vegetarian area, so no other food is allowed
     in the house. \r\nBasic food is included in the workaway deal, such as rice, pasta,
     seasons veggies, beans, lentils, bread, porridge flakes, tea & coffee."
@@ -412,8 +414,8 @@
     subheader: ''
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-24 18:52:01.390954455 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:51:05.320207298 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 31
   :image_id: 112
 - :section_id: 62

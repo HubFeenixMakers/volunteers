@@ -85,28 +85,11 @@
   :updated_by: maijanposteja@gmail.com
   :id: 41
   :options: {}
-- :template: section_full_up
-  :index: 1
-  :page_id: 8
-  :updated_at: 2023-01-23 14:28:24.317938221 +02:00
-  :updated_by: maijanposteja@gmail.com
-  :id: 43
-  :options:
-    background: white
-    text_color: none
-    margin: '0'
-    subheader: ''
-    text_align: center
-    item_align: center
-    button_link: "/workaway_deal"
-    button_text: Workaway deal
-  :header: Before coming here
-  :text: Read the info section!
 - :template: section_cards
-  :index: 4
+  :index: 2
   :page_id: 7
-  :updated_at: 2023-01-23 21:31:56.405637515 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 17:04:54.467275443 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 46
   :options:
     subheader: ''
@@ -143,10 +126,11 @@
     also a surprising amount of local culture is really worth the visit."
   :card_template: card_normal_round
 - :template: section_cards
-  :index: 2
+  :index: 3
   :page_id: 7
-  :header: ''
-  :text: ''
+  :header: Facilities
+  :text: The Hub also provides extra facilities. We are in the country so eg a shared
+    car is available.
   :options:
     margin: 20
     order: left
@@ -155,15 +139,15 @@
     columns: '3'
     subheader: ''
     text_align: left
-  :updated_at: 2023-01-21 19:05:40.887385808 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 17:04:40.052561299 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 52
   :card_template: card_normal_square
 - :template: section_cards
   :index: 1
   :page_id: 7
-  :updated_at: 2023-01-23 19:57:55.549246464 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 17:04:51.625389248 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 53
   :options:
     subheader: ''
@@ -176,14 +160,16 @@
     text_align: left
     columns: '2'
   :header: Living
-  :text: ''
+  :text: "Volunteers live in their own shared community. There is usually between
+    6-12, rarely less or more.\r\nWhile you get to know many people this way, communal
+    also requires everyone to participate (socially, cleaning etc)"
   :image_id: 0
   :card_template: card_wide_square
 - :template: section_cards
-  :index: 3
+  :index: 4
   :page_id: 7
-  :updated_at: 2023-01-21 19:45:06.296912879 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-25 16:56:12.118008081 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 54
   :card_template: card_normal_square
   :options:
@@ -192,8 +178,8 @@
     subheader: ''
     text_color: none
     text_align: left
-  :header: Facilities
-  :text: ''
+  :header: ''
+  :text: 'Also these are things you can use in and around the Hub. '
 - :template: section_cards
   :index: 1
   :page_id: 11
@@ -264,9 +250,9 @@
     be possible -talk to Torsten about that too.\r\n\r\nQUESTIONS\r\nAlways feel free
     to ask, if you need help or information! There are no silly questions!\r\n"
 - :template: section_full_image
-  :index: 3
+  :index: 2
   :page_id: 8
-  :header: Where we are
+  :header: Here we are, bottom left
   :text: ''
   :options:
     background: none
@@ -279,12 +265,12 @@
     shade_color: none
     button_link: ''
     button_text: ''
-  :updated_at: 2023-01-25 02:39:42.266319574 +02:00
+  :updated_at: 2023-01-25 16:41:17.767687999 +02:00
   :updated_by: torsten@villataika.fi
   :id: 58
   :image_id: 61
 - :template: section_cards
-  :index: 2
+  :index: 1
   :page_id: 8
   :updated_at: 2023-01-25 02:39:51.879367031 +02:00
   :updated_by: torsten@villataika.fi
@@ -317,9 +303,9 @@
   :text: 'There are plenty of options when it comes to finding something exciting
     to do near the Hub, here are a few - '
 - :template: section_text
-  :index: 1
-  :page_id: 10
-  :updated_at: 2023-01-25 03:35:57.967024551 +02:00
+  :index: 5
+  :page_id: 7
+  :updated_at: 2023-01-25 16:55:02.224622788 +02:00
   :updated_by: torsten@villataika.fi
   :id: 61
   :options: {}
@@ -346,7 +332,7 @@
     Yoga and so on..."
   :image_id: 0
 - :template: section_cards
-  :index: 5
+  :index: 4
   :page_id: 8
   :updated_at: 2023-01-24 18:58:50.923978171 +02:00
   :updated_by: maijanposteja@gmail.com
@@ -403,7 +389,7 @@
     disturbance to anyone, for example by making unnecessary noice. Loud working and
     other loud noises must be avoided in the night time between 22-8 o’clock.\r\n"
 - :template: section_large_image
-  :index: 4
+  :index: 3
   :page_id: 8
   :updated_at: 2023-01-23 23:32:17.915968380 +02:00
   :updated_by: maijanposteja@gmail.com
@@ -458,7 +444,7 @@
 - :template: section_cards
   :index: 4
   :page_id: 11
-  :updated_at: 2023-01-25 16:39:32.625743500 +02:00
+  :updated_at: 2023-01-25 16:42:41.264212352 +02:00
   :updated_by: torsten@villataika.fi
   :id: 72
   :card_template: card_full_image
@@ -473,8 +459,9 @@
     a successful application usually contains the following:\r\n- your reason to join
     the Hub\r\n- details about you\r\n- the work you could contribute\r\n- your timing
     / itinerary\r\n \r\nWe have a three week minimum and usually two month maximum
-    stay. We are aware that some people want to move to Finland, and can negotiate
-    once you are here, but make no promises over 2 months."
+    stay. \r\nWe are aware that some people want to move to Finland, and can negotiate
+    once you are here, but make no promises over 2 months.\r\nSee more info in the
+    menu below"
 - :template: section_cards
   :index: 1
   :page_id: 14
