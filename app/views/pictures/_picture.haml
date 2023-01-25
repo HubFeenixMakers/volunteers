@@ -1,6 +1,6 @@
 .group.relative.overflow-hidden
   .flex.justify-between
-    .ml-2=picture.member.name
+    .ml-2= link_to picture.member.name , member_path(picture.member) , class: :underline
     .mr-2
       = distance_of_time_in_words_to_now picture.happened
       ago
