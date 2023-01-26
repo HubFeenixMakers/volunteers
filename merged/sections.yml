@@ -529,3 +529,16 @@
   :image_id: 139
   :header: Winter Wonderland
   :text: ''
+- :template: section_full_up
+  :index: 2
+  :page_id: 6
+  :updated_at: 2023-01-26 10:00:11.813208761 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 78
+  :card_template: ''
+  :options: {}
+  :header: Volunteers
+  :text: "Hub Feenix welcomes volunteers and usually hosts between five to ten. See
+    more in the [Volunteering](/volunteering) section.\r\n\r\nThis has information,
+    but is also a platform for volunteers to share some of their experiences, in form
+    of short [stories](/stories) and [pictures](/pictures)"
