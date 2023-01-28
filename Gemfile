@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.1.3"
 
-gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
-#gem "merged" , path: "../merged"
+#gem "merged" , git: "https://github.com/HubFeenixMakers/merged"
+gem "merged" , path: "../merged"
 
 gem "rails", "~> 7.0"
 
