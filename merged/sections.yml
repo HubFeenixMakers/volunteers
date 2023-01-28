@@ -33,7 +33,7 @@
   :options:
     background: light_orange
     text_color: solid_blue
-    margin: '0'
+    margin: 'none'
     subheader: ''
     button_link: ''
     button_text: ''
@@ -93,7 +93,7 @@
   :id: 46
   :options:
     subheader: ''
-    margin: '20'
+    margin: 'large'
     order: left
     text_color: solid_black
     background: none
@@ -114,7 +114,7 @@
   :options:
     background: white
     text_color: none
-    margin: '0'
+    margin: 'none'
     subheader: ''
     text_align: center
     item_align: center
@@ -132,7 +132,7 @@
   :text: The Hub also provides extra facilities. We are in the country so eg a shared
     car is available.
   :options:
-    margin: 20
+    margin: large
     order: left
     text_color: none
     background: none
@@ -151,7 +151,7 @@
   :id: 53
   :options:
     subheader: ''
-    margin: '0'
+    margin: 'none'
     order: left
     text_color: none
     background: none
@@ -210,7 +210,7 @@
     columns: '4'
     background: white
     color: none
-    margin: '0'
+    margin: 'none'
     subheader: ''
     button_link: ''
     button_text: ''
@@ -257,7 +257,7 @@
   :options:
     background: none
     text_color: solid_blue
-    margin: 20
+    margin: large
     text_align: center
     item_align: center
     fixed: 'on'
@@ -356,7 +356,7 @@
   :options:
     background: white
     text_color: none
-    margin: '0'
+    margin: 'none'
     subheader: ''
     text_align: left
     item_align: center

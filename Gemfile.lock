@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/HubFeenixMakers/merged
-  revision: df67ed16b51eabb562a22d25778078491d815ac6
+  revision: 3a15e58ee38dae847ff877c261ce9856e00c74fb
   specs:
     merged (0.1.0)
       active_hash
@@ -150,7 +150,7 @@ GEM
     git (1.13.1)
       addressable (~> 2.8)
       rchardet (~> 1.8)
-    globalid (1.0.1)
+    globalid (1.1.0)
       activesupport (>= 5.0)
     guard (2.18.0)
       formatador (>= 0.2.4)
