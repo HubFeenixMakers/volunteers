@@ -1,6 +1,6 @@
 module MembersHelper
 
-  def image_for(someone , classes = "")
+  def picture_for(someone , classes = "")
     if someone.picture.blank?
       image = asset_url("no_image.png")
     else

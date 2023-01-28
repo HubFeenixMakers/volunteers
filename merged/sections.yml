@@ -33,7 +33,7 @@
   :options:
     background: light_orange
     text_color: solid_blue
-    margin: 'none'
+    margin: none
     subheader: ''
     button_link: ''
     button_text: ''
@@ -93,7 +93,7 @@
   :id: 46
   :options:
     subheader: ''
-    margin: 'large'
+    margin: large
     order: left
     text_color: solid_black
     background: none
@@ -114,7 +114,7 @@
   :options:
     background: white
     text_color: none
-    margin: 'none'
+    margin: none
     subheader: ''
     text_align: center
     item_align: center
@@ -151,7 +151,7 @@
   :id: 53
   :options:
     subheader: ''
-    margin: 'none'
+    margin: none
     order: left
     text_color: none
     background: none
@@ -210,7 +210,7 @@
     columns: '4'
     background: white
     color: none
-    margin: 'none'
+    margin: none
     subheader: ''
     button_link: ''
     button_text: ''
@@ -356,7 +356,7 @@
   :options:
     background: white
     text_color: none
-    margin: 'none'
+    margin: none
     subheader: ''
     text_align: left
     item_align: center
@@ -529,16 +529,23 @@
   :image_id: 139
   :header: Winter Wonderland
   :text: ''
-- :template: section_full_up
+- :template: section_story
   :index: 2
   :page_id: 6
-  :updated_at: 2023-01-26 10:00:11.813208761 +02:00
+  :updated_at: 2023-01-28 15:05:55.208568115 +02:00
   :updated_by: torsten@villataika.fi
   :id: 78
   :card_template: ''
   :options: {}
-  :header: Volunteers
-  :text: "Hub Feenix welcomes volunteers and usually hosts between five to ten. See
-    more in the [Volunteering](/volunteering) section.\r\n\r\nThis has information,
-    but is also a platform for volunteers to share some of their experiences, in form
-    of short [stories](/stories) and [pictures](/pictures)"
+  :header: Latest Story
+  :text: ''
+- :template: section_pictures
+  :index: 3
+  :page_id: 6
+  :updated_at: 2023-01-28 15:05:45.843146663 +02:00
+  :updated_by: torsten@villataika.fi
+  :id: 79
+  :card_template: ''
+  :options: {}
+  :header: Latest Pictures
+  :text: ''

@@ -1,1 +1,23 @@
---- []
+---
+- template: section_story
+  header: Showing latest story
+  text: Always the latest available story
+  fields:
+    - header
+    - text
+  options:
+    - background
+    - text_color
+    - text_align
+    - item_align
+- template: section_pictures
+  header: Showing latest four pictures
+  text: Always the latest available pictures
+  fields:
+    - header
+    - text
+  options:
+    - background
+    - text_color
+    - text_align
+    - item_align
