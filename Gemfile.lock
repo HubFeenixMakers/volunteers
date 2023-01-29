@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/HubFeenixMakers/merged
-  revision: 3a15e58ee38dae847ff877c261ce9856e00c74fb
+  revision: ee94e687f93cd317df6829e7ce2393b3451044b5
   specs:
     merged (0.1.0)
       active_hash
@@ -317,7 +317,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rchardet (1.8.0)
-    redcarpet (3.5.1)
+    redcarpet (3.6.0)
     regexp_parser (2.1.1)
     reline (0.3.2)
       io-console (~> 0.5)

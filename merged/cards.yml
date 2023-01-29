@@ -516,7 +516,7 @@
   :text: "Usually there is varying amounts of snow from beginning of November to the
     end of march. Sometimes it melts, often not.\r\nWe only call it cold when it gets
     below minus 15 (and it does!). And it get **dark** , which we see as the opposite
-    of the light in summer.\r\nVery rarely we see a Boreals."
+    of the light in summer.\r\nVery rarely we see a Borealis."
   :options:
     background: none
     text_color: none
@@ -525,7 +525,7 @@
     subheader: ''
     button_link: "/in_winter"
     button_text: Winter
-  :updated_at: 2023-01-24 23:11:23.962046547 +02:00
+  :updated_at: 2023-01-29 16:20:49.967480056 +02:00
   :updated_by: torsten@villataika.fi
   :id: 45
   :image_id: 127

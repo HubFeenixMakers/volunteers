@@ -2,7 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 const execSync = require('child_process').execSync;
 const output = execSync('bundle show merged', { encoding: 'utf-8' });
-const fullname = output.trim() + '/app/**/*.{haml,html,rb}' ;
+const fullname = output.trim() + '/**/*.{haml,html,rb}' ;
 
 const output2 = execSync('bundle show simple_form_tailwind_css', { encoding: 'utf-8' });
 const fullname2 = output2.trim() + '/lib/**/*.rb' ;

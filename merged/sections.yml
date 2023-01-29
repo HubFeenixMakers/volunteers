@@ -69,15 +69,17 @@
   :options:
     fixed: 'on'
     shade_color: black_25
-    text_color: white
+    text_color: light_blue
     text_align: center
     item_align: left
     image_align: center
-  :updated_at: 2023-01-14 20:07:27.482852523 +02:00
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-01-29 13:03:27.023980367 +02:00
   :page_id: 6
   :index: 1
   :image_id: 47
-  :updated_by: maijanposteja@gmail.com
+  :updated_by: torsten@villataika.fi
 - :template: section_large_image
   :index: 4
   :page_id: 5
@@ -391,11 +393,19 @@
 - :template: section_large_image
   :index: 3
   :page_id: 8
-  :updated_at: 2023-01-23 23:32:17.915968380 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-29 16:34:52.753804263 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 64
   :card_template: ''
-  :options: {}
+  :options:
+    subheader: ''
+    margin: medium
+    order: left
+    text_color: solid_black
+    text_align: left
+    background: white
+    button_link: ''
+    button_text: ''
   :image_id: 113
   :header: What you should bring
   :text: "**Clothing** - it can get pretty cold during winter, so make sure to come
@@ -428,7 +438,7 @@
 - :template: section_cards
   :index: 2
   :page_id: 13
-  :updated_at: 2023-01-25 01:14:46.130313604 +02:00
+  :updated_at: 2023-01-29 13:51:20.530440817 +02:00
   :updated_by: torsten@villataika.fi
   :id: 71
   :card_template: card_wide_square
@@ -510,6 +520,7 @@
   :updated_by: torsten@villataika.fi
   :id: 76
   :card_template: ''
+  :options: {}
 - :template: section_full_image
   :index: 1
   :page_id: 15
