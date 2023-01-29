@@ -209,7 +209,7 @@
   :updated_by: maijanposteja@gmail.com
   :id: 56
   :options:
-    columns: '4'
+    text_columns: '4'
     background: white
     color: none
     margin: none
@@ -307,10 +307,18 @@
 - :template: section_text
   :index: 5
   :page_id: 7
-  :updated_at: 2023-01-25 16:55:02.224622788 +02:00
+  :updated_at: 2023-01-29 16:59:51.802569681 +02:00
   :updated_by: torsten@villataika.fi
   :id: 61
-  :options: {}
+  :options:
+    text_columns: '3'
+    background: white
+    text_color: solid_black
+    margin: none
+    subheader: ''
+    text_align: left
+    button_link: ''
+    button_text: ''
   :header: Games & shared activities
   :text: "**Basement hide and seek** -  The basement is structured like a maze which
     allows for a lot of creative expression when when finding somewhere to hide.\r\n\r\n**Among
@@ -351,10 +359,9 @@
 - :template: section_text
   :index: 2
   :page_id: 11
-  :updated_at: 2023-01-24 18:40:22.072999842 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-01-29 17:00:47.563829732 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 63
-  :card_template: ''
   :options:
     background: white
     text_color: none
@@ -364,6 +371,7 @@
     item_align: center
     button_link: ''
     button_text: ''
+    text_columns: '2'
   :header: Code of Conduct (House rules)
   :text: "Hub Feenix is a non-profit community and co-operation, that promotes creativity,
     wellbeing and continuous learning. Hub’s own values are love of life, fairness,

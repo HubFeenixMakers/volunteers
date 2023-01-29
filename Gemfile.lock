@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/HubFeenixMakers/merged
-  revision: ee94e687f93cd317df6829e7ce2393b3451044b5
+  revision: 926f6ef197308263b3b9d1dd3db6041b89a81a9b
   specs:
     merged (0.1.0)
       active_hash
@@ -396,7 +396,7 @@ GEM
     tilt (2.0.11)
     timeago_js (3.0.2.2)
     timeout (0.3.1)
-    tzinfo (2.0.5)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     warden (1.2.9)
       rack (>= 2.0.9)
