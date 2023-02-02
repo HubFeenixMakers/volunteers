@@ -11,13 +11,8 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_self
+ *= require glightbox.min
  */
 #thredded--container{
   max-width: 60rem;
-}
-
-.prose{
-  max-width: 100%;
-  color: inherit;
-  --tw-prose-bullets: #6b7280;
 }
