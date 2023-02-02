@@ -1,11 +1,7 @@
 module MembersHelper
 
   def picture_for(someone , classes = "")
-    if someone.picture.blank?
-      image = asset_url("no_image.png")
-    else
-      image = someone.picture.url
-    end
+    image = someones_path(someone)
     if someone.respond_to? :name
       alt = someone.name
     else
@@ -14,6 +10,13 @@ module MembersHelper
     image_tag(image , alt: alt , class: classes )
   end
 
+  def someones_path( someone )
+    if someone.picture.blank?
+      asset_url("no_image.png")
+    else
+      someone.picture.url
+    end
+  end
   def stayed(member)
     return "Not arrived" if member.arrived.blank?
     text = member.arrived.to_s
