@@ -7,6 +7,7 @@
         = story.header
       %h4.text-xl.mt-10.md:text-2xl
         = distance_of_time_in_words_to_now story.happened
-        ago
+        ago, by
+        = link_to story.member.name , main_app.member_path(story.member) , class: :underline
       .mt-8{ prose_classes }
         = markdown(story.text)
