@@ -5,6 +5,7 @@ class Story < ApplicationRecord
 
   validates :text, length: { minimum: 5 , maximum: 1000 }
   validates :header , length: { minimum: 5 , maximum: 400}
+  validates :picture, presence: true
 
   def name
     header
