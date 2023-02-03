@@ -3,7 +3,7 @@ class MembersController < ApplicationController
 
   # GET /members
   def index
-    @members = Member.public_scope.order(:name).page params[:page]
+    @members = Member.visible_scope.order(:name).page params[:page]
   end
 
   # GET /members/1
