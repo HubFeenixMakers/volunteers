@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :kanta
   resources :pictures
   resources :stories
 
