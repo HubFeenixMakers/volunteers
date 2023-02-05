@@ -1,4 +1,4 @@
-.flex.justify-center
+#app.flex.justify-center
   .flex.flex-col
     = @image.attributes
 
@@ -6,13 +6,12 @@
       Back
 
 :opal
-  class Kanta
-    def initialize(hash)
-      hash.each do |k,v|
-      puts k
-      puts v
-      end
-    end
+  class Clicker < Kanta
+
   end
 
   kanta = Kanta.new(bg: 'bg-cyan-200')
+  puts kanta.bg
+  kanta.bg = "bg-cyan"
+  puts kanta.bg
+  kanta.mount("#app")
