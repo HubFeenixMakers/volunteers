@@ -3,11 +3,13 @@
     = #@image.attributes
 
   .flex.justify-center
-    %a.underline{ e_click: "hi" , r_class: 'bg'}
+    %a.underline{ e_click: "bg_change" , r_class: 'bg'}
       {{ bg }}
 :opal
   class Clicker < VueR::Application
-
+    def bg_change
+      self.bg = "bg-cyan-50"
+    end
   end
 
   kanta = Clicker.new(bg: 'bg-cyan-200')

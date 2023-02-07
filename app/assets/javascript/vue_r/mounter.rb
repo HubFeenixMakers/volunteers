@@ -49,8 +49,16 @@ module VueR
       end
       @application.watch_effect(proc)
     end
+
+
     def mount_event(element , name)
-      puts "Event: #{name}"
+      native_name = name.gsub("e_" , "")
+      ruby = element[name]
+      puts "Event: #{native_name}:#{ruby}"
+      element.on!(native_name) do
+        got = @application.eval(ruby)
+        puts "Clicked #{got}"
+      end
     end
   end
 end

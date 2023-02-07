@@ -38,13 +38,13 @@ module VueR
     def trigger(key)
       puts "Trigger:#{key}"
       effects = get_subscribers_for(key)
-      effects.each {|effect| effect() }
+      effects.each {|effect| effect.call() }
     end
 
     def get_subscribers_for(key)
       key = key.to_sym
       unless @subscribers.has_key?(key)
-        @subscribers[key] = []
+        @subscribers[key] = Set.new
       end
       @subscribers[key]
     end
