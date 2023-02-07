@@ -1,3 +1,5 @@
+require 'opal-parser'
+
 module VueR
   class Mounter
 
@@ -11,8 +13,22 @@ module VueR
     end
 
     def mount_Text elem
-      puts "Text: #{elem.text}"
-      puts "DYN text" if elem.text.include? "{{"
+      text = elem.text
+      puts text
+      scan = text.scan(/{{\s?([^}]*)\s?}}/)
+      return unless scan.length > 0
+      puts scan
+      raise "only one curly per text implemented not:#{scan.length}" if scan.length > 1
+      match = text.match(/{{\s?([^}]*)\s?}}/)
+      str_before = text[0 ... match.begin(0)]
+      str_after = text[ match.end(0) .. -1]
+      ruby = match[0][2 ... -2]
+
+      proc = Proc.new do
+        elem.text = str_before + @application.eval(ruby).to_s + str_after
+      end
+      proc.call
+
     end
 
     def mount_Element(elem)

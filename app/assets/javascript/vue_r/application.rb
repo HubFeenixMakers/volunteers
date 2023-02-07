@@ -61,5 +61,6 @@ module VueR
       end
       effect.call
     end
+
   end
 end

@@ -1,9 +1,10 @@
-#app.flex.justify-center
-  .flex.flex-col
+#app
+  .flex.justify-center
     = @image.attributes
 
+  .flex.justify-center
     %a.underline{ e_click: "hi"}
-      {{Back}}
+      {{ bg }}
     %div{ r_class: 21 }
 :opal
   class Clicker < VueR::Application
@@ -11,7 +12,4 @@
   end
 
   kanta = Clicker.new(bg: 'bg-cyan-200')
-  puts kanta.bg
-  kanta.bg = "bg-cyan"
-  puts kanta.bg
   kanta.mount("#app")
