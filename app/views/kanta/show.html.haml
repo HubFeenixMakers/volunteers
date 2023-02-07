@@ -2,9 +2,9 @@
   .flex.flex-col
     = @image.attributes
 
-    %a.underline{ '@click' => "hi"}
-      Back
-
+    %a.underline{ e_click: "hi"}
+      {{Back}}
+    %div{ r_class: 21 }
 :opal
   class Clicker < VueR::Application
 

@@ -5,7 +5,6 @@ module VueR
       hash.each do |k,v|
         wrap_attr(k,v)
       end
-      wrap_methods
       @effect = nil
       @subscribers = {}
     end
@@ -42,6 +41,7 @@ module VueR
     end
 
     def get_subscribers_for(key)
+      key = key.to_sym
       unless @subscribers.has_key?(key)
         @subscribers[key] = []
       end
@@ -49,25 +49,17 @@ module VueR
     end
 
     def mount(on_class)
-      puts $document[on_class].inner_html
+      @mounter = Mounter.new(on_class , self)
+      @mounter.mount
     end
 
-    def wrap_methods
-      methods = self.class.methods(false).collect{|name| self.class.method(name)}
-      methods.select!{|method| method.arity > 0 }
-      methods.each{|method| wrap_method(method.name)}
-    end
-
-    def wrap_method(method_name)
-      clazz = self.class
-      clazz.alias "#{method_name}_original".to_sym , method_name
-      clazz.remove_method method_name
-      clazz.define_method method_name do
-        @effect = self.class.method(method_name)
-        self.class.method("#{method_name}_original".to_sym).call
+    def watch_effect( update_proc )
+      effect = Proc.new do
+        @effect = effect
+        update_proc.call
         @effect = nil
       end
-      clazz.method(method_name).call
+      effect.call
     end
   end
 end
