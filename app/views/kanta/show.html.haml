@@ -1,11 +1,10 @@
 #app
   .flex.justify-center
-    = @image.attributes
+    = #@image.attributes
 
   .flex.justify-center
-    %a.underline{ e_click: "hi"}
+    %a.underline{ e_click: "hi" , r_class: 'bg'}
       {{ bg }}
-    %div{ r_class: 21 }
 :opal
   class Clicker < VueR::Application
 

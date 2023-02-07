@@ -30,12 +30,13 @@ module VueR
     end
 
     def track( key )
+      puts "Tracking:#{key}-#{@effect.hash}"
       return unless @effect
-      subs = get_subscribers_for(key)
-      subs << @effect
+      get_subscribers_for(key) << @effect
     end
 
     def trigger(key)
+      puts "Trigger:#{key}"
       effects = get_subscribers_for(key)
       effects.each {|effect| effect() }
     end
