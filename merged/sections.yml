@@ -185,8 +185,8 @@
 - :template: section_cards
   :index: 1
   :page_id: 11
-  :updated_at: 2023-01-25 16:35:16.368295736 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-02-13 23:00:53.112905182 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 55
   :card_template: card_feature_normal
   :options:
@@ -199,7 +199,7 @@
   :header: Volunteering at Hub Feenix
   :text: "Hub Feenix is a non-profit organisation hoping to bring all kinds of people
     together.\r\nWe welcome also travellers on a budget that prefer to work rather
-    than pay money.\r\n\r\nMostly this happends through the [workaway site](https://www.workaway.info/en/host/735959816971),
+    than pay money.\r\n\r\nMostly this happens through the [workaway site](https://www.workaway.info/en/host/735959816971),
     which creates a safe space for people to meet.\r\nAfter the intial application
     (see below), we have a Video chat, using the secure [Signal App](https://www.signal.org/)"
 - :template: section_text
@@ -359,8 +359,8 @@
 - :template: section_text
   :index: 2
   :page_id: 11
-  :updated_at: 2023-01-29 17:00:47.563829732 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-02-13 23:06:35.147592746 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 63
   :options:
     background: white
@@ -391,13 +391,13 @@
     integrity.\r\nEveryone in Hub Feenix’s inside and outside premises and yards commits
     to behave in such a way, that he/she doesn't cause disturbance or shock to other
     people in the area. In public spaces everyone is always wearing clothes, and using
-    swimming suite in sauna and on the swimming beach.\r\n\r\nVegetarian eating and
-    low-alcoholism are complied in all Hub Feenix's premises and outdoor areas. \r\n\r\nEveryone
-    in Hub Feenix respects the property of others. Using of the machines, equipment
-    and spaces of the Hub, is always agreed separately, as well as the fee for using
-    them.\r\n\r\nEveryone in Hub Feenix is obliged to consider others and not cause
-    disturbance to anyone, for example by making unnecessary noice. Loud working and
-    other loud noises must be avoided in the night time between 22-8 o’clock.\r\n"
+    swimming suite in sauna and on the swimming beach.\r\n\r\nVegetarian eating is
+    complied in the house, and low-alcoholism in all Hub's premises and outdoor areas.
+    \r\n\r\nEveryone in Hub Feenix respects the property of others. Using of the machines,
+    equipment and spaces of the Hub, is always agreed separately, as well as the fee
+    for using them.\r\n\r\nEveryone in Hub Feenix is obliged to consider others and
+    not cause disturbance to anyone, for example by making unnecessary noice. Loud
+    working and other loud noises must be avoided in the night time between 22-8 o’clock.\r\n"
 - :template: section_large_image
   :index: 3
   :page_id: 8
@@ -462,8 +462,8 @@
 - :template: section_cards
   :index: 4
   :page_id: 11
-  :updated_at: 2023-01-25 16:42:41.264212352 +02:00
-  :updated_by: torsten@villataika.fi
+  :updated_at: 2023-02-13 23:03:37.060223273 +02:00
+  :updated_by: maijanposteja@gmail.com
   :id: 72
   :card_template: card_full_image
   :options:
@@ -473,7 +473,7 @@
     text_color: none
     text_align: left
   :header: Join the Hub as volunteer
-  :text: "If you want to apply, the best way is through workway.\r\n\r\nIn any case,
+  :text: "If you want to apply, the best way is through workaway.\r\n\r\nIn any case,
     a successful application usually contains the following:\r\n- your reason to join
     the Hub\r\n- details about you\r\n- the work you could contribute\r\n- your timing
     / itinerary\r\n \r\nWe have a three week minimum and usually two month maximum
