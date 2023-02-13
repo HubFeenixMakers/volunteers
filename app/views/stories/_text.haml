@@ -5,7 +5,9 @@
         = story.header
       .text-xl.pb-6{ prose_classes }
         = distance_of_time_in_words_to_now story.happened
-        ago
+        ago, by
+        = link_to story.member.name , main_app.member_path(story.member) , class: :underline
   .max-w-full.mt-4.gap-16.columns-1.md:columns-2.lg:columns-3.xl:columns-4{ prose_classes  }
-    = picture_for( story , "h-56 w-full object-cover sm:h-full")
+    =link_to someones_path( story ) , {class: :glightbox } do
+      = picture_for( story , "h-56 w-full object-cover sm:h-full")
     = markdown(story.text)

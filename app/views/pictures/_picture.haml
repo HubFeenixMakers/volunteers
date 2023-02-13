@@ -5,7 +5,9 @@
       = distance_of_time_in_words_to_now picture.happened
       ago
   .h-0.overflow-hidden.relative{class: "pt-[75%]"}
-    = picture_for( picture , "absolute top-0 left-0 w-full h-full inset-0 object-cover hover:scale-105 ease-in duration-500")
+    =link_to someones_path( picture ) , {class: :glightbox ,
+        "data-glightbox" => "title: #{picture.text}" } do
+      = picture_for( picture , "absolute top-0 left-0 w-full h-full inset-0 object-cover hover:scale-105 ease-in duration-500")
   -unless picture.text.blank?
     .absolute.bottom-0.left-0.right-0.px-4.pb-1.bg-gray-800.opacity-70.transition-colors.group-hover:bg-black.group-hover:opacity-100
       .text-center.mt-2.text-white= picture.text

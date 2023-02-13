@@ -262,8 +262,24 @@ GEM
       mustache
       nokogiri (~> 1.7)
       sanitize
+    opal (1.7.2)
+      ast (>= 2.3.0)
+      parser (~> 3.0, >= 3.0.3.2)
+    opal-browser (0.3.3)
+      opal (>= 1.0, < 2.0)
+      paggio (>= 0.3.0)
+    opal-rails (2.0.2)
+      opal (~> 1.0)
+      opal-sprockets (~> 1.0)
+      rails (>= 6.0, < 7.1)
+      sprockets-rails (>= 3.0)
+    opal-sprockets (1.0.3)
+      opal (>= 1.0, < 2.0)
+      sprockets (~> 4.0)
+      tilt (>= 1.4)
     open4 (1.3.4)
     orm_adapter (0.5.0)
+    paggio (0.3.0)
     parser (3.2.0.0)
       ast (~> 2.4.1)
     passenger (6.0.15)
@@ -435,6 +451,8 @@ DEPENDENCIES
   kaminari
   merged!
   mina
+  opal-browser
+  opal-rails
   passenger (= 6.0.15)
   pg (~> 1.1)
   pundit (~> 2.3)

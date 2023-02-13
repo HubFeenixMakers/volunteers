@@ -1,6 +1,6 @@
 class Member < ApplicationRecord
 
-  def self.default_scope
+  def self.visible_scope
     where.not(confirmed_at: nil).where.not(picture: nil)
   end
 

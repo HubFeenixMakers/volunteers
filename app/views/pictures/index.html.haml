@@ -1,3 +1,4 @@
+
 = paginate @pictures
 
 .flex.justify-end.mr-10
@@ -9,9 +10,12 @@
   - @pictures.each do |picture|
     = render picture , picture: picture
 
-%br
-
 .flex.ml-20
   = link_to new_picture_path do
     %button.bg-cyan-200.mr-3.inline-block.rounded-lg.px-4.py-3.text-md.font-medium.border.border-gray-400
       New Picture
+
+:javascript
+    document.addEventListener("DOMContentLoaded", function(event) {
+      const lightbox = GLightbox({  });
+    });

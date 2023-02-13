@@ -27,7 +27,8 @@
     = csp_meta_tag
     = stylesheet_link_tag "tailwind"
     = stylesheet_link_tag "application"
-
+    = javascript_include_tag "opal_main"
+    
     = javascript_importmap_tags
     - if false
       %script{:src => "https://cdn.tailwindcss.com"}
