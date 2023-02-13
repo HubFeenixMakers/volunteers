@@ -50,8 +50,10 @@
   :type: page
   :updated_by: torsten@villataika.fi
   :id: 15
-- :name: helsinki_turku
-  :updated_at: 2023-01-25 03:45:20.978053091 +02:00
+- :name: helsinki
+  :updated_at: 2023-02-13 14:40:58.881445210 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
   :id: 16
+  :options: {}
+  :redirects: helsinki_turku

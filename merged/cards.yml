@@ -683,3 +683,199 @@
   :updated_by: torsten@villataika.fi
   :id: 59
   :image_id: 143
+- :section_id: 81
+  :index: 2
+  :header: Fortress Suomenlinna
+  :text: " is a sea fortress, which was built gradually from 1748 onwards on a group
+    of islands belonging to the district of Helsinki. It has served to defend three
+    different sovereign states over the years: the Kingdom of Sweden, the Russian
+    Empire and most recently the Republic of FinlandCurrently is a living district
+    of Helsinki with about 800 inhabitants."
+  :options:
+    background: light_blue
+    text_color: solid_black
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:07:50.565766702 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 61
+  :image_id: 160
+- :section_id: 81
+  :index: 1
+  :header: Helsinki Cathedral
+  :text: is the Finnish Evangelical Lutheran cathedral located in the heart of Helsinki.
+    The church built between the years 1830 and 1852 as a tribute to the Grand Duke
+    Nicholas I, Tsar of Russia.  Earlier called St. Nicholas Church and Great Cathedral.
+    In present time has become the symbol of the whole of Helsinki.
+  :options:
+    background: light_blue
+    text_color: solid_black
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:02:56.652234630 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 62
+  :image_id: 159
+- :section_id: 81
+  :index: 3
+  :header: Löyly Sauna
+  :text: 'is a modern seaside sauna with a stylish design.The structure is like a
+    big stone on the sea shore. It provides interesting views open up to city centre
+    and even to open sea between wooden lamellas that cover the warm building mass. '
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:37:48.072489928 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 63
+  :image_id: 161
+- :section_id: 81
+  :index: 4
+  :header: Uspenski Cathedral
+  :text: is considered to be the largest Orthodox temple in Northern and Western Europe.
+    Uspenski Cathedral is consecrated to the Dormition of the Mother of God.The cathedral
+    was designed by the Russian church architect Aleksei M. Gornostajev. The Uspenski
+    Cathedral was consecrated in 1868.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:43:57.501447494 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 64
+  :image_id: 162
+- :section_id: 81
+  :index: 5
+  :header: Old Market Hall
+  :text: 'It has served its customers since 1889. Merchants sell all sorts of cheese,
+    fish, shellfish, vegetable, fruit and cakes to spices, coffee and tea. '
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:48:23.554867099 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 65
+  :image_id: 165
+- :section_id: 81
+  :index: 6
+  :header: Seurasaari Island
+  :text: 'is rich in wildlife an island in Helsinki  museum provides an overview of
+    life in the Finnish countryside by showcasing old, mainly wooden houses built
+    in different eras. '
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:48:40.237976189 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 66
+  :image_id: 167
+- :section_id: 81
+  :index: 7
+  :header: Temppeliaukio Church
+  :text: is Lutheran church which is built directly into solid rock church hall is
+    covered with a dome, lined with copper and supported on the rock walls by reinforced
+    concrete beams. The interior walls are of rugged rock and rubble wall.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:48:33.066894533 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 67
+  :image_id: 168
+- :section_id: 81
+  :index: 8
+  :header: Esplanade Park
+  :text: The popular Esplanade Park, fondly referred to as "Espa" among locals, is
+    the most famous park in Finland and the green heart of Helsinki. People come here
+    to see and be seen, to listen to music and watch performances, and to enjoy picnics.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:48:53.954919060 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 68
+  :image_id: 169
+- :section_id: 81
+  :index: 9
+  :header: Helsinki Central railway station
+  :text: The station is mostly clad in Finnish granite, and its distinguishing features
+    are its clock tower and the two pairs of statues holding the spherical lamps,
+    lit at night-time, on either side of the main entrance. The first railway station
+    in Helsinki was built in 1860, as Finland's first railway between Helsinki and
+    Hameenlinna was opened.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:49:25.301428655 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 69
+  :image_id: 170
+- :section_id: 81
+  :index: 10
+  :header: Finnish Museum of Natural History
+  :text: 'is a contemporary art museum located on Mannerheimintie in Helsinki, Finland.
+    Its name kiasma, Finnish for chiasma, alludes to the basic conceptual idea of
+    its architect, Steven Holl. Kiasma is a place for crossings and perspectives of
+    the most varied kind. '
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 17:09:18.904299381 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 70
+  :image_id: 173
+- :section_id: 81
+  :index: 11
+  :header: The National Museum of Finland
+  :text: 'National Museum illustrates Finnish history from medieval times to the 19th
+    century. The museum''s unique exhibits tells of the life from a period of over
+    1000 years. '
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-13 15:49:00.315094095 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 71
+  :image_id: 172
+- :section_id: 82
+  :index: 1
+  :header: ''
+  :text: 'You can take a train from Karis to Helsinki. The trip takes around 55 minutes
+    and you can book your ticket on www.vr.fi. The price for the ticket in one way
+    is around 10-15 € or you can rent a car. '
+  :options:
+    background: light_blue
+    text_color: solid_black
+    text_align: left
+  :updated_at: 2023-02-13 16:08:35.407535170 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 72
+  :image_id: 158

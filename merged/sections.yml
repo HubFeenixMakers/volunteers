@@ -105,7 +105,7 @@
     text_align: left
   :header: Food
   :text: "\r\n "
-  :image_id: 0
+  :image_id:
   :card_template: card_wide_square
 - :template: section_cards
   :index: 1
@@ -165,7 +165,7 @@
   :text: "Volunteers live in their own shared community. There is usually between
     6-12, rarely less or more.\r\nWhile you get to know many people this way, communal
     also requires everyone to participate (socially, cleaning etc)"
-  :image_id: 0
+  :image_id:
   :card_template: card_wide_square
 - :template: section_cards
   :index: 4
@@ -340,7 +340,7 @@
     if you have any hobby or skill you would like to share with others. We've already
     had for example Japanese tea seremony, photographing, French bread baking, Jiujitsu,
     Yoga and so on..."
-  :image_id: 0
+  :image_id:
 - :template: section_cards
   :index: 4
   :page_id: 8
@@ -458,7 +458,7 @@
     text_align: center
   :header: Summer and winter
   :text: we've dedicated a page for the main seasons, you can fill in the dots between
-  :image_id: 0
+  :image_id:
 - :template: section_cards
   :index: 4
   :page_id: 11
@@ -567,4 +567,74 @@
   :card_template: ''
   :options: {}
   :header: Latest Pictures
+  :text: ''
+- :template: section_half_image
+  :index: 1
+  :page_id: 16
+  :updated_at: 2023-02-13 16:21:14.887869550 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 80
+  :card_template: ''
+  :options:
+    subheader: ''
+    margin: none
+    order: left
+    text_color: solid_black
+    text_align: left
+    background: light_blue
+    button_link: ''
+    button_text: ''
+    fixed: 'on'
+    item_align: left
+    image_align: left-top
+    shade_color: white_25
+  :image_id: 163
+  :header: Tips for Helsinki trip
+  :text: The city is well-known for its innovative art, culture and architecture.
+    The capital city of Findland is located on peninsula in the Gulf of Finland in
+    the Uusimaa region. The town of Helsinki was founded by King Gustavus Vasa of
+    Sweden. A poetic name for Helsinki is "the daughter of the Baltic Sea. Currently
+    is the largest city in Finland. The are over 650 000 people who live there. Staying
+    at the Hubfeenix is a great opportunity to travel for a weekend overthere.
+- :template: section_cards
+  :index: 3
+  :page_id: 16
+  :header: What to see in Helsinki ?
+  :text: ''
+  :options:
+    order: left
+    background: none
+    text_color: none
+    text_align: center
+    subheader: ''
+    button_link: ''
+    button_text: ''
+    text_columns: '3'
+    margin: none
+    item_align: left
+    columns: '4'
+  :updated_at: 2023-02-13 14:48:49.353092719 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 81
+  :card_template: card_normal_round
+  :image_id: 158
+- :template: section_cards
+  :index: 2
+  :page_id: 16
+  :updated_at: 2023-02-13 17:13:30.394024446 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 82
+  :card_template: card_full_image
+  :options:
+    background: white
+    columns: '1'
+    subheader: ''
+    text_color: solid_black
+    text_align: left
+    text_columns: '2'
+    margin: none
+    button_link: ''
+    button_text: ''
+  :image_id: 158
+  :header: How to get to Helsinki ?
   :text: ''
