@@ -621,13 +621,13 @@
 - :template: section_cards
   :index: 2
   :page_id: 16
-  :updated_at: 2023-02-13 17:13:30.394024446 +02:00
+  :updated_at: 2023-02-14 14:26:11.685245077 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 82
-  :card_template: card_full_image
+  :card_template: card_wide_square
   :options:
     background: white
-    columns: '1'
+    columns: '2'
     subheader: ''
     text_color: solid_black
     text_align: left
@@ -637,4 +637,105 @@
     button_text: ''
   :image_id: 158
   :header: How to get to Helsinki ?
+  :text: ''
+- :template: section_full_image
+  :index: 1
+  :page_id: 17
+  :updated_at: 2023-02-14 10:05:41.854530349 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 83
+  :card_template: ''
+  :options:
+    text_columns: '3'
+    background: white
+    text_color: white
+    margin: none
+    subheader: ''
+    text_align: left
+    button_link: ''
+    button_text: ''
+    fixed: 'on'
+    item_align: left
+    image_align: left-top
+    shade_color: white_25
+  :image_id: 177
+  :header: Travel to Turku
+  :text: 'Turku is the oldest city of Finland and the former capital of the country,
+    has a long history, stretching back to the Middle Ages. The city of Turku was
+    born already in the 13th century in the place where the river Aura runs to the
+    sea. The word turku comes from tǔrgǔ,  which means ”market place” in Ancient Russian
+    ,,market place” and tori in Finnish. It is located in the region of Southwest
+    Finland and it is the capital of the Province of Western Finland. '
+- :template: section_cards
+  :index: 3
+  :page_id: 17
+  :updated_at: 2023-02-14 10:14:50.528291281 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 84
+  :card_template: card_normal_round
+  :options:
+    background: white
+    columns: '3'
+    subheader: ''
+    text_color: solid_black
+    text_align: left
+  :header: What to visit there ?
+  :text: ''
+  :image_id: 178
+- :template: section_cards
+  :index: 2
+  :page_id: 17
+  :updated_at: 2023-02-14 14:34:27.189064859 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 85
+  :card_template: card_full_image
+  :options:
+    background: light_orange
+    text_color: solid_black
+    margin: none
+    subheader: ''
+    text_align: center
+    item_align: left
+    button_link: ''
+    button_text: ''
+    columns: '2'
+  :header: How to get there ?
+  :text: 'The distance between Hub Feenix and Turkey is 120 km. We reccommend you
+    to take a train from the nearest station in Karis. The cost of the train ticket
+    in one way is approximetaly 10 €-15€. The price depends on availibility and time
+    of your booking. If you buy the ticket a few days or weeks earlier, tickets will
+    be cheaper. Finnish railway is well developed and is one of the most popular way
+    of traveling in Finland. The journey by train takes around 53 minutes. You can
+    book your ticket via: https://www.vr.fi/en. There is also another alternative
+    to travel by car. The journey will take around one and half hour.'
+  :image_id: 190
+- :template: section_cards
+  :index: 5
+  :page_id: 16
+  :updated_at: 2023-02-14 14:22:12.096112743 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 86
+  :card_template: card_wide_square
+  :options:
+    background: light_blue
+    columns: '3'
+    subheader: ''
+    text_color: solid_black
+    text_align: center
+  :header: Where you can eat & drink in Helsinki ?
+  :text: ''
+- :template: section_cards
+  :index: 4
+  :page_id: 17
+  :updated_at: 2023-02-14 16:00:23.896468313 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 87
+  :card_template: card_normal_round
+  :options:
+    background: light_orange
+    columns: '4'
+    subheader: ''
+    text_color: solid_black
+    text_align: left
+  :header: Where to eat & drink in Turku ?
   :text: ''

@@ -875,7 +875,426 @@
     background: light_blue
     text_color: solid_black
     text_align: left
-  :updated_at: 2023-02-13 16:08:35.407535170 +02:00
+    subheader: ''
+    order: left
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 14:24:46.251248453 +02:00
   :updated_by: maijanposteja@gmail.com
   :id: 72
   :image_id: 158
+- :section_id: 84
+  :index: 1
+  :header: Turku Castle
+  :text: "Turku Castle is a more than 700 year old historical monument. Its made with
+    granite stone walls hold within them the history of Finland, Sweden and the other
+    Nordic countries. Together with Turku Cathedral, the castle is one of the oldest
+    buildings still in use and the largest surviving medieval building in Finland.
+    \r\n"
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 11:35:33.136910858 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 73
+  :image_id: 180
+- :section_id: 84
+  :index: 2
+  :header: Turku Cathedral
+  :text: is the only medieval basilica in Finland and the Mother Church of the Evangelical
+    Lutheran Church of Finland.The cathedral is situated in the heart of Turku next
+    to the Old Great Square, by the river Aura.The cathedral was originally built
+    out of wood in the late 13th century, and was dedicated as the main cathedral
+    of Finland in 1300, the seat of the Catholic bishop of Turku.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 11:39:05.924391829 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 74
+  :image_id: 179
+- :section_id: 84
+  :index: 5
+  :header: Turku Art Museum
+  :text: introduces the fascinating world of art, from classics to the freshest contemporary
+    art. It presents very various types of work. It is one of the leading art museums
+    in Finland. There is also a coffee shop where you can enjoy it and admire one
+    of the most fantastic views over the city.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 11:52:49.105907309 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 75
+  :image_id: 181
+- :section_id: 84
+  :index: 6
+  :header: Pharmacy Museum & Qwensel House
+  :text: 'is the oldest wooden building in Turku . It presents the history of medicine,
+    18th century gentry life and a beautiful courtyard, all in the center of town.
+    Its Rococo and Gustavian interiors present the lifestyle of the well-to-do in
+    that period. The pharmacy has a material room and a herb room, two laboratories
+    and an office. '
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 12:07:29.879930264 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 76
+  :image_id: 182
+- :section_id: 84
+  :index: 7
+  :header: " Luostarinmäki Handicrafts Museum"
+  :text: 'is an outdoor museum that offers information and experiences in an original
+    pre-industrial times. The museum presents the professions of the pre-industrial
+    era, with many different handicraft workshops located in the village. '
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 12:00:04.921438056 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 77
+  :image_id: 183
+- :section_id: 84
+  :index: 11
+  :header: Ruissalo
+  :text: The unique nature, culture and history of the fascinating Island of Ruissalo
+    is to be found flanking the Turku estuary. The island is very popular recreational
+    area, and gives an important shelter to the area’s rich flora and fauna species.
+    It is a great place for camping and enjoying the Finnish nature.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 12:10:31.732354524 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 78
+  :image_id: 184
+- :section_id: 84
+  :index: 8
+  :header: Forum Marinum Maritime Centre
+  :text: is a lively and versatile centre for maritime activities, comprising a National
+    specialist museum for Maritime History, and the Finnish Navy Museum. The museum
+    provides several interesting exhibitions during a year and displays also a very
+    interesting boat collection.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 12:01:58.305437067 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 79
+  :image_id: 185
+- :section_id: 84
+  :index: 4
+  :header: River Aura
+  :text: is located in the heart of Turku. You can take a boat and enjoy a town views
+    or just enjoy a walk along the river. The waters of the Aura river are brown.
+    The total length of the river is about 70 kilometres
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 11:47:28.522552666 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 80
+  :image_id: 187
+- :section_id: 84
+  :index: 10
+  :header: The Archipelago Trail
+  :text: is a unique patchwork of thousands of islands. It is one of the biggest archipelagos
+    in the world The Archipelago Trail allows travellers to access the archipelago
+    without a boat of their own. You can ride a bicycle along the coast and admire
+    the nature of Finland.Along the 250 km route you'll encounter 12 bridges, 9 ferries
+    and many idyllic Archipelago parishes.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 12:07:16.783069569 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 81
+  :image_id: 186
+- :section_id: 84
+  :index: 3
+  :header: Turun Kauppahalli
+  :text: 'The Turku Market Hall was opened to public in the centre of Turku in 1896
+    and it is the second oldest in Finland. The hall is designed by achitect and professor
+    Gustaf Nyström and the roof structure and the wooden parts of the shops along
+    the corridors are original. The shops in the market hall range from the oldest
+    ones in Turku to brand new. '
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 11:40:30.565375039 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 82
+  :image_id: 188
+- :section_id: 84
+  :index: 9
+  :header: Waino Aaltonen Museum of Art
+  :text: is dedicated especially to modern art. The permanent exhibition is based
+    on the art collection of the City of Turku, which includes a large collection
+    of works by Finnish artist and sculptor Wäinö Aaltonen. Temporary exhibitions
+    focus on Finnish and international modern art.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 16:01:46.305736757 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 83
+  :image_id: 189
+- :section_id: 85
+  :index: 1
+  :header: ''
+  :text: ''
+  :options:
+    background: light_orange
+    text_color: solid_black
+    text_align: center
+    subheader: ''
+    order: left
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 14:31:50.526849918 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 84
+  :image_id: 190
+- :section_id: 86
+  :index: 3
+  :header: 'Lappi Restaurant '
+  :text: for hearty Lappish reindeer & seafood dishes.
+  :options:
+    background: light_blue
+    text_color: solid_black
+    text_align: left
+  :updated_at: 2023-02-14 14:12:54.343270207 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 85
+  :image_id: 192
+- :section_id: 86
+  :index: 4
+  :header: 'Savotta restaurant '
+  :text: for a rustic Finnish food experience.
+  :options:
+    background: light_blue
+    text_color: solid_black
+    text_align: left
+  :updated_at: 2023-02-14 14:12:59.023384645 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 86
+  :image_id: 191
+- :section_id: 86
+  :index: 1
+  :header: Zucchini
+  :text: for homemade lacto-vegetarian lunch and café delicacies since 1993.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: left
+  :updated_at: 2023-02-14 14:11:01.132092810 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 87
+  :image_id: 193
+- :section_id: 86
+  :index: 2
+  :header: 'Kipsari '
+  :text: for delicious vegetarian and vegan food in Otaniemi, as well as locally baked
+    delicacies.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: left
+  :updated_at: 2023-02-14 14:11:46.246121303 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 88
+  :image_id: 194
+- :section_id: 86
+  :index: 5
+  :header: Café Regatta
+  :text: is a wooden coffeshop with a large range of baked goods, you will find hot
+    drinks for every taste.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: left
+  :updated_at: 2023-02-14 14:12:29.735193428 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 89
+  :image_id: 195
+- :section_id: 86
+  :index: 6
+  :header: Cafetoria Roastery
+  :text: is a perfect place for brew great coffees for great people.
+  :options:
+    background: light_blue
+    text_color: none
+    text_align: left
+  :updated_at: 2023-02-14 14:12:42.231159270 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 90
+  :image_id: 196
+- :section_id: 82
+  :index: 2
+  :header: ''
+  :text: You can rent Hub Feenix car. The journey will take around one hour. You should
+    just plan your place of parking before because the city of Helsinki is more crowded
+    and cost of parking is really diverse around 4 €/ hour in the centrum. You can
+    find some free parking places a little bit out of the city.
+  :options:
+    background: light_blue
+    text_color: solid_black
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 14:25:10.787396986 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 91
+  :image_id: 71
+- :section_id: 85
+  :index: 2
+  :header: ''
+  :text: ''
+  :options:
+    background: none
+    text_color: none
+    text_align: center
+  :updated_at: 2023-02-14 14:33:11.989836081 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 92
+  :image_id: 71
+- :section_id: 86
+  :index: 7
+  :header: 'Cafe & Bistro Hiezu '
+  :text: is a great cafe bar located near Hietsu beach. They offer sweet treats, from
+    pastries and cakes to artisan pizzas and burgers.
+  :options:
+    background: none
+    text_color: none
+    text_align: left
+    order: left
+    subheader: ''
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 14:47:02.954070224 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 93
+  :image_id: 197
+- :section_id: 87
+  :index: 1
+  :header: 'Cafe Art '
+  :text: has art, coffee, lunch and a chic Parisian atmosphere next to the Aura river.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 15:55:07.420172978 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 94
+  :image_id: 198
+- :section_id: 87
+  :index: 2
+  :header: 'Pinella '
+  :text: is one of the oldest restaurants in the entire country. It offers very various
+    food.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 15:56:39.581029454 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 95
+  :image_id: 199
+- :section_id: 87
+  :index: 3
+  :header: VG Wok
+  :text: offers Vegetarian & vegan Thai and Vietnamese food. Delicious and big servings,
+    low price tag.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 15:57:03.076336357 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 96
+  :image_id: 200
+- :section_id: 87
+  :index: 4
+  :header: Bean Bar Café
+  :text: 'serves light lunches and delightful handmade chocolates and sweets. '
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 15:57:25.621275242 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 97
+  :image_id: 201
+- :section_id: 87
+  :index: 5
+  :header: 'Niska '
+  :text: offers river views with delicious pizzas, salads & desserts.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 15:58:23.814312727 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 98
+  :image_id: 202
+- :section_id: 87
+  :index: 6
+  :header: Tintå
+  :text: prepares a range of tasty archipelago pizzas. The pizzas are made with high
+    quality, fresh ingredients.
+  :options:
+    background: light_orange
+    text_color: none
+    text_align: center
+    button_link: ''
+    button_text: ''
+  :updated_at: 2023-02-14 15:59:29.791212508 +02:00
+  :updated_by: maijanposteja@gmail.com
+  :id: 99
+  :image_id: 203
