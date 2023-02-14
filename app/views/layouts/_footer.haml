@@ -1,76 +1,84 @@
 %footer.bg-white{"aria-label" => "Site Footer"}
-  .max-w-screen-xl.px-4.py-16.mx-auto.sm:px-6.lg:px-8
-    .w-full.grid.grid-cols-2.gap-8.mt-8.lg:mt-0.lg:grid-cols-5.lg:gap-y-16
-      .col-span-1.md:col-span-2
-        %p.font-medium.text-gray-900 Activities
-        %nav.mt-6
-          %ul.space-y-4.text-sm
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/local_activities"}
-                Local Area
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/helsinki"}
-                Helsinki
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/turku"}
-                Turkku
+  .px-4.py-16.mx-auto.sm:px-6.lg:px-8
+    .w-full.grid.grid-cols-2.gap-8.mt-8.lg:mt-0.lg:grid-cols-6.lg:gap-y-16.ld:grid-cols-3.lg:gap-y-8
+      .max-w-screen-xl.px-4.py-16.mx-auto.sm:px-6.lg:px-8
+        .lg:flex.lg:items-start.lg:gap-8
+          %a.inline-flex.items-center{"aria-label" => "Hub Feenix", :href => "/", :title => "Hub Feenix"}
+            = image_tag("feenix_lintu.webp" , class: "h-20")
 
-      .col-span-1.md:col-span-2
-        %p.font-medium.text-gray-900 Weather Info
-        %nav.mt-6
-          %ul.space-y-4.text-sm
-            %li
-              %a.text-md.transition.hover:opacity-75{:href => "/four_seasons"}
-                Four Seasons
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/in_summer"}
-                In Summer
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/in_winter"}
-                In Winter
+      %nav.mt-6
+        %p.mb-6.font-medium.text-xl.text-gray-900
+          Activities
+        %ul.space-y-4.text-sm
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/local_activities"}
+              Local Area
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/helsinki"}
+              Helsinki
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/turku"}
+              Turkku
 
-      .col-span-2.sm:col-span-1
-        %p.font-medium.text-gray-900 Volunteering
-        %nav.mt-6{"aria-label" => "Footer Navigation - Hub Feenix"}
-          %ul.space-y-4.text-sm
+      %nav.mt-6
+        %p.mb-6.font-medium.text-xl.text-gray-900
+          Weather Info
+        %ul.space-y-4.text-sm
+          %li
+            %a.text-md.transition.hover:opacity-75{:href => "/four_seasons"}
+              Four Seasons
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/in_summer"}
+              In Summer
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/in_winter"}
+              In Winter
+
+      %nav.mt-6{"aria-label" => "Footer Navigation - Hub Feenix"}
+        %p.mb-6.font-medium.text-xl.text-gray-900
+          Volunteering
+        %ul.space-y-4.text-sm
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/volunteering"}
+              About Volunteering
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/arriving"}
+              Getting here
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/living_here"}
+              Living @ Feenix Info
+
+      %nav.mt-6{"aria-label" => "Footer Navigation - Hub Feenix"}
+        %p.mb-6.font-medium.text-xl.text-gray-900
+          People
+        %ul.space-y-4.text-sm
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/members"}
+              Volunteers
             %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/volunteering"}
-                About Volunteering
+              %a.text-gray-700.transition.hover:opacity-75{:href => "/stories"}
+                Stories
             %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/arriving"}
-                Getting here
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/living_here"}
-                Living @ Feenix Info
-      .col-span-2.sm:col-span-1
-        %p.font-medium.text-gray-900 People
-        %nav.mt-6{"aria-label" => "Footer Navigation - Hub Feenix"}
-          %ul.space-y-4.text-sm
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/members"}
-                Volunteers
-              %li
-                %a.text-gray-700.transition.hover:opacity-75{:href => "/stories"}
-                  Stories
-              %li
-                %a.text-gray-700.transition.hover:opacity-75{:href => "/pictures"}
-                  Gallery
-      .col-span-2.sm:col-span-1
-        %p.font-medium.text-gray-900 Information
-        %nav.mt-6{"aria-label" => "Footer Navigation - Downloads"}
-          %ul.space-y-4.text-sm
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "/about"}
-                About Hub Feenix
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "https://www.hubfeenix.fi" , target: :blank }
-                HubFeenix Website
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "https://www.facebook.com/hubfeenix" , :target => "_blank"}
-                Facebook
-            %li
-              %a.text-gray-700.transition.hover:opacity-75{:href => "https://www.instagram.com/hub_feenix/" , :target => "_blank"}
-                Instagram
+              %a.text-gray-700.transition.hover:opacity-75{:href => "/pictures"}
+                Gallery
+
+      %nav.mt-6{"aria-label" => "Footer Navigation - Downloads"}
+        %p.mb-6.font-medium.text-xl.text-gray-900
+          Information
+        %ul.space-y-4.text-sm
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "/about"}
+              About Hub Feenix
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "https://www.hubfeenix.fi" , target: :blank }
+              HubFeenix Website
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "https://www.facebook.com/hubfeenix" , :target => "_blank"}
+              Facebook
+          %li
+            %a.text-gray-700.transition.hover:opacity-75{:href => "https://www.instagram.com/hub_feenix/" , :target => "_blank"}
+              Instagram
+
       %ul.flex.justify-start.col-span-2.gap-6.lg:col-span-5.lg:justify-end
         %li
           %a.text-gray-700.transition.hover:opacity-75{:href => "https://www.facebook.com/hubfeenix", :rel => "noreferrer", :target => "_blank"}
