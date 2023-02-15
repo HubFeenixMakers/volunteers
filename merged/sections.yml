@@ -1,6 +1,6 @@
 ---
 - :template: section_full_image
-  :id: 28
+  :id: 1
   :header: Hub Feenix
   :text: "Our Vision:\r\n\r\nArt, craft, music, yoga, dance, meditation, nature, and
     creatives of every kind come together under our roof in an atmosphere of openness
@@ -15,12 +15,12 @@
     image_align: right
   :image_name: cafe_about
   :updated_at: 2023-01-01 14:31:48.337456703 +02:00
-  :page_id: 5
+  :page_id: 1
   :index: 1
-  :image_id: 3
+  :image_id: 2
   :updated_by: torsten@villataika.fi
 - :template: section_full_up
-  :id: 29
+  :id: 2
   :header: About Us
   :text: "Hub Feenix is a community space that fosters creativity, healing, and connection.
     \r\nArt, craft, music, yoga, dance, meditation, nature, and creative people of
@@ -40,11 +40,11 @@
     text_align: center
     item_align: center
   :updated_at: 2022-12-08 19:11:48.243621696 +02:00
-  :page_id: 5
+  :page_id: 1
   :index: 2
   :image_id:
 - :template: section_full_image
-  :id: 30
+  :id: 3
   :header: The road to Feenix
   :text: "[Click here to open](https://duckduckgo.com/?t=ffab&q=H%C3%B6gbenintie+30%2C+10350+Meltola%2C+Raasepori&atb=v283-1&ia=web&iaxm=directions&end=what%3AH%25C3%25B6gbensv%25C3%25A4gen%252030%252C%252010350%2520Meltola%252C%2520Finland&transport=drive)"
   :image_name: map_wide
@@ -56,16 +56,16 @@
     item_align: left
     image_align: left
   :updated_at: 2023-01-01 14:19:06.708801219 +02:00
-  :page_id: 5
+  :page_id: 1
   :index: 3
-  :image_id: 23
+  :image_id: 6
   :updated_by: torsten@villataika.fi
 - :template: section_full_image
   :header: HUB FEENIX
   :text: Only an hour west of Helsinki, the Feenix rises from an old sanatorium. The
     Hub is a place to create, learn and regenerate.
   :image_name: house
-  :id: 31
+  :id: 4
   :options:
     fixed: 'on'
     shade_color: black_25
@@ -76,23 +76,23 @@
     button_link: ''
     button_text: ''
   :updated_at: 2023-01-29 13:03:27.023980367 +02:00
-  :page_id: 6
+  :page_id: 2
   :index: 1
-  :image_id: 47
+  :image_id: 8
   :updated_by: torsten@villataika.fi
 - :template: section_large_image
   :index: 4
-  :page_id: 5
+  :page_id: 1
   :updated_at: 2023-01-04 18:08:03.871868509 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 41
+  :id: 5
   :options: {}
 - :template: section_cards
   :index: 2
-  :page_id: 7
+  :page_id: 3
   :updated_at: 2023-01-25 17:04:54.467275443 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 46
+  :id: 6
   :options:
     subheader: ''
     margin: large
@@ -109,10 +109,10 @@
   :card_template: card_wide_square
 - :template: section_cards
   :index: 1
-  :page_id: 10
+  :page_id: 5
   :updated_at: 2023-01-20 14:12:29.789731694 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 51
+  :id: 7
   :options:
     background: white
     text_color: none
@@ -129,7 +129,7 @@
   :card_template: card_normal_round
 - :template: section_cards
   :index: 3
-  :page_id: 7
+  :page_id: 3
   :header: Facilities
   :text: The Hub also provides extra facilities. We are in the country so eg a shared
     car is available.
@@ -143,14 +143,14 @@
     text_align: left
   :updated_at: 2023-01-25 17:04:40.052561299 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 52
+  :id: 8
   :card_template: card_normal_square
 - :template: section_cards
   :index: 1
-  :page_id: 7
+  :page_id: 3
   :updated_at: 2023-01-25 17:04:51.625389248 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 53
+  :id: 9
   :options:
     subheader: ''
     margin: none
@@ -169,10 +169,10 @@
   :card_template: card_wide_square
 - :template: section_cards
   :index: 4
-  :page_id: 7
+  :page_id: 3
   :updated_at: 2023-01-25 16:56:12.118008081 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 54
+  :id: 10
   :card_template: card_normal_square
   :options:
     background: white
@@ -184,10 +184,10 @@
   :text: 'Also these are things you can use in and around the Hub. '
 - :template: section_cards
   :index: 1
-  :page_id: 11
+  :page_id: 6
   :updated_at: 2023-02-13 23:00:53.112905182 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 55
+  :id: 11
   :card_template: card_feature_normal
   :options:
     background: white
@@ -204,10 +204,10 @@
     (see below), we have a Video chat, using the secure [Signal App](https://www.signal.org/)"
 - :template: section_text
   :index: 3
-  :page_id: 11
+  :page_id: 6
   :updated_at: 2023-01-24 20:18:33.284978612 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 56
+  :id: 12
   :options:
     text_columns: '4'
     background: white
@@ -253,7 +253,7 @@
     to ask, if you need help or information! There are no silly questions!\r\n"
 - :template: section_full_image
   :index: 2
-  :page_id: 8
+  :page_id: 4
   :header: Here we are, bottom left
   :text: ''
   :options:
@@ -269,14 +269,14 @@
     button_text: ''
   :updated_at: 2023-01-25 16:41:17.767687999 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 58
-  :image_id: 61
+  :id: 13
+  :image_id: 9
 - :template: section_cards
   :index: 1
-  :page_id: 8
+  :page_id: 4
   :updated_at: 2023-01-25 02:39:51.879367031 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 59
+  :id: 14
   :card_template: card_feature_normal
   :options:
     background: white
@@ -290,10 +290,10 @@
     maps](https://www.google.com/maps/place/Hub+Feenix/@60.1087256,23.7915169,17z/data=!3m1!4b1!4m5!3m4!1s0x468da5124a023e29:0xcae080e9021c7724!8m2!3d60.1087229!4d23.7937056)\r\n\r\n\r\n"
 - :template: section_cards
   :index: 1
-  :page_id: 10
+  :page_id: 5
   :updated_at: 2023-01-25 03:30:27.757872017 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 60
+  :id: 15
   :card_template: card_full_image
   :options:
     background: white
@@ -306,10 +306,10 @@
     to do near the Hub, here are a few - '
 - :template: section_text
   :index: 5
-  :page_id: 7
+  :page_id: 3
   :updated_at: 2023-01-29 16:59:51.802569681 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 61
+  :id: 16
   :options:
     text_columns: '3'
     background: white
@@ -343,10 +343,10 @@
   :image_id:
 - :template: section_cards
   :index: 4
-  :page_id: 8
+  :page_id: 4
   :updated_at: 2023-01-24 18:58:50.923978171 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 62
+  :id: 17
   :options:
     background: white
     columns: '2'
@@ -358,10 +358,10 @@
   :text: ''
 - :template: section_text
   :index: 2
-  :page_id: 11
+  :page_id: 6
   :updated_at: 2023-02-13 23:06:35.147592746 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 63
+  :id: 18
   :options:
     background: white
     text_color: none
@@ -400,10 +400,10 @@
     working and other loud noises must be avoided in the night time between 22-8 o’clock.\r\n"
 - :template: section_large_image
   :index: 3
-  :page_id: 8
+  :page_id: 4
   :updated_at: 2023-01-29 16:34:52.753804263 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 64
+  :id: 19
   :card_template: ''
   :options:
     subheader: ''
@@ -414,7 +414,7 @@
     background: white
     button_link: ''
     button_text: ''
-  :image_id: 113
+  :image_id: 35
   :header: What you should bring
   :text: "**Clothing** - it can get pretty cold during winter, so make sure to come
     with several layers of clothes, preferably woollen (we can also borrow you more).
@@ -424,10 +424,10 @@
     are** -with open mind and heart, ready to share and learn new!\r\n"
 - :template: section_cards
   :index: 1
-  :page_id: 13
+  :page_id: 7
   :updated_at: 2023-01-25 00:12:12.444766597 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 66
+  :id: 20
   :card_template: card_normal_square
   :options:
     background: white
@@ -445,10 +445,10 @@
     means.\r\n"
 - :template: section_cards
   :index: 2
-  :page_id: 13
+  :page_id: 7
   :updated_at: 2023-01-29 13:51:20.530440817 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 71
+  :id: 21
   :card_template: card_wide_square
   :options:
     background: white
@@ -461,10 +461,10 @@
   :image_id:
 - :template: section_cards
   :index: 4
-  :page_id: 11
+  :page_id: 6
   :updated_at: 2023-02-13 23:03:37.060223273 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 72
+  :id: 22
   :card_template: card_full_image
   :options:
     background: white
@@ -482,18 +482,18 @@
     menu below"
 - :template: section_cards
   :index: 1
-  :page_id: 14
+  :page_id: 8
   :updated_at: 2023-01-24 22:44:41.910577819 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 73
+  :id: 23
   :card_template: card_full_image
   :options: {}
 - :template: section_cards
   :index: 2
-  :page_id: 15
+  :page_id: 9
   :updated_at: 2023-01-25 15:11:24.682559060 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 74
+  :id: 24
   :card_template: card_normal_square
   :options:
     background: white
@@ -511,30 +511,30 @@
     starts melting, green is coming and the race to summer begins."
 - :template: section_half_image
   :index: 2
-  :page_id: 14
+  :page_id: 8
   :updated_at: 2023-01-24 23:25:19.322802742 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 75
+  :id: 25
   :card_template: ''
   :options: {}
-  :image_id: 115
+  :image_id: 37
   :header: Summer in Finland
   :text: "Long long nights, at midsummer the sun goes down at eleven, it never really
     gets dark.\r\n \r\n"
 - :template: section_full_up
   :index: 1
-  :page_id: 16
+  :page_id: 10
   :updated_at: 2023-01-25 03:45:25.318340509 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 76
+  :id: 26
   :card_template: ''
   :options: {}
 - :template: section_full_image
   :index: 1
-  :page_id: 15
+  :page_id: 9
   :updated_at: 2023-01-25 14:35:30.093313267 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 77
+  :id: 27
   :card_template: ''
   :options:
     fixed: 'on'
@@ -545,35 +545,35 @@
     shade_color: none
     button_link: ''
     button_text: ''
-  :image_id: 139
+  :image_id: 55
   :header: Winter Wonderland
   :text: ''
 - :template: section_story
   :index: 2
-  :page_id: 6
+  :page_id: 2
   :updated_at: 2023-01-28 15:05:55.208568115 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 78
+  :id: 28
   :card_template: ''
   :options: {}
   :header: Latest Story
   :text: ''
 - :template: section_pictures
   :index: 3
-  :page_id: 6
+  :page_id: 2
   :updated_at: 2023-01-28 15:05:45.843146663 +02:00
   :updated_by: torsten@villataika.fi
-  :id: 79
+  :id: 29
   :card_template: ''
   :options: {}
   :header: Latest Pictures
   :text: ''
 - :template: section_half_image
   :index: 1
-  :page_id: 16
+  :page_id: 10
   :updated_at: 2023-02-13 16:21:14.887869550 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 80
+  :id: 30
   :card_template: ''
   :options:
     subheader: ''
@@ -588,7 +588,7 @@
     item_align: left
     image_align: left-top
     shade_color: white_25
-  :image_id: 163
+  :image_id: 66
   :header: Tips for Helsinki trip
   :text: The city is well-known for its innovative art, culture and architecture.
     The capital city of Findland is located on peninsula in the Gulf of Finland in
@@ -598,7 +598,7 @@
     at the Hubfeenix is a great opportunity to travel for a weekend overthere.
 - :template: section_cards
   :index: 3
-  :page_id: 16
+  :page_id: 10
   :header: What to see in Helsinki ?
   :text: ''
   :options:
@@ -615,15 +615,15 @@
     columns: '4'
   :updated_at: 2023-02-13 14:48:49.353092719 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 81
+  :id: 31
   :card_template: card_normal_round
-  :image_id: 158
+  :image_id: 61
 - :template: section_cards
   :index: 2
-  :page_id: 16
+  :page_id: 10
   :updated_at: 2023-02-14 14:26:11.685245077 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 82
+  :id: 32
   :card_template: card_wide_square
   :options:
     background: white
@@ -635,15 +635,15 @@
     margin: none
     button_link: ''
     button_text: ''
-  :image_id: 158
+  :image_id: 61
   :header: How to get to Helsinki ?
   :text: ''
 - :template: section_full_image
   :index: 1
-  :page_id: 17
+  :page_id: 11
   :updated_at: 2023-02-14 10:05:41.854530349 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 83
+  :id: 33
   :card_template: ''
   :options:
     text_columns: '3'
@@ -658,7 +658,7 @@
     item_align: left
     image_align: left-top
     shade_color: white_25
-  :image_id: 177
+  :image_id: 80
   :header: Travel to Turku
   :text: 'Turku is the oldest city of Finland and the former capital of the country,
     has a long history, stretching back to the Middle Ages. The city of Turku was
@@ -668,10 +668,10 @@
     Finland and it is the capital of the Province of Western Finland. '
 - :template: section_cards
   :index: 3
-  :page_id: 17
+  :page_id: 11
   :updated_at: 2023-02-14 10:14:50.528291281 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 84
+  :id: 34
   :card_template: card_normal_round
   :options:
     background: white
@@ -681,13 +681,13 @@
     text_align: left
   :header: What to visit there ?
   :text: ''
-  :image_id: 178
+  :image_id: 81
 - :template: section_cards
   :index: 2
-  :page_id: 17
+  :page_id: 11
   :updated_at: 2023-02-14 14:34:27.189064859 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 85
+  :id: 35
   :card_template: card_full_image
   :options:
     background: light_orange
@@ -708,13 +708,13 @@
     of traveling in Finland. The journey by train takes around 53 minutes. You can
     book your ticket via: https://www.vr.fi/en. There is also another alternative
     to travel by car. The journey will take around one and half hour.'
-  :image_id: 190
+  :image_id: 93
 - :template: section_cards
   :index: 5
-  :page_id: 16
+  :page_id: 10
   :updated_at: 2023-02-14 14:22:12.096112743 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 86
+  :id: 36
   :card_template: card_wide_square
   :options:
     background: light_blue
@@ -726,10 +726,10 @@
   :text: ''
 - :template: section_cards
   :index: 4
-  :page_id: 17
+  :page_id: 11
   :updated_at: 2023-02-14 16:00:23.896468313 +02:00
   :updated_by: maijanposteja@gmail.com
-  :id: 87
+  :id: 37
   :card_template: card_normal_round
   :options:
     background: light_orange

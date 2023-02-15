@@ -1,64 +1,64 @@
 ---
 - :name: about
   :updated_at: 2022-12-08 19:11:48.243621696 +02:00
-  :id: 5
+  :id: 1
   :type: page
   :redirects: about3 about2
   :options: {}
 - :name: index
   :updated_at: 2022-12-10 20:28:17.967357225 +02:00
-  :id: 6
+  :id: 2
   :type: page
 - :name: living_here
   :updated_at: 2023-01-25 03:40:39.942007212 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
-  :id: 7
+  :id: 3
   :options: {}
   :redirects: info
 - :name: arriving
   :updated_at: 2023-01-12 14:02:14.590692012 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
-  :id: 8
+  :id: 4
 - :name: local_activities
   :updated_at: 2023-01-25 03:47:10.302999842 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
-  :id: 10
+  :id: 5
   :options: {}
   :redirects: local_area
 - :name: volunteering
   :updated_at: 2023-01-25 03:26:10.291551136 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
-  :id: 11
+  :id: 6
   :options: {}
   :redirects: what_to_expect workaway_deal
 - :name: four_seasons
   :updated_at: 2023-01-24 01:08:27.034924786 +02:00
   :type: page
   :updated_by: maijanposteja@gmail.com
-  :id: 13
+  :id: 7
 - :name: in_summer
   :updated_at: 2023-01-24 22:44:37.221037641 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
-  :id: 14
+  :id: 8
 - :name: in_winter
   :updated_at: 2023-01-24 22:44:54.716492377 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
-  :id: 15
+  :id: 9
 - :name: helsinki
   :updated_at: 2023-02-13 14:40:58.881445210 +02:00
   :type: page
   :updated_by: torsten@villataika.fi
-  :id: 16
+  :id: 10
   :options: {}
   :redirects: helsinki_turku
 - :name: turku
   :updated_at: 2023-02-14 09:36:23.756946087 +02:00
   :type: page
   :updated_by: maijanposteja@gmail.com
-  :id: 17
+  :id: 11
