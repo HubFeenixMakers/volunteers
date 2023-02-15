@@ -242,14 +242,13 @@
 - :section_id: 15
   :index: 2
   :header: Visit nearby bars
-  :text: "bars include:\r\n\r\n**The Yard** in Karjaa\r\n**Rock'n'Roll Cafe**  in
-    Lohja"
+  :text: "bars include:\r\n\r\nThe Yard in Karjaa\r\nRock'n'Roll Cafe  in Lohja"
   :options:
     background: light_blue
     text_color: black
     text_align: center
-  :updated_at: 2023-01-23 23:38:51.005331347 +02:00
-  :updated_by: maijanposteja@gmail.com
+  :updated_at: 2023-02-15 14:11:40.440343902 +02:00
+  :updated_by: torsten@villataika.fi
   :id: 15
   :image_id: 14
 - :section_id: 15
